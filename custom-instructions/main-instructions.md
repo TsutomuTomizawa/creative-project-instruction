@@ -51,11 +51,48 @@
 ## A. ランディングページ制作
 
 ### 📚 使用ナレッジベース
-- `/knowledge-base/lp/component-library.md`: コンポーネント選定
-- `/knowledge-base/lp/copywriting-templates.md`: コピー作成  
-- `/knowledge-base/lp/success-patterns.md`: 成功パターン選択
-- `/knowledge-base/lp/visual-json-guide.md`: ビジュアル指示
-- `/knowledge-base/common/content-tone/content-tone.md`: 文体・トーン設定
+
+#### LP制作の参照ファイル
+```yaml
+コンポーネント設計:
+  - path: /knowledge-base/lp/components/
+    - index.md                    # コンポーネント選定ガイド
+    - hero/hero-fullscreen.md     # ヒーローセクション（フルスクリーン）
+    - hero/hero-split.md          # ヒーローセクション（分割レイアウト）
+    - cta/cta-primary.md          # プライマリCTAボタン
+    - features/value-3column.md   # 3カラム価値提案
+    - features/value-beforeafter.md # ビフォーアフター比較
+    - social-proof/social-testimonials.md # お客様の声
+    - pricing/pricing-comparison.md # 料金比較表
+
+コピーライティング:
+  - path: /knowledge-base/lp/copywriting/
+    - index.md                    # コピー作成総合ガイド
+    - headlines/headline-formulas.md # ヘッドライン作成式
+    - body-copy/benefit-focused-copy.md # ベネフィット訴求文
+
+成功パターン:
+  - path: /knowledge-base/lp/patterns/
+    - index.md                    # パターン選択ガイド
+    - saas-freetrial.md          # SaaS無料トライアル型
+    - ec-limited.md              # EC限定キャンペーン型
+    - edu-guarantee.md           # 教育成果保証型
+
+ビジュアル設計:
+  - visual-json-guide.md         # JSON Context Profile作成ガイド
+
+プラットフォーム準拠:
+  - path: /knowledge-base/lp/platform-guidelines/
+    - seo-guidelines.md          # SEO最適化ガイド
+    - conversion-optimization-guidelines.md # CVR最適化
+    - performance-optimization-guidelines.md # 表示速度最適化
+    - web-accessibility-guidelines.md # アクセシビリティ
+
+文体・トーン:
+  - path: /knowledge-base/common/content-tone/
+    - content-tone.md            # 文体選択ガイド
+    - friendly.md                # フレンドリートーン
+```
 
 ## 📊 共通進捗表示フォーマット
 
@@ -521,10 +558,47 @@ Phase 0の情報を基に、最適なLP構成パターンを提案します。
 ## B. 動画制作
 
 ### 📚 使用ナレッジベース
-- `/knowledge-base/video/video-production.md`: 動画制作全般
-- `/knowledge-base/video/templates/`: 動画テンプレート
-- `/knowledge-base/video/platform-guidelines/`: プラットフォーム別ガイド
-- `/knowledge-base/common/content-tone/content-tone.md`: ナレーション文体
+
+#### 動画制作の参照ファイル
+```yaml
+制作基本:
+  - video-production.md          # 動画制作総合ガイド
+
+テンプレート:
+  - path: /knowledge-base/video/templates/
+    - 15sec-ad-template.md       # 15秒広告テンプレート
+    - 30sec-ad-template.md       # 30秒広告テンプレート
+    - 60sec-explainer-template.md # 60秒説明動画テンプレート
+
+パターン:
+  - path: /knowledge-base/video/patterns/
+    - 15sec-ads/problem-solution-cta.md # 問題解決型（15秒）
+    - 30sec-ads/                # 30秒パターン集
+    - 60sec-explainer/product-demo.md # 製品デモ型（60秒）
+
+プラットフォーム別ガイド:
+  - path: /knowledge-base/video/platform-guidelines/
+    - youtube-submission-guidelines.md # YouTube入稿規程
+    - facebook-video-guidelines.md # Facebook動画ガイド
+    - tiktok-submission-guidelines.md # TikTok入稿規程
+    - linkedin-video-guidelines.md # LinkedIn動画ガイド
+
+撮影・編集:
+  - path: /knowledge-base/video/production/
+    - shooting-guides/lighting-setup.md # 照明セットアップ
+    - shooting-guides/audio-recording.md # 音声収録ガイド
+    - editing-guides/               # 編集ガイド集
+
+成功事例:
+  - path: /knowledge-base/video/examples/
+    - 15sec-ads/saas-success-01.md # SaaS成功事例（15秒）
+    - 30sec-ads/                   # 30秒広告事例
+    - 60sec-explainer/             # 説明動画事例
+
+ナレーション:
+  - path: /knowledge-base/common/content-tone/
+    - content-tone.md            # ナレーション文体ガイド
+```
 
 ### 🔄 制作フロー（段階的確認）
 
@@ -579,11 +653,44 @@ Phase 0の情報を基に、最適なLP構成パターンを提案します。
 ## C. バナー制作
 
 ### 📚 使用ナレッジベース
-- `/knowledge-base/banner/banner-design.md`: バナーデザイン
-- `/knowledge-base/banner/templates/`: バナーテンプレート
-- `/knowledge-base/banner/platform-guidelines/`: プラットフォーム別ガイド
-- `/knowledge-base/lp/visual-json-guide.md`: ビジュアル指示
-- `/knowledge-base/common/content-tone/content-tone.md`: コピー文体
+
+#### バナー制作の参照ファイル
+```yaml
+デザイン基本:
+  - banner-design.md             # バナーデザイン総合ガイド
+
+サイズ別仕様:
+  - path: /knowledge-base/banner/sizes/
+    - google-ads/300x250.md      # Google Ads レクタングル
+    - facebook-ads/facebook-ad-sizes.md # Facebook広告サイズ一覧
+    - twitter-ads/twitter-ad-sizes.md # Twitter広告サイズ一覧
+
+レイアウト:
+  - path: /knowledge-base/banner/layouts/
+    - text-heavy/headline-focused.md # テキスト中心型
+    - visual-heavy/product-showcase.md # ビジュアル中心型
+
+プラットフォーム別ガイド:
+  - path: /knowledge-base/banner/platform-guidelines/
+    - google-ads-submission-guidelines.md # Google入稿規程
+    - facebook-submission-guidelines.md # Facebook入稿規程
+    - twitter-submission-guidelines.md # Twitter入稿規程
+    - instagram-submission-guidelines.md # Instagram入稿規程
+    - linkedin-submission-guidelines.md # LinkedIn入稿規程
+
+参考事例:
+  - path: /knowledge-base/banner/examples/
+    - google-ads/                # Google広告事例
+    - facebook-ads/              # Facebook広告事例
+    - twitter-ads/               # Twitter広告事例
+
+ビジュアル設計:
+  - /knowledge-base/lp/visual-json-guide.md # JSON仕様書作成
+
+コピー作成:
+  - path: /knowledge-base/common/content-tone/
+    - content-tone.md            # コピー文体ガイド
+```
 
 ### 🔄 制作フロー（段階的確認）
 
@@ -714,51 +821,180 @@ Phase 0の情報を基に、最適なLP構成パターンを提案します。
 
 ## 📚 Knowledge Base活用方法
 
-### プロジェクトディレクトリ構造
-```
+### プロジェクトディレクトリ構造と用途
+```yaml
 /knowledge-base/
-├── lp/
-│   ├── component-library.md
-│   ├── copywriting-templates.md
-│   ├── success-patterns.md
-│   ├── visual-json-guide.md
-│   ├── patterns/
-│   ├── templates/
-│   └── platform-guidelines/
-├── video/
-│   ├── video-production.md
-│   ├── templates/
-│   ├── patterns/
-│   └── platform-guidelines/
-├── banner/
-│   ├── banner-design.md
-│   ├── templates/
-│   ├── layouts/
-│   └── platform-guidelines/
-└── common/
-    ├── content-tone/
-    │   ├── content-tone.md
-    │   └── friendly.md
-    ├── brand-guidelines/
-    ├── industry-insights/
-    └── target-audience/
+├── lp/                          # LP制作関連
+│   ├── components/              # UIコンポーネント集
+│   │   ├── index.md            # コンポーネント選定ガイド
+│   │   ├── hero/               # ヒーローセクション各種
+│   │   ├── cta/                # CTAボタンバリエーション
+│   │   ├── features/           # 機能・価値提案レイアウト
+│   │   ├── pricing/            # 料金表示コンポーネント
+│   │   └── social-proof/       # 社会的証明要素
+│   ├── copywriting/             # コピーライティング
+│   │   ├── index.md            # コピー作成総合ガイド
+│   │   ├── headlines/          # ヘッドライン作成式
+│   │   └── body-copy/          # 本文コピーパターン
+│   ├── patterns/                # 業界別成功パターン
+│   │   ├── index.md            # パターン選択ガイド
+│   │   ├── saas-freetrial.md  # SaaS向けパターン
+│   │   ├── ec-limited.md      # EC向けパターン
+│   │   └── edu-guarantee.md   # 教育向けパターン
+│   ├── visual-json-guide.md    # ビジュアル指示書作成
+│   ├── templates/               # LPテンプレート集
+│   ├── examples/                # 成功・失敗事例
+│   └── platform-guidelines/     # 技術的ガイドライン
+│
+├── video/                       # 動画制作関連
+│   ├── video-production.md     # 動画制作総合ガイド
+│   ├── templates/               # 尺別テンプレート
+│   │   ├── 15sec-ad-template.md
+│   │   ├── 30sec-ad-template.md
+│   │   └── 60sec-explainer-template.md
+│   ├── patterns/                # 動画構成パターン
+│   │   ├── 15sec-ads/         # 15秒広告パターン
+│   │   ├── 30sec-ads/         # 30秒広告パターン
+│   │   └── 60sec-explainer/   # 説明動画パターン
+│   ├── platform-guidelines/     # プラットフォーム別規程
+│   ├── production/              # 撮影・編集ガイド
+│   │   ├── shooting-guides/    # 撮影技術
+│   │   └── editing-guides/     # 編集技術
+│   └── examples/                # 動画事例集
+│
+├── banner/                      # バナー制作関連
+│   ├── banner-design.md        # バナーデザイン総合
+│   ├── sizes/                   # プラットフォーム別サイズ
+│   │   ├── google-ads/         # Google広告規格
+│   │   ├── facebook-ads/       # Facebook広告規格
+│   │   └── twitter-ads/        # Twitter広告規格
+│   ├── layouts/                 # レイアウトパターン
+│   │   ├── text-heavy/         # テキスト中心型
+│   │   └── visual-heavy/       # ビジュアル中心型
+│   ├── templates/               # バナーテンプレート
+│   ├── platform-guidelines/     # 入稿規程
+│   └── examples/                # バナー事例集
+│
+└── common/                      # 共通リソース
+    ├── content-tone/            # 文体・トーンガイド
+    │   ├── content-tone.md     # トーン選択ガイド
+    │   └── friendly.md         # フレンドリートーン例
+    ├── brand-guidelines/        # ブランドガイドライン
+    ├── industry-insights/       # 業界別インサイト
+    │   └── saas.md            # SaaS業界知識
+    ├── platform-guidelines/     # 共通プラットフォーム規程
+    │   ├── cross-platform-checklist.md
+    │   └── legal-compliance-guide.md
+    └── target-audience/         # ターゲット分析
+        ├── demographics/        # デモグラフィック
+        └── psychographics/      # サイコグラフィック
 ```
 
-### 活用方法
-1. **LP制作時**
-   - Phase 0: `success-patterns.md` で業界別パターン選択
-   - Phase 1: `component-library.md` でコンポーネント選定
-   - Phase 2: `copywriting-templates.md` でコピー作成
+### 📍 参照パス活用ガイド
 
-2. **動画制作時**
-   - Phase 0: `video-production.md` で基本戦略
-   - Phase 1: `templates/` で構成テンプレート選択
-   - Phase 2: `platform-guidelines/` で仕様確認
+#### 1. **LP制作時の参照順序**
+```yaml
+Phase 0（構想）:
+  1. /knowledge-base/common/industry-insights/[業界].md
+     → 業界特性を理解
+  2. /knowledge-base/lp/patterns/index.md
+     → 成功パターンを選択
+  3. /knowledge-base/common/target-audience/
+     → ターゲット分析手法を確認
 
-3. **バナー制作時**
-   - Phase 0: `banner-design.md` でデザイン戦略
-   - Phase 1: `layouts/` でレイアウトパターン選択
-   - Phase 2: `platform-guidelines/` で入稿規程確認
+Phase 1（構成）:
+  1. /knowledge-base/lp/components/index.md
+     → 必要なコンポーネントを選定
+  2. /knowledge-base/lp/components/[各コンポーネント].md
+     → 各セクションの詳細仕様を確認
+  3. /knowledge-base/lp/platform-guidelines/
+     → 技術要件を確認
+
+Phase 2（制作）:
+  1. /knowledge-base/lp/copywriting/headlines/headline-formulas.md
+     → ヘッドライン作成
+  2. /knowledge-base/lp/copywriting/body-copy/
+     → 本文コピー作成
+  3. /knowledge-base/lp/visual-json-guide.md
+     → ビジュアル指示書作成
+  4. /knowledge-base/common/content-tone/
+     → 文体の統一
+```
+
+#### 2. **動画制作時の参照順序**
+```yaml
+Phase 0（構想）:
+  1. /knowledge-base/video/video-production.md
+     → 動画戦略の基本を理解
+  2. /knowledge-base/video/platform-guidelines/[プラットフォーム].md
+     → 配信先の要件確認
+  3. /knowledge-base/video/examples/[尺]/
+     → 類似事例を研究
+
+Phase 1（構成）:
+  1. /knowledge-base/video/templates/[尺]-template.md
+     → 基本構成を選択
+  2. /knowledge-base/video/patterns/[尺]/
+     → 詳細パターンを決定
+  3. /knowledge-base/common/content-tone/
+     → ナレーショントーンを決定
+
+Phase 2（制作）:
+  1. /knowledge-base/video/production/shooting-guides/
+     → 撮影仕様を作成
+  2. /knowledge-base/video/production/editing-guides/
+     → 編集指示を作成
+  3. /knowledge-base/video/platform-guidelines/
+     → 最終仕様確認
+```
+
+#### 3. **バナー制作時の参照順序**
+```yaml
+Phase 0（構想）:
+  1. /knowledge-base/banner/banner-design.md
+     → バナー設計の基本を理解
+  2. /knowledge-base/banner/platform-guidelines/[プラットフォーム].md
+     → 入稿規程を確認
+  3. /knowledge-base/banner/examples/[プラットフォーム]/
+     → 成功事例を分析
+
+Phase 1（設計）:
+  1. /knowledge-base/banner/sizes/[プラットフォーム]/
+     → サイズ規格を確認
+  2. /knowledge-base/banner/layouts/
+     → レイアウトパターンを選択
+  3. /knowledge-base/common/content-tone/
+     → コピートーンを決定
+
+Phase 2（制作）:
+  1. /knowledge-base/banner/templates/
+     → テンプレートを活用
+  2. /knowledge-base/lp/visual-json-guide.md
+     → ビジュアル指示書作成
+  3. /knowledge-base/banner/platform-guidelines/
+     → 入稿チェックリスト確認
+```
+
+#### 4. **共通参照の活用タイミング**
+```yaml
+全制作物共通:
+  初期段階:
+    - /knowledge-base/common/industry-insights/
+      → 業界知識の確認
+    - /knowledge-base/common/target-audience/
+      → ターゲット分析
+  
+  制作段階:
+    - /knowledge-base/common/content-tone/
+      → 文体・トーンの統一
+    - /knowledge-base/common/brand-guidelines/
+      → ブランド一貫性の確保
+  
+  最終段階:
+    - /knowledge-base/common/platform-guidelines/
+      → クロスプラットフォーム確認
+      → 法的コンプライアンス確認
+```
 
 ---
 
