@@ -38,6 +38,7 @@
 
 ### 共通
 - ❌ Framer実装メモ → ✅ （削除済み）
+- ❌ Framerにコピペ可能な形式 → ✅ 具体的なテキスト内容
 - ❌ JSON Context Profile（制作中） → ✅ JSON Context Profile（最終出力のみ）
 
 ## 🚨 変更チェックリスト
