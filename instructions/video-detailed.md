@@ -7,19 +7,19 @@
 #### 動画制作の参照ファイル
 ```yaml
 制作基本:
-  - video-production.md          # 動画制作総合ガイド
+  - video-advertising.md         # 動画広告制作総合ガイド
 
 テンプレート:
   - path: /knowledge-base/video/templates/
     - 15sec-ad-template.md       # 15秒広告テンプレート
     - 30sec-ad-template.md       # 30秒広告テンプレート
-    - 60sec-explainer-template.md # 60秒説明動画テンプレート
+    - 60sec-ad-template.md       # 60秒広告テンプレート
 
 パターン:
   - path: /knowledge-base/video/patterns/
     - 15sec-ads/problem-solution-cta.md # 問題解決型（15秒）
     - 30sec-ads/                # 30秒パターン集
-    - 60sec-explainer/product-demo.md # 製品デモ型（60秒）
+    - 60sec-ads/brand-story.md  # ブランドストーリー型（60秒）
 
 プラットフォーム別ガイド:
   - path: /knowledge-base/video/platform-guidelines/
@@ -38,7 +38,7 @@
   - path: /knowledge-base/video/examples/
     - 15sec-ads/saas-success-01.md # SaaS成功事例（15秒）
     - 30sec-ads/                   # 30秒広告事例
-    - 60sec-explainer/             # 説明動画事例
+    - 60sec-ads/                # 60秒広告事例
 
 ナレーション:
   - path: /knowledge-base/common/content-tone/
@@ -98,7 +98,7 @@
 ```
 !scene [番号]    - シーン編集
 !duration        - 尺の最適化
-!storyboard      - 絵コンテ生成
+!materials       - 素材リスト生成
 !audio           - 音響設計
 ```
 
