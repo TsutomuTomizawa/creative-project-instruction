@@ -17,11 +17,6 @@
    - 動画広告制作: `!load video` で詳細インストラクションを読み込み
    - バナー制作: `!load banner` で詳細インストラクションを読み込み
 
-### 従来版の使用
-
-全機能を含む完全版を使用する場合：
-- `/custom-instructions/main-instructions.md` を使用
-- ※文字数制限により、Claude Projectsでは使用できない場合があります
 
 ## 構成
 
@@ -33,8 +28,7 @@
   - `banner/` - バナー制作
   - `common/` - 共通リソース
 - `custom-instructions/` - カスタムインストラクション
-  - `essential.md` - 軽量版（推奨）
-  - `main-instructions.md` - 完全版
+  - `essential.md` - メインインストラクション
 - `instructions/` - 詳細インストラクション
   - `lp-detailed.md` - LP制作詳細
   - `video-detailed.md` - 動画広告制作詳細

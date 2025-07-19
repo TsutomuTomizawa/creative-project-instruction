@@ -5,22 +5,15 @@
 
 ## 📋 主要ファイルの依存関係マップ
 
-### 1. main-instructions.md（中核ファイル）
+### 1. essential.md（中核ファイル）
 変更時に影響を受けるファイル：
-- [ ] `essential.md` - 軽量版として主要機能を反映
 - [ ] `lp-detailed.md` - LP制作の詳細部分
 - [ ] `video-detailed.md` - 動画広告制作の詳細部分
 - [ ] `banner-detailed.md` - バナー制作の詳細部分
 - [ ] `README.md` - プロジェクト説明との整合性
 
-### 2. essential.md
-変更時に確認すべきファイル：
-- [ ] `main-instructions.md` - 本体との整合性
-- [ ] 各detailed.mdファイル - 参照先の正確性
-
-### 3. 各detailed.mdファイル
+### 2. 各detailed.mdファイル
 変更時の確認事項：
-- [ ] `main-instructions.md` の該当セクション
 - [ ] `essential.md` の参照部分
 - [ ] knowledge-base内の関連ファイル
 
@@ -44,8 +37,7 @@
 ## 🚨 変更チェックリスト
 
 ### A. 機能追加・変更時
-1. **main-instructions.md を更新した場合**
-   - [ ] essential.md に反映が必要か確認
+1. **essential.md を更新した場合**
    - [ ] 該当するdetailed.mdファイルを更新
    - [ ] README.md の説明と矛盾がないか確認
    - [ ] knowledge-base内の参照ファイルが存在するか確認
@@ -63,7 +55,7 @@
 ### B. ファイル構造変更時
 1. **ファイル名・フォルダ名を変更した場合**
    - [ ] 全ての参照パスを更新
-   - [ ] main-instructions.md のナレッジベース参照
+   - [ ] essential.md のナレッジベース参照
    - [ ] 各detailed.mdファイルの参照
    - [ ] scriptsフォルダ内のスクリプト
 
@@ -85,7 +77,6 @@
 
 3. **ドキュメントの未更新**
    - README.md - 動画制作→動画広告制作の反映
-   - essential.md - 参考情報受け取りプロセスの追加
 
 ## 🔧 変更実施の推奨手順
 
@@ -111,8 +102,8 @@
 2. **ナレッジベース参照は実在確認**
    - 新しいパスを追加する前にファイルを作成
 
-3. **バージョン間の整合性**
-   - essential版とmain版で機能説明が矛盾しないように
+3. **ファイル間の整合性**
+   - essential.mdと各detailed.mdで機能説明が矛盾しないように
 
 4. **定期的な整合性チェック**
    - 大きな変更後は全体レビューを実施
