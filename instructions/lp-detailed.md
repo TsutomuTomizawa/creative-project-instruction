@@ -37,7 +37,7 @@
     - edu-guarantee.md           # 教育成果保証型
 
 ビジュアル設計:
-  - visual-json-guide.md         # JSON Context Profile作成ガイド
+  - /knowledge-base/lp/visual-json-guide.md  # JSON Context Profile作成ガイド
 
 プラットフォーム準拠:
   - path: /knowledge-base/lp/platform-guidelines/
@@ -592,6 +592,6 @@ CTA文言：
 - 素材のみ（文字・コピーは含まない）
 - 用途：
   - AI画像生成ツールでの素材作成
-  - 生成した画像からの動画制作
+  - 生成した画像からの動画広告制作
   - デザイナーへの指示書として活用
 ```

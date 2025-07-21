@@ -280,7 +280,7 @@
 
 ## File Organization Structure
 ```
-60sec-explainer-project/
+60sec-ads-project/
 ├── 01-planning/
 │   ├── brief.md
 │   ├── script-v1.md

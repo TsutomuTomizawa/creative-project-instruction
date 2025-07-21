@@ -22,7 +22,7 @@
 3. **[saas-freemium](../../lp/patterns/saas-freemium.md)** - 低価格帯
 
 ## 動画コンテンツ戦略
-- **[product-demo](../../video/patterns/60sec-explainer/product-demo.md)** - 機能説明
+- **[product-demo](../../video/patterns/60sec-ads/product-demo.md)** - 機能説明
 - **[problem-solution-cta](../../video/patterns/15sec-ads/problem-solution-cta.md)** - 課題解決訴求
 
 ## バナー戦略

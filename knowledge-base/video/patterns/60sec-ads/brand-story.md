@@ -45,5 +45,5 @@ CTA（5秒）: 次のアクション
 - **CTA移行率**: 5%以上
 
 ## 関連パターン
-- [feature-walkthrough](../60sec-explainer/feature-walkthrough.md) - 機能詳細型
-- [use-case-stories](../60sec-explainer/use-case-stories.md) - 使用事例型
+- [feature-walkthrough](../60sec-ads/feature-walkthrough.md) - 機能詳細型
+- [use-case-stories](../60sec-ads/use-case-stories.md) - 使用事例型

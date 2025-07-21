@@ -124,7 +124,10 @@
 - 動画広告制作: `/instructions/video-detailed.md`
 - バナー制作: `/instructions/banner-detailed.md`
 
-必要に応じて `!load [制作物]` で詳細をロードできます。
+必要に応じて以下のコマンドで詳細をロードできます：
+- `!load lp` - LP制作の詳細インストラクションを読み込み
+- `!load video` - 動画広告制作の詳細インストラクションを読み込み
+- `!load banner` - バナー制作の詳細インストラクションを読み込み
 
 ---
 
