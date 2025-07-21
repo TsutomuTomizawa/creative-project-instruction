@@ -6,79 +6,18 @@
 
 #### LP制作の参照ファイル
 ```yaml
-# Phase 0: 構想（要件定義）
-リサーチ・分析:
-  - path: /knowledge-base/lp/01-research/
-    - index.md                    # リサーチフェーズ全体ガイド
-    - ad-alignment/
-      - search-intent-matching.md  # 検索意図別のLP最適化
-      - social-ad-consistency.md   # SNS広告とLPの一貫性確保
-      - ad-promise-fulfillment.md  # 広告の約束をLPで実現する方法
-    - examples/
-      - saas-success-01.md        # SaaS成功事例
-      - saas-failure-01.md        # SaaS失敗事例
-
-# Phase 1: 構成（設計）
-構成設計:
-  - path: /knowledge-base/lp/02-structure/
-    - index.md                    # 構成設計フェーズ全体ガイド
-    - patterns/
-      - index.md                  # パターン選択ガイド
-      - saas-freetrial.md        # SaaS無料トライアル型
-      - ec-limited.md            # EC限定キャンペーン型
-      - edu-guarantee.md         # 教育成果保証型
-    - templates/
-      - saas-landing-template.md  # SaaS向けLPテンプレート
-
-# Phase 2: 制作（実装）
-セクション制作:
-  - path: /knowledge-base/lp/03-production/sections/
-    - index.md                    # コンポーネント選定ガイド
-    - hero/
-      - hero-fullscreen.md       # ヒーローセクション（フルスクリーン）
-      - hero-split.md            # ヒーローセクション（分割レイアウト）
-    - features/
-      - value-3column.md         # 3カラム価値提案
-      - value-beforeafter.md     # ビフォーアフター比較
-    - social-proof/
-      - social-testimonials.md   # お客様の声
-    - pricing/
-      - pricing-comparison.md    # 料金比較表
-    - cta/
-      - cta-primary.md           # プライマリCTAボタン
-
-コピーライティング:
-  - path: /knowledge-base/lp/03-production/copywriting/
-    - index.md                    # コピー作成総合ガイド
-    - headlines/
-      - headline-formulas.md     # ヘッドライン作成式
-    - body-copy/
-      - benefit-focused-copy.md  # ベネフィット訴求文
-
-ビジュアル設計:
-  - path: /knowledge-base/lp/03-production/visual-design/
-    - visual-json-guide.md       # JSON Context Profile作成ガイド
-
-# Phase 3: 最適化
-最適化ガイド:
-  - path: /knowledge-base/lp/04-optimization/
-    - index.md                    # 最適化フェーズ全体ガイド
-    - bounce-rate-tips.md        # 離脱率を抑えるための施策
-    - platform-guidelines/
-      - seo-guidelines.md        # SEO最適化ガイド
-      - conversion-optimization-guidelines.md # CVR最適化
-      - performance-optimization-guidelines.md # 表示速度最適化
-      - web-accessibility-guidelines.md # アクセシビリティ
-
-# 共通リソース
-文体・トーン:
-  - path: /knowledge-base/lp/03-production/copywriting/tone-guide/
-    - content-tone.md            # 文体選択ガイド
-    - friendly.md                # フレンドリートーン
+# 統合されたナレッジベース構造
+メインガイド:
+  - /knowledge-base/lp/01-research.md      # リサーチフェーズ総合ガイド
+  - /knowledge-base/lp/02-patterns.md      # LP構成パターン総合ガイド
+  - /knowledge-base/lp/03-components.md    # コンポーネント仕様総合ガイド
+  - /knowledge-base/lp/04-copywriting.md   # コピーライティング総合ガイド
+  - /knowledge-base/lp/05-optimization.md  # 最適化総合ガイド
 
 業界別インサイト:
-  - path: /knowledge-base/lp/01-research/industry-insights/
-    - saas.md                    # SaaS業界の特性と成功要因
+  - /knowledge-base/lp/industry/saas.md           # SaaS業界
+  - /knowledge-base/lp/industry/health-food-ec.md # EC健康食品業界
+  - /knowledge-base/lp/industry/education.md      # 教育業界
 ```
 
 ## 🔍 準備フェーズ: 初期評価
@@ -588,7 +527,7 @@ CTA文言：
 ## 📝 最終成果物のアーティファクト出力
 
 ### 最終アウトプット作成時の離脱率対策
-`/knowledge-base/lp/04-optimization/bounce-rate-tips.md` を参照し、制作したLPに適用可能な離脱率対策を具体的に提案します。
+`/knowledge-base/lp/05-optimization.md` の「離脱率対策」セクションを参照し、制作したLPに適用可能な離脱率対策を具体的に提案します。
 
 ```
 アーティファクトID: lp-final-[プロジェクト名]
@@ -609,7 +548,7 @@ CTA文言：
 ```
 
 ### ビジュアル素材生成用アーティファクト
-`/knowledge-base/lp/03-production/visual-design/visual-json-guide.md` を参照し、AI画像生成用の詳細な仕様を作成します。
+`/knowledge-base/lp/03-components.md` の「ビジュアル生成ガイド」セクションを参照し、AI画像生成用の詳細な仕様を作成します。
 
 ```
 アーティファクトID: lp-visuals-[プロジェクト名]

@@ -6,60 +6,17 @@
 
 #### 動画広告制作の参照ファイル
 ```yaml
-# Phase 0: 構想（要件定義）
-リサーチ・分析:
-  - path: /knowledge-base/video/01-research/
-    - industry-insights/          # 業界別動画広告トレンド
-    - target-analysis/           # ターゲット層の視聴行動分析
-    - platform-analysis/         # プラットフォーム別特性分析
-    - examples/
-      - 15sec-ads/saas-success-01.md # SaaS成功事例（15秒）
-      - 30sec-ads/                   # 30秒広告事例
-      - 60sec-ads/                   # 60秒広告事例
+# 統合されたナレッジベース構造
+メインガイド:
+  - /knowledge-base/video/01-research.md       # リサーチフェーズ総合ガイド
+  - /knowledge-base/video/02-patterns.md       # 動画パターン総合ガイド
+  - /knowledge-base/video/03-production.md     # 制作ガイド総合
+  - /knowledge-base/video/04-platform-guide.md # プラットフォーム別ガイド
 
-# Phase 1: 構成（設計）
-構成設計:
-  - path: /knowledge-base/video/02-structure/
-    - story-flow/                # ストーリーフロー設計
-    - patterns/
-      - 15sec-ads/problem-solution-cta.md # 問題解決型（15秒）
-      - 30sec-ads/                      # 30秒パターン集
-      - 60sec-ads/brand-story.md        # ブランドストーリー型（60秒）
-    - templates/
-      - 15sec-ad-template.md       # 15秒広告テンプレート
-      - 30sec-ad-template.md       # 30秒広告テンプレート
-      - 60sec-ad-template.md       # 60秒広告テンプレート
-
-# Phase 2: 制作（実装）
-シーン制作:
-  - path: /knowledge-base/video/03-production/
-    - video-advertising.md         # 動画広告制作総合ガイド
-    - scene-elements/             # シーン要素設計ガイド
-    - visual-design/              # ビジュアルデザインガイド
-    - audio-design/               # オーディオデザインガイド
-    - caption-design/             # キャプション・字幕ガイド
-    - production/
-      - shooting-guides/
-        - lighting-setup.md       # 照明セットアップ
-        - audio-recording.md      # 音声収録ガイド
-      - editing-guides/           # 編集ガイド集
-
-# Phase 3: 最適化
-最適化ガイド:
-  - path: /knowledge-base/video/04-optimization/
-    - platform-guidelines/
-      - youtube-submission-guidelines.md    # YouTube入稿規程
-      - facebook-video-guidelines.md        # Facebook動画ガイド
-      - tiktok-submission-guidelines.md     # TikTok入稿規程
-      - linkedin-video-guidelines.md        # LinkedIn動画ガイド
-    - performance-optimization/             # 再生完了率最適化
-    - ab-testing-guide/                    # A/Bテストガイド
-
-# 共通リソース
-ナレーション・トーン:
-  - path: /knowledge-base/video/03-production/narration-guide/
-    - content-tone.md            # ナレーション文体ガイド
-    - voice-casting.md           # ボイスキャスティングガイド
+業界別インサイト:
+  - /knowledge-base/video/industry/saas.md        # SaaS業界
+  - /knowledge-base/video/industry/ec.md          # EC業界
+  - /knowledge-base/video/industry/education.md   # 教育業界
 ```
 
 ## 🔍 準備フェーズ: 初期評価
