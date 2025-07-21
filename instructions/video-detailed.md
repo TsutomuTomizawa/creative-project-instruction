@@ -6,17 +6,15 @@
 
 #### 動画広告制作の参照ファイル
 ```yaml
-# 統合されたナレッジベース構造
-メインガイド:
+# フェーズベースナレッジベース構造
+ガイドファイル:
   - /knowledge-base/video/01-research.md       # リサーチフェーズ総合ガイド
   - /knowledge-base/video/02-patterns.md       # 動画パターン総合ガイド
   - /knowledge-base/video/03-production.md     # 制作ガイド総合
   - /knowledge-base/video/04-platform-guide.md # プラットフォーム別ガイド
 
-業界別インサイト:
-  - /knowledge-base/video/industry/saas.md        # SaaS業界
-  - /knowledge-base/video/industry/ec.md          # EC業界
-  - /knowledge-base/video/industry/education.md   # 教育業界
+# ワークフロー:
+# Phase 0 (リサーチ) → Phase 1 (パターン選択・構成) → Phase 2 (制作・実装)
 ```
 
 ## 🔍 準備フェーズ: 初期評価

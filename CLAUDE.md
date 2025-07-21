@@ -5,36 +5,50 @@
 
 ## 📋 主要ファイルの依存関係マップ
 
-### 1. essential.md（中核ファイル）
+### 1. custom-instructions/essential.md（中核ファイル）
 変更時に影響を受けるファイル：
 - [ ] `lp-detailed.md` - LP制作の詳細部分
 - [ ] `video-detailed.md` - 動画広告制作の詳細部分
 - [ ] `README.md` - プロジェクト説明との整合性
 - [ ] `knowledge-base/lp/` - LP用ナレッジベース構造（フェーズベース）
+- [ ] `knowledge-base/video/` - 動画用ナレッジベース構造
 
-### 2. 各detailed.mdファイル
+### 2. 各detailed.mdファイル（特にlp-detailed.md）
 変更時の確認事項：
-- [ ] `essential.md` の参照部分
+- [ ] `custom-instructions/essential.md` の参照部分
 - [ ] knowledge-base内の関連ファイル
+- [ ] Phase構成の整合性（lp-detailed.mdの場合）
 
-## 🔄 重要な命名規則と用語統一
+## 📂 現在のディレクトリ構造
 
-### 動画関連
-- ❌ 動画制作 → ✅ 動画広告制作
-- ❌ 説明動画 → ✅ 広告動画
-- ❌ 絵コンテ → ✅ シーン別素材リスト
-- ❌ 60sec-explainer → ✅ 60sec-ads
-
-
-### 共通
-- ❌ Framer実装メモ → ✅ （削除済み）
-- ❌ Framerにコピペ可能な形式 → ✅ 具体的なテキスト内容
-- ❌ JSON Context Profile（制作中） → ✅ JSON Context Profile（最終出力のみ）
+```
+creative-project-instruction/
+├── custom-instructions/
+│   └── essential.md                    # 中核インストラクションファイル
+├── instructions/
+│   ├── lp-detailed.md                  # LP制作詳細ガイド
+│   └── video-detailed.md               # 動画広告制作詳細ガイド  
+├── knowledge-base/
+│   ├── lp/                            # LP制作ナレッジベース
+│   │   ├── 01-research.md             # リサーチフェーズ総合ガイド
+│   │   ├── 02-module-selection.md     # モジュール選択ガイド
+│   │   ├── 03-story-modules.md        # ストーリーモジュール集
+│   │   ├── 04-components.md           # コンポーネント仕様ガイド
+│   │   ├── 05-copywriting.md          # コピーライティングガイド
+│   │   └── 06-optimization.md         # 最適化ガイド
+│   └── video/                         # 動画制作ナレッジベース
+│       ├── 01-research.md             # リサーチフェーズ総合ガイド
+│       ├── 02-patterns.md             # 動画パターン総合ガイド
+│       ├── 03-production.md           # 制作ガイド総合
+│       └── 04-platform-guide.md       # プラットフォーム別ガイド
+├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
+└── README.md                          # プロジェクト全体説明
+```
 
 ## 🚨 変更チェックリスト
 
 ### A. 機能追加・変更時
-1. **essential.md を更新した場合**
+1. **custom-instructions/essential.md を更新した場合**
    - [ ] 該当するdetailed.mdファイルを更新
    - [ ] README.md の説明と矛盾がないか確認
    - [ ] knowledge-base内の参照ファイルが存在するか確認
@@ -52,32 +66,14 @@
 ### B. ファイル構造変更時
 1. **ファイル名・フォルダ名を変更した場合**
    - [ ] 全ての参照パスを更新
-   - [ ] essential.md のナレッジベース参照
+   - [ ] custom-instructions/essential.md のナレッジベース参照
    - [ ] 各detailed.mdファイルの参照
-   - [ ] scriptsフォルダ内のスクリプト
 
 2. **新規ファイルを追加した場合**
    - [ ] 適切なディレクトリに配置
    - [ ] 関連ファイルから参照を追加
    - [ ] README.md のディレクトリ構造を更新
 
-## 📝 現在の既知の不整合
-
-### 修正が必要な項目
-1. **ファイル名の不整合**
-   - `/knowledge-base/video/60sec-explainer/` → `/knowledge-base/video/60sec-ads/` （修正済み）
-   - `video-production.md` → `video-advertising.md` （修正済み）
-
-2. **ドキュメントの未更新**
-   - README.md - 動画制作→動画広告制作の反映
-
-3. **LPナレッジベース構造の更新（完了）**
-   - `/knowledge-base/lp/` - フェーズベース構造に再編成済み
-   - `lp-detailed.md` - 参照パスを新構造に更新済み
-
-4. **動画ナレッジベース構造の更新（完了）**
-   - `/knowledge-base/video/` - フェーズベース構造に再編成済み
-   - `video-detailed.md` - LP制作と同じ流れに改訂済み
 
 ## 🔧 変更実施の推奨手順
 
@@ -109,7 +105,3 @@
 4. **定期的な整合性チェック**
    - 大きな変更後は全体レビューを実施
 
----
-
-最終更新: 2025年1月（LP・動画ナレッジベース構造更新）
-このファイルは、プロジェクトの整合性を保つための重要なガイドラインです。
