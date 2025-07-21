@@ -33,9 +33,6 @@
 - **[15sec-ads](../../video/patterns/15sec-ads/problem-solution-cta.md)** - 親近感のある問題提起
 - **[60sec-ads](../../video/patterns/60sec-ads/product-demo.md)** - 優しい説明口調
 
-### バナー向け
-- **[headline-focused](../../banner/layouts/text-heavy/headline-focused.md)** - 親しみやすい見出し
-- **[lifestyle-image](../../banner/layouts/visual-heavy/lifestyle-image.md)** - 日常に寄り添う表現
 
 ## 業界別適用
 - **[ecommerce](../industry-insights/ecommerce.md)** - 購買の敷居を下げる

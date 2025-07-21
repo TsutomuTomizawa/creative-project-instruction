@@ -15,7 +15,6 @@
 2. **詳細機能が必要な場合**
    - LP制作: `!load lp` で詳細インストラクションを読み込み
    - 動画広告制作: `!load video` で詳細インストラクションを読み込み
-   - バナー制作: `!load banner` で詳細インストラクションを読み込み
 
 
 ## 構成
@@ -25,17 +24,12 @@
 - `knowledge-base/` - 制作に関する知識とガイドライン
   - `lp/` - ランディングページ制作
   - `video/` - 動画広告制作
-  - `banner/` - バナー制作
   - `common/` - 共通リソース
 - `custom-instructions/` - カスタムインストラクション
   - `essential.md` - メインインストラクション
 - `instructions/` - 詳細インストラクション
   - `lp-detailed.md` - LP制作詳細
   - `video-detailed.md` - 動画広告制作詳細
-  - `banner-detailed.md` - バナー制作詳細
-- `templates/` - 各種テンプレート
-- `examples/` - 実際の制作事例
-- `scripts/` - 自動化スクリプト
 
 ### 制作フロー
 

@@ -25,9 +25,6 @@
 - **[product-demo](../../video/patterns/60sec-ads/product-demo.md)** - 機能説明
 - **[problem-solution-cta](../../video/patterns/15sec-ads/problem-solution-cta.md)** - 課題解決訴求
 
-## バナー戦略
-- **[headline-focused](../../banner/layouts/text-heavy/headline-focused.md)** - 数値訴求
-- **[product-showcase](../../banner/layouts/visual-heavy/product-showcase.md)** - UI/UX訴求
 
 ## 関連業界
 - [ecommerce](../industry-insights/ecommerce.md) - EC向けSaaS
