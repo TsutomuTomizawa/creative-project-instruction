@@ -68,14 +68,10 @@
 
 ### 修正が必要な項目
 1. **ファイル名の不整合**
-   - `/knowledge-base/video/60sec-explainer/` → `/knowledge-base/video/60sec-ads/`
-   - `video-production.md` → `video-advertising.md`
+   - `/knowledge-base/video/60sec-explainer/` → `/knowledge-base/video/60sec-ads/` （修正済み）
+   - `video-production.md` → `video-advertising.md` （修正済み）
 
-2. **存在しないファイルへの参照**
-   - `/knowledge-base/banner/copywriting/headline-formulas.md`
-   - `/knowledge-base/banner/copywriting/cta-optimization.md`
-
-3. **ドキュメントの未更新**
+2. **ドキュメントの未更新**
    - README.md - 動画制作→動画広告制作の反映
 
 ## 🔧 変更実施の推奨手順
