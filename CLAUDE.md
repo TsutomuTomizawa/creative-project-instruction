@@ -3,6 +3,10 @@
 このファイルは、プロジェクト内のファイル間の依存関係と、変更時の必須チェック項目を定義します。
 **重要: ファイルを編集する前に、必ずこのガイドを確認してください。**
 
+## 🎯 プロジェクトの目的
+このプロジェクトは、LP制作と動画広告制作のための構造化された知識ベースです。
+各ファイルが特定の役割を持ち、相互に連携して効果的なクリエイティブ制作を支援します。
+
 ## 📋 主要ファイルの依存関係マップ
 
 ### 1. custom-instructions/essential.md（中核ファイル）
@@ -10,14 +14,14 @@
 - [ ] `lp-detailed.md` - LP制作の詳細部分
 - [ ] `video-detailed.md` - 動画広告制作の詳細部分
 - [ ] `README.md` - プロジェクト説明との整合性
-- [ ] `knowledge-base/lp/` - LP用ナレッジベース構造（フェーズベース）
-- [ ] `knowledge-base/video/` - 動画用ナレッジベース構造
+- [ ] `knowledge-base/lp/` - LP用ナレッジベース構造（モジュールベース）
+- [ ] `knowledge-base/video/` - 動画用ナレッジベース構造（パターンベース）
 
 ### 2. 各detailed.mdファイル（特にlp-detailed.md）
 変更時の確認事項：
 - [ ] `custom-instructions/essential.md` の参照部分
 - [ ] knowledge-base内の関連ファイル
-- [ ] Phase構成の整合性（lp-detailed.mdの場合）
+- [ ] Phase構成の整合性（lp-detailed.md、video-detailed.mdの場合）
 
 ## 📂 現在のディレクトリ構造
 
@@ -29,21 +33,32 @@ creative-project-instruction/
 │   ├── lp-detailed.md                  # LP制作詳細ガイド
 │   └── video-detailed.md               # 動画広告制作詳細ガイド  
 ├── knowledge-base/
-│   ├── lp/                            # LP制作ナレッジベース
+│   ├── lp/                            # LP制作ナレッジベース（モジュール型構造）
 │   │   ├── 01-research.md             # リサーチフェーズ総合ガイド
-│   │   ├── 02-module-selection.md     # モジュール選択ガイド
+│   │   ├── 02-module-selection.md     # モジュール選択ガイド（Phase 0.5）
 │   │   ├── 03-story-modules.md        # ストーリーモジュール集
 │   │   ├── 04-components.md           # コンポーネント仕様ガイド
 │   │   ├── 05-copywriting.md          # コピーライティングガイド
-│   │   └── 06-optimization.md         # 最適化ガイド
-│   └── video/                         # 動画制作ナレッジベース
+│   │   └── 06-optimization.md         # 最適化Tips集（アーティファクト作成時参照）
+│   └── video/                         # 動画制作ナレッジベース（パターン型構造）
 │       ├── 01-research.md             # リサーチフェーズ総合ガイド
-│       ├── 02-patterns.md             # 動画パターン総合ガイド
-│       ├── 03-production.md           # 制作ガイド総合
-│       └── 04-platform-guide.md       # プラットフォーム別ガイド
+│       ├── 02-pattern-selection.md    # パターン選択ガイド（Phase 0.5）
+│       ├── 03-story-patterns.md       # ストーリーパターン集
+│       ├── 04-scene-components.md     # シーンコンポーネント仕様
+│       ├── 05-scripting.md            # スクリプティングガイド
+│       └── 06-platform-optimization.md # プラットフォーム最適化Tips集（アーティファクト作成時参照）
 ├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
 └── README.md                          # プロジェクト全体説明
 ```
+
+## 📊 ファイルの役割と使用タイミング
+
+### Phase別の参照ファイル
+- **Phase 0（リサーチ）**: 01-research.md
+- **Phase 0.5（選択）**: 02-module-selection.md / 02-pattern-selection.md
+- **Phase 1（構成）**: 03-story-modules.md / 03-story-patterns.md
+- **Phase 2（制作）**: 04-components.md / 04-scene-components.md, 05-copywriting.md / 05-scripting.md
+- **アーティファクト作成時**: 06-optimization.md / 06-platform-optimization.md（Tips参照）
 
 ## 🚨 変更チェックリスト
 
@@ -62,6 +77,11 @@ creative-project-instruction/
    - [ ] 全ファイル横断で検索・置換を実施
    - [ ] ファイル名・フォルダ名も確認
    - [ ] コマンド名も更新されているか確認
+
+4. **Phase構成を変更した場合**
+   - [ ] LP制作: Phase 0 → Phase 0.5 → Phase 1 → Phase 2
+   - [ ] 動画制作: Phase 0 → Phase 0.5 → Phase 1 → Phase 2
+   - [ ] ナレッジベースの参照が適切か確認
 
 ### B. ファイル構造変更時
 1. **ファイル名・フォルダ名を変更した場合**
@@ -104,4 +124,12 @@ creative-project-instruction/
 
 4. **定期的な整合性チェック**
    - 大きな変更後は全体レビューを実施
+
+5. **Phase 0.5の重要性**
+   - モジュール/パターン選択は制作の要
+   - 選択ガイドの更新は慎重に
+
+6. **最適化ファイルの活用**
+   - 06-optimization.mdは制作ガイドのTips源
+   - アーティファクト作成時に必ず参照
 
