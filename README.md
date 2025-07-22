@@ -37,9 +37,9 @@ creative-project-instruction/
 │   │   ├── 05-copywriting.md          # コピーライティングガイド
 │   │   └── 06-optimization.md         # 最適化Tips集
 │   └── video/                         # 動画制作ナレッジベース（シンプル化構造）
-│       ├── research.md                # リサーチフェーズ総合ガイド
-│       ├── production-guide.md        # 動画制作総合ガイド（ナレーション中心、プラットフォーム最適化含む）
-│       └── production-brief-guide.md  # 動画広告制作指示書ガイド（AI素材生成プロファイル含む）
+│       ├── video-research.md          # リサーチフェーズ総合ガイド
+│       ├── video-planning.md          # 動画制作総合ガイド（ナレーション中心、プラットフォーム最適化含む）
+│       └── video-output.md            # 動画広告制作指示書ガイド（AI素材生成プロファイル含む）
 ├── CLAUDE.md                          # 依存関係管理ガイド
 └── README.md                          # プロジェクト説明（このファイル）
 ```
