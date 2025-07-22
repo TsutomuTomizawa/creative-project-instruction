@@ -15,7 +15,7 @@
 - [ ] `video-detailed.md` - 動画広告制作の詳細部分
 - [ ] `README.md` - プロジェクト説明との整合性
 - [ ] `knowledge-base/lp/` - LP用ナレッジベース構造（モジュールベース）
-- [ ] `knowledge-base/video/` - 動画用ナレッジベース構造（パターンベース）
+- [ ] `knowledge-base/video/` - 動画用ナレッジベース構造
 
 ### 2. 各detailed.mdファイル（特にlp-detailed.md）
 変更時の確認事項：
@@ -40,13 +40,10 @@ creative-project-instruction/
 │   │   ├── 04-components.md           # コンポーネント仕様ガイド
 │   │   ├── 05-copywriting.md          # コピーライティングガイド
 │   │   └── 06-optimization.md         # 最適化Tips集（アーティファクト作成時参照）
-│   └── video/                         # 動画制作ナレッジベース（パターン型構造）
-│       ├── 01-research.md             # リサーチフェーズ総合ガイド
-│       ├── 02-pattern-selection.md    # パターン選択ガイド（Phase 0.5）
-│       ├── 03-story-patterns.md       # ストーリーパターン集
-│       ├── 04-scene-components.md     # シーンコンポーネント仕様
-│       ├── 05-scripting.md            # スクリプティングガイド
-│       └── 06-platform-optimization.md # プラットフォーム最適化Tips集（アーティファクト作成時参照）
+│   └── video/                         # 動画制作ナレッジベース（シンプル化構造）
+│       ├── research.md                # リサーチフェーズ総合ガイド
+│       ├── production-guide.md        # 動画制作総合ガイド（ナレーション中心、プラットフォーム最適化含む）
+│       └── production-brief-guide.md  # 動画広告制作指示書ガイド（AI素材生成プロファイル含む）
 ├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
 └── README.md                          # プロジェクト全体説明
 ```
@@ -54,11 +51,12 @@ creative-project-instruction/
 ## 📊 ファイルの役割と使用タイミング
 
 ### Phase別の参照ファイル
-- **Phase 0（リサーチ）**: 01-research.md
-- **Phase 0.5（選択）**: 02-module-selection.md / 02-pattern-selection.md
-- **Phase 1（構成）**: 03-story-modules.md / 03-story-patterns.md
-- **Phase 2（制作）**: 04-components.md / 04-scene-components.md, 05-copywriting.md / 05-scripting.md
-- **アーティファクト作成時**: 06-optimization.md / 06-platform-optimization.md（Tips参照）
+- **Phase 0（リサーチ）**: 01-research.md（LP） / research.md（動画）
+- **Phase 0.5（選択）**: 02-module-selection.md（LPのみ）
+- **Phase 1（構成）**: 03-story-modules.md（LP） / production-guide.md（動画）
+- **Phase 2（制作）**: 04-components.md（LP） / production-guide.md（動画）, 05-copywriting.md（LP）
+- **Phase 2.5（AI素材生成）**: production-brief-guide.md（動画のみ、制作指示書作成）
+- **アーティファクト作成時**: 06-optimization.md（LP） / production-brief-guide.md（動画・制作指示書出力）
 
 ## 🚨 変更チェックリスト
 
@@ -80,7 +78,7 @@ creative-project-instruction/
 
 4. **Phase構成を変更した場合**
    - [ ] LP制作: Phase 0 → Phase 0.5 → Phase 1 → Phase 2
-   - [ ] 動画制作: Phase 0 → Phase 0.5 → Phase 1 → Phase 2
+   - [ ] 動画制作: Phase 0 → Phase 1 → Phase 2 → Phase 2.5
    - [ ] ナレッジベースの参照が適切か確認
 
 ### B. ファイル構造変更時
@@ -125,11 +123,12 @@ creative-project-instruction/
 4. **定期的な整合性チェック**
    - 大きな変更後は全体レビューを実施
 
-5. **Phase 0.5の重要性**
-   - モジュール/パターン選択は制作の要
-   - 選択ガイドの更新は慎重に
+5. **Phase構成の違い**
+   - LP制作: Phase 0.5（モジュール選択）を維持
+   - 動画制作: Phase 0から直接Phase 1へ（よりシンプルなフロー）
 
-6. **最適化ファイルの活用**
-   - 06-optimization.mdは制作ガイドのTips源
-   - アーティファクト作成時に必ず参照
+6. **動画ナレッジベースのシンプル化**
+   - 3つのファイルで完結する構造
+   - production-guide.mdに制作ガイドを集約
+   - production-brief-guide.mdで制作指示書作成を支援
 

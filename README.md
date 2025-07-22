@@ -36,13 +36,10 @@ creative-project-instruction/
 │   │   ├── 04-components.md           # コンポーネント仕様
 │   │   ├── 05-copywriting.md          # コピーライティングガイド
 │   │   └── 06-optimization.md         # 最適化Tips集
-│   └── video/                         # 動画制作ナレッジベース（パターン型）
-│       ├── 01-research.md             # リサーチフェーズガイド
-│       ├── 02-pattern-selection.md    # パターン選択ガイド（Phase 0.5）
-│       ├── 03-story-patterns.md       # ストーリーパターン集
-│       ├── 04-scene-components.md     # シーンコンポーネント仕様
-│       ├── 05-scripting.md            # スクリプティングガイド
-│       └── 06-platform-optimization.md # プラットフォーム最適化Tips集
+│   └── video/                         # 動画制作ナレッジベース（シンプル化構造）
+│       ├── research.md                # リサーチフェーズ総合ガイド
+│       ├── production-guide.md        # 動画制作総合ガイド（ナレーション中心、プラットフォーム最適化含む）
+│       └── production-brief-guide.md  # 動画広告制作指示書ガイド（AI素材生成プロファイル含む）
 ├── CLAUDE.md                          # 依存関係管理ガイド
 └── README.md                          # プロジェクト説明（このファイル）
 ```
