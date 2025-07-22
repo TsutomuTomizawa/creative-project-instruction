@@ -55,7 +55,7 @@ creative-project-instruction/
 - **Phase 0.5（選択）**: 02-module-selection.md（LPのみ）
 - **Phase 1（構成）**: 03-story-modules.md（LP） / video-planning.md（動画）
 - **Phase 2（制作）**: 04-components.md（LP） / video-planning.md（動画）, 05-copywriting.md（LP）
-- **アーティファクト作成時**: 06-optimization.md（LP） / video-output.md（動画・制作指示書出力）
+- **アーティファクト作成時**: 06-optimization.md（LP） / video-output.md（動画・制作指示書＆AI素材生成Profile出力）
 
 ## 🚨 変更チェックリスト
 
