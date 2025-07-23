@@ -42,7 +42,7 @@ creative-project-instruction/
 │   │   └── 06-optimization.md         # 最適化Tips集（アーティファクト作成時参照）
 │   └── video/                         # 動画制作ナレッジベース（シンプル化構造）
 │       ├── video-research.md          # リサーチフェーズ総合ガイド
-│       ├── video-planning.md          # 動画制作総合ガイド（ナレーション中心、フック訴求型別バリエーション展開ガイド含む）
+│       ├── video-planning.md          # 動画制作総合ガイド（ナレーション中心、フック3段階プロセス対応）
 │       └── video-output.md            # 動画広告制作指示書ガイド（AI素材生成プロファイル含む）
 ├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
 └── README.md                          # プロジェクト全体説明
@@ -124,11 +124,12 @@ creative-project-instruction/
 
 5. **Phase構成の違い**
    - LP制作: Phase 0.5（モジュール選択）を維持
-   - 動画制作: Phase 0 → Phase 1（フック選定＋バリエーション展開） → Phase 2
+   - 動画制作: Phase 0 → Phase 1（フック3段階プロセス） → Phase 2
 
-6. **動画ナレッジベースの特徴**
+6. **動画ナレッジベースの特徴（新フロー）**
    - 3つのファイルで完結する構造
-   - video-planning.mdに制作ガイドとバリエーション展開ガイドを集約
-   - video-output.mdで制作指示書作成を支援
-   - Phase 1でフック選定後、同一訴求型での複数バリエーション作成に対応
+   - video-planning.mdにフック3段階プロセスを集約
+   - video-output.mdでフック文言パターン対応制作指示書を支援
+   - Phase 1で「訴求型選定→バリエーション選択→文言展開」の3段階実施
+   - 最終成果物：フック文言パターン（5つ以上）＋共通ナレーション＋統一シーン構成
 
