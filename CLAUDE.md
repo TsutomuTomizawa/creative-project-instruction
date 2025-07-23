@@ -44,7 +44,7 @@ creative-project-instruction/
 │   └── video/                         # 動画制作ナレッジベース（シンプル化構造）
 │       ├── video-research.md          # リサーチフェーズ総合ガイド
 │       ├── video-planning.md          # 動画制作総合ガイド（ナレーション中心、フック3段階プロセス対応）
-│       └── video-output.md            # 動画広告制作指示書ガイド（AI素材生成プロファイル含む）
+│       └── video-output.md            # 動画広告素材リスト＆AI生成プロファイルガイド
 ├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
 └── README.md                          # プロジェクト全体説明
 ```
@@ -56,7 +56,7 @@ creative-project-instruction/
 - **Phase 0.5（選択）**: 02-module-selection.md（LPのみ）
 - **Phase 1（構成）**: 03-story-modules.md（LP） / video-planning.md（動画）
 - **Phase 2（制作）**: 04-components.md（LP） / video-planning.md（動画）, 05-copywriting.md（LP）
-- **アーティファクト作成時**: 06-optimization.md（LP） / video-output.md（動画・制作指示書＆AI素材生成Profile出力）
+- **アーティファクト作成時**: 06-optimization.md（LP） / video-output.md（動画・素材リスト＆AI生成Profile出力）
 
 ## 🚨 変更チェックリスト
 
@@ -130,12 +130,17 @@ creative-project-instruction/
 6. **動画ナレッジベースの特徴（新フロー）**
    - 3つのファイルで完結する構造
    - video-planning.mdにフック3段階プロセスを集約
-   - video-output.mdでフック文言パターン対応制作指示書を支援
+   - video-output.mdで素材リストとAI生成プロファイルを支援
    - Phase 1で「訴求型選定→バリエーション選択→文言展開」の3段階実施
-   - 最終成果物：フック文言パターン（5つ以上）＋共通ナレーション＋統一シーン構成
+   - 最終成果物：フック文言パターン（5つ以上）＋共通ナレーション＋素材リスト＋AI生成プロファイル
 
 7. **自動リサーチ機能（動画制作）**
    - video-detailed.mdのステップ0-1完了後に自動実行
    - WebSearchとWebFetchツールを活用
    - 商品理解、競合分析、プラットフォーム調査を自動化
+
+8. **動画素材管理の新アプローチ**
+   - video-output.mdで素材リストとAI生成プロファイルに特化
+   - 制作指示書形式を廃止し、実用的な素材生成に集中
+   - バリエーション管理とプラットフォーム最適化を強化
 
