@@ -753,13 +753,6 @@ AI素材生成用のJSON Context Profileは、各シーンの詳細なビジュ�
 ## 統一シーン構成表
 [上記テンプレートを使用]
 
-## AI素材生成用JSON Context Profile
-### フックパターン別Profile
-[フック部分のみA-Eパターン別にProfileを作成]
-
-### 共通シーンProfile
-[フック以外の全シーンのProfile]
-
 ## A/Bテスト設定
 [文言パターン比較のための設定]
 
@@ -774,6 +767,113 @@ AI素材生成用のJSON Context Profileは、各シーンの詳細なビジュ�
 - [ ] 3秒以降のコンテンツは完全に同一か
 - [ ] A/Bテスト用のパターン別ファイルが作成されているか
 - [ ] フックに合わせたビジュアル調整が指示されているか
+
+---
+
+## AI素材生成用JSON Context Profile
+
+### フックパターン別Profile
+
+#### パターンA: [パターンAのフック文言]
+```json
+{
+  "shot": {
+    "composition": "ショット構成",
+    "camera_motion": "カメラの動き",
+    "frame_rate": "30fps",
+    "lens": "50mm",
+    "depth_of_field": "被写界深度",
+    "film_grain": 0.02
+  },
+  "subject": {
+    "entities": [{
+      "role": "被写体の役割",
+      "appearance": "外見の詳細",
+      "position": "画面内の位置",
+      "movement": "動きやアクション",
+      "expression": "表情や感情"
+    }]
+  },
+  "scene": {
+    "location": "撮影場所",
+    "time_of_day": "時間帯",
+    "lighting": "照明設定",
+    "environment_details": "環境の詳細"
+  },
+  "cinematography": {
+    "lighting": "照明の詳細",
+    "color_grading": "カラーグレーディング",
+    "style": "撮影スタイル",
+    "tone": "トーンやムード"
+  },
+  "audio": {
+    "narration": "パターンAのフック文言",
+    "voice_tone": "声のトーン",
+    "sound_design": ["効果音"],
+    "music": "BGMの説明"
+  }
+}
+```
+
+#### パターンB～E
+[同様の形式で各パターンのProfileを記載]
+
+### 共通シーンProfile（3秒以降）
+
+#### シーン2（3-8秒）: [シーンの説明]
+```json
+{
+  "shot": {
+    "composition": "ショット構成",
+    "camera_motion": "カメラの動き",
+    "frame_rate": "30fps",
+    "lens": "レンズ情報",
+    "depth_of_field": "被写界深度"
+  },
+  "subject": {
+    "entities": [{
+      "role": "被写体の役割",
+      "appearance": "外見の詳細",
+      "position": "位置",
+      "movement": "動き",
+      "props": "小道具"
+    }]
+  },
+  "scene": {
+    "location": "場所",
+    "lighting": "照明",
+    "environment_details": "環境詳細"
+  },
+  "cinematography": {
+    "color_grading": "カラーグレーディング",
+    "style": "スタイル",
+    "tone": "トーン"
+  },
+  "audio": {
+    "narration": "共通ナレーションの該当部分",
+    "voice_tone": "声のトーン",
+    "sound_design": ["効果音"],
+    "music": "BGM"
+  }
+}
+```
+
+#### シーン3以降
+[同様の形式で各シーンのProfileを記載]
+
+### 使用上の注意事項
+
+1. **一貫性の確保**
+   - 全パターンで同じキャラクター設定を維持
+   - 3秒以降のシーンは完全に同一
+
+2. **プラットフォーム対応**
+   - Meta広告の場合はaspect_ratioを「1:1」または「4:5」に
+   - 音声なしでも理解できる構成
+
+3. **ファイル管理**
+   - 各素材にパターン名とシーン番号を付与
+   - 高解像度で生成（4K以上推奨）
 ```
 
 ---
@@ -784,3 +884,150 @@ AI素材生成用のJSON Context Profileは、各シーンの詳細なビジュ�
 - コンテンツの大部分を流用できるため、制作コストを大幅に削減
 - フックの効果を純粋に測定可能
 - 最適なパターンが見つかれば、それをベースにした展開が容易
+
+---
+
+## 制作指示書の記載例（15秒動画）
+
+### プロジェクト概要
+```markdown
+**動画タイトル**: [商品名] プロモーション動画
+**クライアント**: [企業名]
+**制作目的**: 新商品の認知拡大・購買促進
+**ターゲット層**: 30-40代女性（健康意識の高い層）
+**動画の尺**: 15秒
+**配信プラットフォーム**: Meta広告（Facebook/Instagram）
+
+**選定した訴求型**: 恐怖訴求型
+**選定理由**: ターゲット層の健康への不安を喚起し、解決策としての商品価値を強く訴求するため
+```
+
+### フック文言パターン一覧
+```markdown
+| パターン | 文言 | 文字数 | 想定ターゲット |
+|-----------|------|----------|-------------------|
+| A | 「その疲れ、年齢のせいにしていませんか？」 | 20文字 | 加齢を意識し始めた層 |
+| B | 「毎朝のだるさ、放置すると危険かも」 | 17文字 | 健康不安を持つ層 |
+| C | 「40代から急激に低下する○○、今対策を」 | 19文字 | 予防意識の高い層 |
+| D | 「疲れが取れない本当の理由を知っていますか？」 | 22文字 | 原因を知りたい層 |
+| E | 「そのままだと5年後、後悔するかもしれません」 | 22文字 | 将来不安を持つ層 |
+```
+
+### AI素材生成用JSON Context Profile（詳細例）
+
+#### パターンA: 「その疲れ、年齢のせいにしていませんか？」
+
+```json
+{
+  "shot": {
+    "composition": "ミディアムショット - 女性の上半身",
+    "camera_motion": "ゆっくりとしたズームイン",
+    "frame_rate": "30fps",
+    "lens": "50mm",
+    "depth_of_field": "背景をややぼかす（f/4）",
+    "film_grain": 0.02
+  },
+  "subject": {
+    "entities": [{
+      "role": "疲れた表情の30代後半女性",
+      "appearance": "30代後半の日本人女性、疲れた表情、オフィスカジュアルな服装",
+      "position": "画面中央やや右寄り",
+      "movement": "ため息をつき、こめかみを押さえる",
+      "expression": "疲労感と諦めが混じった表情",
+      "clothing": "グレーのカーディガン、白いブラウス"
+    }]
+  },
+  "scene": {
+    "location": "自宅のリビング",
+    "time_of_day": "夕方（18:00頃）",
+    "lighting": "やや暗めの室内照明、窓からの夕日",
+    "environment_details": "背景にソファと観葉植物、生活感のある空間"
+  },
+  "cinematography": {
+    "lighting": "低コントラスト、やや暗めの照明",
+    "color_grading": "彩度を抑えた寒色系",
+    "style": "ドキュメンタリー風のリアルな表現",
+    "tone": "共感を誘う、やや重い雰囲気"
+  },
+  "audio": {
+    "narration": "その疲れ、年齢のせいにしていませんか？",
+    "voice_tone": "優しく問いかける、共感的な女性の声",
+    "sound_design": ["ため息の音", "時計の秒針音"],
+    "music": "静かで物憂げなピアノのBGM"
+  },
+  "visual_rules": {
+    "prohibited_elements": ["医療器具", "薬のイメージ", "極端にネガティブな表現"],
+    "required_elements": ["自然な疲労表現", "30代後半の設定を守る", "共感できる日常シーン"],
+    "brand_guidelines": "過度に暗くならないよう注意"
+  }
+}
+```
+
+#### 共通シーン（3-15秒）の例
+
+##### シーン2（3-8秒）: 商品紹介と解決提示
+
+```json
+{
+  "shot": {
+    "composition": "商品のクローズアップから女性の笑顔へ",
+    "camera_motion": "商品から顔へスムーズなパン",
+    "frame_rate": "30fps",
+    "lens": "85mm",
+    "depth_of_field": "商品にフォーカス、背景ぼかし（f/2.8）"
+  },
+  "subject": {
+    "entities": [{
+      "role": "商品パッケージ",
+      "appearance": "清潔感のある白とグリーンのパッケージ",
+      "position": "画面中央",
+      "visual_state": "光沢のある新品状態",
+      "text_elements": "商品名が読みやすく表示"
+    }, {
+      "role": "同じ女性（表情が明るく変化）",
+      "appearance": "先ほどと同じ女性、明るい表情",
+      "position": "画面右側",
+      "expression": "希望に満ちた笑顔",
+      "movement": "商品を手に取る優雅な動作"
+    }]
+  },
+  "scene": {
+    "location": "明るいキッチン",
+    "time_of_day": "朝（8:00頃）",
+    "lighting": "明るい自然光",
+    "environment_details": "清潔で整理された空間"
+  },
+  "cinematography": {
+    "lighting": "明るく爽やかな照明",
+    "color_grading": "暖色系、高彩度",
+    "style": "商品広告らしいクリーンな表現",
+    "tone": "希望と活力に満ちた雰囲気"
+  },
+  "audio": {
+    "narration": "1日1粒で、内側から元気をサポート",
+    "voice_tone": "明るく前向きな声",
+    "sound_design": ["パッケージを開ける音", "水を注ぐ音"],
+    "music": "アップテンポで明るいBGMへ変化"
+  }
+}
+```
+
+### プラットフォーム別の注意事項
+
+#### Meta広告（Facebook/Instagram）対応
+```json
+{
+  "technical_specs": {
+    "aspect_ratio": "1:1または4:5",
+    "resolution": "最低1080x1080px",
+    "file_size": "4GB以下",
+    "format": "MP4またはMOV",
+    "caption": "音声なしでも理解できる字幕必須"
+  },
+  "content_guidelines": {
+    "text_overlay": "画面の20%以内",
+    "first_3_seconds": "最重要メッセージを配置",
+    "sound_off_optimization": "85%が無音視聴前提"
+  }
+}
+```
