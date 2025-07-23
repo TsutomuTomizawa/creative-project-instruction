@@ -17,11 +17,12 @@
 - [ ] `knowledge-base/lp/` - LP用ナレッジベース構造（モジュールベース）
 - [ ] `knowledge-base/video/` - 動画用ナレッジベース構造
 
-### 2. 各detailed.mdファイル（特にlp-detailed.md）
+### 2. 各detailed.mdファイル（特にlp-detailed.md、video-detailed.md）
 変更時の確認事項：
 - [ ] `custom-instructions/essential.md` の参照部分
 - [ ] knowledge-base内の関連ファイル
-- [ ] Phase構成の整合性（lp-detailed.md、video-detailed.mdの場合）
+- [ ] Phase構成の整合性
+- [ ] 自動リサーチ実行の記述（video-detailed.mdの場合）
 
 ## 📂 現在のディレクトリ構造
 
@@ -132,4 +133,9 @@ creative-project-instruction/
    - video-output.mdでフック文言パターン対応制作指示書を支援
    - Phase 1で「訴求型選定→バリエーション選択→文言展開」の3段階実施
    - 最終成果物：フック文言パターン（5つ以上）＋共通ナレーション＋統一シーン構成
+
+7. **自動リサーチ機能（動画制作）**
+   - video-detailed.mdのステップ0-1完了後に自動実行
+   - WebSearchとWebFetchツールを活用
+   - 商品理解、競合分析、プラットフォーム調査を自動化
 
