@@ -19,9 +19,9 @@
 
 ### Phase 0: リサーチ
 **推奨参照順序:**
-1. `standard`: [#AUDIENCE_INSIGHT](research/#AUDIENCE_INSIGHT.md)（作成予定）
-2. `standard`: [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md)（作成予定）
-3. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md)（作成予定）
+1. `standard`: [#AUDIENCE_INSIGHT](research/#AUDIENCE_INSIGHT.md) ✅
+2. `standard`: [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md) ✅
+3. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md) ✅
 
 ### Phase 1: プランニング
 **推奨参照順序:**
@@ -49,10 +49,10 @@
 → [#NARRATION_TONE](core/#NARRATION_TONE.md)
 
 ### ターゲット分析をしたい
-→ [#AUDIENCE_INSIGHT](research/#AUDIENCE_INSIGHT.md)（作成予定）
+→ [#AUDIENCE_INSIGHT](research/#AUDIENCE_INSIGHT.md)
 
 ### 競合調査をしたい
-→ [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md)（作成予定）
+→ [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md)
 
 ### 素材リストを作りたい
 → [#MATERIAL_LIST](output/#MATERIAL_LIST.md)（作成予定）
@@ -83,7 +83,7 @@
 - インデックスファイル作成
 
 ### 今後の予定
-- Week 2: research/フォルダのモジュール作成
+- Week 2: research/フォルダのモジュール作成 ✅ 完了
 - Week 3: planning/フォルダのモジュール作成
 - Week 4: output/フォルダのモジュール作成
 
@@ -94,8 +94,9 @@
 | core | #HOOK_METHODOLOGY | ✅ 完了 | core |
 | core | #STORY_PATTERN | ✅ 完了 | core |
 | core | #NARRATION_TONE | ✅ 完了 | core |
-| research | #AUDIENCE_INSIGHT | 🔄 作成予定 | standard |
-| research | #COMPETITOR_ANALYSIS | 🔄 作成予定 | standard |
+| research | #AUDIENCE_INSIGHT | ✅ 完了 | standard |
+| research | #COMPETITOR_ANALYSIS | ✅ 完了 | standard |
+| research | #MARKET_RESEARCH | ✅ 完了 | optional |
 | planning | #EXPERIENCE_ELEMENTS | 🔄 作成予定 | standard |
 | planning | #VISUAL_RHYTHM | 🔄 作成予定 | optional |
 | planning | #CTA_STRATEGY | 🔄 作成予定 | standard |
