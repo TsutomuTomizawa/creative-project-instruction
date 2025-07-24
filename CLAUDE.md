@@ -34,13 +34,31 @@ creative-project-instruction/
 │   ├── lp-detailed.md                  # LP制作詳細ガイド
 │   └── video-detailed.md               # 動画広告制作詳細ガイド（バリエーション展開対応）
 ├── knowledge-base/
-│   ├── lp/                            # LP制作ナレッジベース（モジュール型構造）
-│   │   ├── 01-research.md             # リサーチフェーズ総合ガイド
-│   │   ├── 02-module-selection.md     # モジュール選択ガイド（Phase 0.5）
-│   │   ├── 03-story-modules.md        # ストーリーモジュール集
-│   │   ├── 04-components.md           # コンポーネント仕様ガイド
-│   │   ├── 05-copywriting.md          # コピーライティングガイド
-│   │   └── 06-optimization.md         # 最適化Tips集（アーティファクト作成時参照）
+│   ├── lp/                            # LP制作ナレッジベース（モジュール化完了）
+│   │   ├── index.md                   # モジュール管理インデックス
+│   │   ├── core/                      # コアモジュール（priority: core）
+│   │   │   ├── #VALUE_PROPOSITION.md  # 価値提示モジュール
+│   │   │   ├── #ACTION_DRIVER.md      # 行動促進モジュール
+│   │   │   └── #TRUST_BUILDING.md     # 信頼構築モジュール
+│   │   ├── research/                  # リサーチモジュール
+│   │   │   ├── #MARKET_ANALYSIS.md    # 市場分析
+│   │   │   ├── #PERSONA_CREATION.md   # ペルソナ作成
+│   │   │   └── #COMPETITOR_MAPPING.md # 競合分析
+│   │   ├── planning/                  # プランニングモジュール
+│   │   │   ├── #MODULE_SELECTION.md   # モジュール選択ガイド
+│   │   │   ├── #STORY_MODULES.md      # ストーリーモジュール集
+│   │   │   └── #FLOW_DESIGN.md        # フロー設計
+│   │   ├── output/                    # アウトプットモジュール
+│   │   │   ├── #COMPONENT_LIBRARY.md  # コンポーネントライブラリ
+│   │   │   ├── #COPYWRITING_FORMULAS.md # コピーライティング公式
+│   │   │   └── #OPTIMIZATION_GUIDE.md # 最適化ガイド
+│   │   └── archive/                   # 旧ファイル保管場所
+│   │       ├── 01-research.md         # リサーチフェーズ総合ガイド（レガシー）
+│   │       ├── 02-module-selection.md # モジュール選択ガイド（レガシー）
+│   │       ├── 03-story-modules.md    # ストーリーモジュール集（レガシー）
+│   │       ├── 04-components.md       # コンポーネント仕様ガイド（レガシー）
+│   │       ├── 05-copywriting.md      # コピーライティングガイド（レガシー）
+│   │       └── 06-optimization.md     # 最適化Tips集（レガシー）
 │   └── video/                         # 動画制作ナレッジベース（モジュール化完了）
 │       ├── index.md                   # モジュール管理インデックス
 │       ├── core/                      # コアモジュール（priority: core）
@@ -71,11 +89,11 @@ creative-project-instruction/
 ## 📊 ファイルの役割と使用タイミング
 
 ### Phase別の参照ファイル
-- **Phase 0（リサーチ）**: 01-research.md（LP） / #AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH（動画）
-- **Phase 0.5（選択）**: 02-module-selection.md（LPのみ）
-- **Phase 1（構成）**: 03-story-modules.md（LP） / #HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE（動画）
-- **Phase 2（制作）**: 04-components.md（LP）, 05-copywriting.md（LP） / #AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION（動画）
-- **アーティファクト作成時**: 06-optimization.md（LP） / #AI_PROFILE, #MATERIAL_LIST（動画・素材リスト＆AI生成Profile出力）
+- **Phase 0（リサーチ）**: #MARKET_ANALYSIS, #PERSONA_CREATION, #COMPETITOR_MAPPING（LP） / #AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH（動画）
+- **Phase 0.5（選択）**: #MODULE_SELECTION（LP） / なし（動画）
+- **Phase 1（構成）**: #STORY_MODULES, #FLOW_DESIGN（LP） / #HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE（動画）
+- **Phase 2（制作）**: #COMPONENT_LIBRARY, #COPYWRITING_FORMULAS（LP） / #AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION（動画）
+- **アーティファクト作成時**: #OPTIMIZATION_GUIDE（LP） / #AI_PROFILE, #MATERIAL_LIST（動画・素材リスト＆AI生成Profile出力）
 
 ## 🚨 変更チェックリスト
 
@@ -187,11 +205,11 @@ creative-project-instruction/
      - ユーザーフィードバックに基づく最適化
      - **重要**: モジュール更新時は必ずindex.mdも同時に検証・更新
 
-## 📋 動画モジュールのメタデータ管理
+## 📋 モジュールのメタデータ管理
 
 ### モジュール更新時の必須チェックリスト
 
-動画ナレッジベースのモジュール（`/knowledge-base/video/`内の`#`で始まるファイル）を更新する際は、以下のメタデータを必ず確認・更新してください：
+ナレッジベースのモジュール（`/knowledge-base/video/`または`/knowledge-base/lp/`内の`#`で始まるファイル）を更新する際は、以下のメタデータを必ず確認・更新してください：
 
 1. **メタデータヘッダーの確認**
    - [ ] `marker`: ユニークで、ファイル名と一致（例：`#CTA_STRATEGY`）
@@ -273,8 +291,8 @@ last_updated: 2025-01-24      # 最終更新日
 □ 依存関係: 前後のモジュールとの整合性
 ```
 
-#### 2. **video-detailed.mdの確認**：
-- [ ] 該当モジュールへの参照箇所
+#### 2. **detailed.mdファイルの確認**：
+- [ ] 該当モジュールへの参照箇所（video-detailed.mdまたはlp-detailed.md）
 - [ ] 参照コンテキストが適切か
 - [ ] Phase別の使用タイミングが正しいか
 
@@ -291,7 +309,7 @@ last_updated: 2025-01-24      # 最終更新日
    - 適切なPhaseとpriorityで配置
    - モジュールの説明文を記載
    - 目的別検索セクションへの追加検討
-4. video-detailed.mdの該当箇所に参照を追加
+4. detailed.mdファイルの該当箇所に参照を追加
 5. 関連モジュールのdependenciesを更新
 6. **双方向の整合性確認**：
    - 新規モジュール→既存ファイル：参照が正しいか
