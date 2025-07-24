@@ -28,8 +28,9 @@
 1. `core`: [#HOOK_METHODOLOGY](core/#HOOK_METHODOLOGY.md) ✅
 2. `core`: [#STORY_PATTERN](core/#STORY_PATTERN.md) ✅
 3. `core`: [#NARRATION_TONE](core/#NARRATION_TONE.md) ✅
-4. `standard`: [#EXPERIENCE_ELEMENTS](planning/#EXPERIENCE_ELEMENTS.md)（作成予定）
-5. `optional`: [#VISUAL_RHYTHM](planning/#VISUAL_RHYTHM.md)（作成予定）
+4. `standard`: [#EXPERIENCE_ELEMENTS](planning/#EXPERIENCE_ELEMENTS.md) ✅
+5. `optional`: [#VISUAL_RHYTHM](planning/#VISUAL_RHYTHM.md) ✅
+6. `standard`: [#CTA_STRATEGY](planning/#CTA_STRATEGY.md) ✅
 
 ### Phase 2: アウトプット
 **推奨参照順序:**
@@ -53,6 +54,15 @@
 
 ### 競合調査をしたい
 → [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md)
+
+### 体験要素を組み込みたい
+→ [#EXPERIENCE_ELEMENTS](planning/#EXPERIENCE_ELEMENTS.md)
+
+### 映像リズムを設計したい
+→ [#VISUAL_RHYTHM](planning/#VISUAL_RHYTHM.md)
+
+### CTAを最適化したい
+→ [#CTA_STRATEGY](planning/#CTA_STRATEGY.md)
 
 ### 素材リストを作りたい
 → [#MATERIAL_LIST](output/#MATERIAL_LIST.md)（作成予定）
@@ -84,7 +94,7 @@
 
 ### 今後の予定
 - Week 2: research/フォルダのモジュール作成 ✅ 完了
-- Week 3: planning/フォルダのモジュール作成
+- Week 3: planning/フォルダのモジュール作成 ✅ 完了
 - Week 4: output/フォルダのモジュール作成
 
 ## 📝 モジュール作成状況
@@ -97,9 +107,9 @@
 | research | #AUDIENCE_INSIGHT | ✅ 完了 | standard |
 | research | #COMPETITOR_ANALYSIS | ✅ 完了 | standard |
 | research | #MARKET_RESEARCH | ✅ 完了 | optional |
-| planning | #EXPERIENCE_ELEMENTS | 🔄 作成予定 | standard |
-| planning | #VISUAL_RHYTHM | 🔄 作成予定 | optional |
-| planning | #CTA_STRATEGY | 🔄 作成予定 | standard |
+| planning | #EXPERIENCE_ELEMENTS | ✅ 完了 | standard |
+| planning | #VISUAL_RHYTHM | ✅ 完了 | optional |
+| planning | #CTA_STRATEGY | ✅ 完了 | standard |
 | output | #MATERIAL_LIST | 🔄 作成予定 | standard |
 | output | #AI_PROFILE | 🔄 作成予定 | standard |
 | output | #PLATFORM_OPTIMIZATION | 🔄 作成予定 | optional |
