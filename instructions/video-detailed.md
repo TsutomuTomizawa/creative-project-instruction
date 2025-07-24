@@ -18,7 +18,7 @@ Phase 0（リサーチ）:
   optional: 
     - #MARKET_RESEARCH     # 市場調査（作成予定）
   legacy:
-    - /knowledge-base/video/video-research.md # 移行前の参照先
+    - /knowledge-base/video/archive/video-research.md # 移行前の参照先
 
 Phase 1（ストーリーフロー構築）:
   core: 
@@ -31,7 +31,7 @@ Phase 1（ストーリーフロー構築）:
   optional: 
     - #VISUAL_RHYTHM       # ビジュアルリズム（作成予定）
   legacy:
-    - /knowledge-base/video/video-planning.md # 移行前の参照先
+    - /knowledge-base/video/archive/video-planning.md # 移行前の参照先
 
 Phase 2（シーン制作）:
   standard:
@@ -40,7 +40,7 @@ Phase 2（シーン制作）:
   optional:
     - #PLATFORM_OPTIMIZATION # プラットフォーム最適化（作成予定）
   legacy:
-    - /knowledge-base/video/video-output.md # 移行前の参照先
+    - /knowledge-base/video/archive/video-output.md # 移行前の参照先
 
 # ワークフロー:
 # Phase 0 (リサーチ) → Phase 1 (ナレーション原稿作成) → Phase 2 (シーン制作)
@@ -97,7 +97,7 @@ Phase 2（シーン制作）:
 - 参考情報（あれば）
 
 ※ 詳細な基本情報収集テンプレートは以下を参照：
-→ /knowledge-base/video/video-research.md#基本情報収集テンプレート
+→ /knowledge-base/video/archive/video-research.md#基本情報収集テンプレート
 （モジュール化完了後: #AUDIENCE_INSIGHT）
 
 提供いただいた情報をもとにリサーチを行い、
@@ -166,7 +166,7 @@ Phase 2（シーン制作）:
 リサーチ結果に基づいてターゲット層を分析しました。
 
 ※ 詳細なターゲット分析項目は以下を参照：
-→ /knowledge-base/video/video-research.md#ターゲット分析テンプレート
+→ /knowledge-base/video/archive/video-research.md#ターゲット分析テンプレート
 （モジュール化完了後: #AUDIENCE_INSIGHT）
 
 この分析で正しいでしょうか？
@@ -203,7 +203,7 @@ Phase 2（シーン制作）:
 - CTA形式
 
 ※ 詳細な配信環境チェックリストは以下を参照：
-→ /knowledge-base/video/video-research.md#配信環境チェックリスト
+→ /knowledge-base/video/archive/video-research.md#配信環境チェックリスト
 （モジュール化完了後: #PLATFORM_ANALYSIS）
 
 この情報により、最初の数秒の設計と
@@ -237,7 +237,7 @@ Phase 2（シーン制作）:
 [リサーチから導き出した主要ポイントを表示]
 
 ※ 詳細なリサーチ結果統合分析テンプレートは以下を参照：
-→ /knowledge-base/video/video-research.md#リサーチ結果統合分析テンプレート
+→ /knowledge-base/video/archive/video-research.md#リサーチ結果統合分析テンプレート
 （モジュール化完了後: #COMPETITOR_ANALYSIS）
 
 この分析をベースに動画構成を設計します。
@@ -512,7 +512,7 @@ Phase 2（シーン制作）:
 ビジュアル、キャプション、音響を設計します。
 
 ※ 詳細なシーン変換例と基本原則は以下を参照：
-→ /knowledge-base/video/video-planning.md#ナレーション原稿からシーンへの変換
+→ /knowledge-base/video/archive/video-planning.md#ナレーション原稿からシーンへの変換
 （モジュール化完了後: #STORY_PATTERN）
 
 ナレーションの意味単位でシーンを区切り、
@@ -545,7 +545,7 @@ Phase 2（シーン制作）:
 必要な素材リストを作成します。
 
 ※ 素材リストのフォーマットと作成方法は以下を参照：
-→ /knowledge-base/video/video-output.md#シーンごとの素材整理方法
+→ /knowledge-base/video/archive/video-output.md#シーンごとの素材整理方法
 （モジュール化完了後: #MATERIAL_LIST）
 
 各シーンで必要な素材を：
@@ -556,7 +556,7 @@ Phase 2（シーン制作）:
 🤖 **AI素材生成プロファイルの作成**
 各素材に対応するJSON Context Profileを
 同時に作成します。
-→ /knowledge-base/video/video-output.md#ai素材生成用json-context-profile
+→ /knowledge-base/video/archive/video-output.md#ai素材生成用json-context-profile
 （モジュール化完了後: #AI_PROFILE）
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━

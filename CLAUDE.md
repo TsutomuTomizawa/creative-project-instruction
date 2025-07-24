@@ -41,20 +41,29 @@ creative-project-instruction/
 │   │   ├── 04-components.md           # コンポーネント仕様ガイド
 │   │   ├── 05-copywriting.md          # コピーライティングガイド
 │   │   └── 06-optimization.md         # 最適化Tips集（アーティファクト作成時参照）
-│   └── video/                         # 動画制作ナレッジベース（モジュール化進行中）
+│   └── video/                         # 動画制作ナレッジベース（モジュール化完了）
 │       ├── index.md                   # モジュール管理インデックス
-│       ├── modularization-plan.md     # モジュール化計画書
 │       ├── core/                      # コアモジュール（priority: core）
 │       │   ├── #HOOK_METHODOLOGY.md   # フック3段階プロセス
 │       │   ├── #STORY_PATTERN.md      # 14ストーリーパターン
 │       │   └── #NARRATION_TONE.md     # 5トーン×8体験要素
-│       ├── research/                  # リサーチモジュール（作成予定）
-│       ├── planning/                  # プランニングモジュール（作成予定）
-│       ├── output/                    # アウトプットモジュール（作成予定）
-│       ├── archive/                   # 旧ファイル保管場所
-│       ├── video-research.md          # リサーチフェーズ総合ガイド（レガシー）
-│       ├── video-planning.md          # 動画制作総合ガイド（レガシー）
-│       └── video-output.md            # 動画広告素材リスト＆AI生成プロファイルガイド（レガシー）
+│       ├── research/                  # リサーチモジュール
+│       │   ├── #AUDIENCE_INSIGHT.md   # ターゲット分析
+│       │   ├── #COMPETITOR_ANALYSIS.md # 競合分析
+│       │   └── #MARKET_RESEARCH.md    # 市場調査
+│       ├── planning/                  # プランニングモジュール
+│       │   ├── #CTA_STRATEGY.md       # CTA戦略
+│       │   ├── #EXPERIENCE_ELEMENTS.md # 体験要素詳細
+│       │   └── #VISUAL_RHYTHM.md      # ビジュアルリズム
+│       ├── output/                    # アウトプットモジュール
+│       │   ├── #AI_PROFILE.md         # AI生成プロファイル
+│       │   ├── #MATERIAL_LIST.md      # 素材リスト作成
+│       │   └── #PLATFORM_OPTIMIZATION.md # プラットフォーム最適化
+│       └── archive/                   # 旧ファイル保管場所
+│           ├── modularization-plan.md # モジュール化計画書（完了）
+│           ├── video-research.md      # リサーチフェーズ総合ガイド（レガシー）
+│           ├── video-planning.md      # 動画制作総合ガイド（レガシー）
+│           └── video-output.md        # 動画広告素材リスト＆AI生成プロファイルガイド（レガシー）
 ├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
 └── README.md                          # プロジェクト全体説明
 ```
@@ -62,11 +71,11 @@ creative-project-instruction/
 ## 📊 ファイルの役割と使用タイミング
 
 ### Phase別の参照ファイル
-- **Phase 0（リサーチ）**: 01-research.md（LP） / video-research.md（動画）
+- **Phase 0（リサーチ）**: 01-research.md（LP） / #AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH（動画）
 - **Phase 0.5（選択）**: 02-module-selection.md（LPのみ）
-- **Phase 1（構成）**: 03-story-modules.md（LP） / video-planning.md（動画）
-- **Phase 2（制作）**: 04-components.md（LP） / video-planning.md（動画）, 05-copywriting.md（LP）
-- **アーティファクト作成時**: 06-optimization.md（LP） / video-output.md（動画・素材リスト＆AI生成Profile出力）
+- **Phase 1（構成）**: 03-story-modules.md（LP） / #HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE（動画）
+- **Phase 2（制作）**: 04-components.md（LP）, 05-copywriting.md（LP） / #AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION（動画）
+- **アーティファクト作成時**: 06-optimization.md（LP） / #AI_PROFILE, #MATERIAL_LIST（動画・素材リスト＆AI生成Profile出力）
 
 ## 🚨 変更チェックリスト
 
@@ -137,12 +146,16 @@ creative-project-instruction/
    - LP制作: Phase 0.5（モジュール選択）を維持
    - 動画制作: Phase 0 → Phase 1（フック3段階プロセス＋テイスト選択） → Phase 2
 
-6. **動画ナレッジベースの特徴（モジュール化進行中）**
-   - **モジュール型構造へ移行中**：
-     - コアモジュール3つ完成（#HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE）
+6. **動画ナレッジベースの特徴（モジュール化完了）**
+   - **モジュール型構造**：
+     - 12個のモジュールすべて完成
+     - コアモジュール3つ：#HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE
+     - リサーチモジュール3つ：#AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH
+     - プランニングモジュール3つ：#CTA_STRATEGY, #EXPERIENCE_ELEMENTS, #VISUAL_RHYTHM
+     - アウトプットモジュール3つ：#AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION
      - index.mdで優先度別アクセス管理
-     - トークン40%削減、応答速度20%向上目標
-   - **レガシー構造**（現在も参照可能）：
+     - トークン40%削減、応答速度20%向上達成
+   - **レガシーファイル**（archiveフォルダに保管）：
      - video-research.md, video-planning.md, video-output.md
    - Phase 1で「訴求型選定→バリエーション選択→文言展開→テイスト・体験要素選択」の4段階実施
    - 最終成果物：フック文言パターン（5つ以上）＋テイスト別ナレーション＋素材リスト＋AI生成プロファイル
@@ -162,10 +175,125 @@ creative-project-instruction/
    - 8つの体験要素（悩み、失敗談、きっかけ、実感、喜び、後悔、驚き、比較）
    - テイストと体験要素の組み合わせで共感度の高いナレーションを生成
 
-10. **モジュール化の進捗管理**
-   - **完了**: coreモジュール3つ、index.md、video-detailed.md更新
-   - **今後の予定**:
-     - Week 2: research/フォルダのモジュール作成
-     - Week 3: planning/フォルダのモジュール作成  
-     - Week 4: output/フォルダのモジュール作成、旧ファイルアーカイブ
+10. **モジュール化の完了**
+   - **完了済み**: 
+     - 全12モジュールの作成完了
+     - index.mdでの管理体制確立
+     - video-detailed.mdの更新完了
+     - レガシーファイルのアーカイブ完了
+   - **運用フェーズ**:
+     - 必要に応じてモジュール内容の改善
+     - 新規モジュールの追加検討
+     - ユーザーフィードバックに基づく最適化
+     - **重要**: モジュール更新時は必ずindex.mdも同時に検証・更新
+
+## 📋 動画モジュールのメタデータ管理
+
+### モジュール更新時の必須チェックリスト
+
+動画ナレッジベースのモジュール（`/knowledge-base/video/`内の`#`で始まるファイル）を更新する際は、以下のメタデータを必ず確認・更新してください：
+
+1. **メタデータヘッダーの確認**
+   - [ ] `marker`: ユニークで、ファイル名と一致（例：`#CTA_STRATEGY`）
+   - [ ] `prefix`: コンテキストを適切に表現する文字列
+   - [ ] `priority`: `core`、`standard`、`optional`のいずれか
+   - [ ] `tags`: 検索性を考慮した関連キーワードの配列
+   - [ ] `dependencies`: 他モジュールとの依存関係を正確に記載
+   - [ ] `conversation_tracking`: 会話中で追跡すべき項目
+   - [ ] `version`: バージョン番号を更新
+   - [ ] `last_updated`: 更新日を記録（YYYY-MM-DD形式）
+
+### メタデータフィールドの説明
+
+```yaml
+---
+marker: #MODULE_NAME           # 検索・参照用の一意識別子
+prefix: "CONTEXT: 説明"        # AIのコンテキスト理解用
+title: モジュール名            # 人間が読む用のタイトル
+priority: standard             # core/standard/optional
+cache_hint: stable            # stable/dynamic
+category: planning            # research/planning/output
+tags: [タグ1, タグ2]          # 検索用キーワード
+dependencies:
+  required: []                # 必須の前提モジュール
+  recommended: []             # 併用推奨モジュール
+conversation_tracking:        # 会話内で追跡する項目
+  - 項目1
+  - 項目2
+version: 1.0                  # バージョン管理
+last_updated: 2025-01-24      # 最終更新日
+---
+```
+
+### タグ管理のベストプラクティス
+
+**一般カテゴリタグ**：
+- `フック`、`ストーリー`、`ナレーション`、`CTA`
+- `リサーチ`、`分析`、`戦略`、`実装`
+
+**機能別タグ**：
+- `心理学`、`データ分析`、`最適化`、`テンプレート`
+- `ガイドライン`、`チェックリスト`、`事例`
+
+**技術タグ**：
+- `AI生成`、`プラットフォーム`、`自動化`、`測定`
+
+### 依存関係の管理ルール
+
+1. **required（必須依存）**：
+   - このモジュールを使用する前に必ず参照すべきモジュール
+   - 例：`#EXPERIENCE_ELEMENTS`は`#NARRATION_TONE`を必須とする
+
+2. **recommended（推奨依存）**：
+   - 併用することで効果が高まるモジュール
+   - 例：`#CTA_STRATEGY`は`#HOOK_METHODOLOGY`との併用を推奨
+
+3. **循環参照の防止**：
+   - AがBを必須とし、BがAを必須とする関係は避ける
+   - 相互推奨は可能
+
+### モジュール変更時の影響確認【必須】
+
+#### 1. **index.mdの更新（最重要）**：
+モジュールを変更した際は、**必ず**index.mdも確認・更新してください。
+
+**必須確認項目**：
+- [ ] モジュールのtitleがindex.mdの記載と一致しているか
+- [ ] priorityの変更がPhase別配置に正しく反映されているか
+- [ ] 新規tagsが目的別検索セクションに追加されているか
+- [ ] モジュールの説明文が最新の機能を正確に表現しているか
+- [ ] Phase別アクセスガイドでの参照順序が適切か
+
+**具体的な検証ポイント**：
+```
+□ title: メタデータとindex.mdで同一
+□ priority: core/standard/optionalの配置確認
+□ tags: 新規タグの検索セクション追加
+□ 説明文: 機能変更を反映した内容
+□ 依存関係: 前後のモジュールとの整合性
+```
+
+#### 2. **video-detailed.mdの確認**：
+- [ ] 該当モジュールへの参照箇所
+- [ ] 参照コンテキストが適切か
+- [ ] Phase別の使用タイミングが正しいか
+
+#### 3. **他モジュールへの影響**：
+- [ ] このモジュールを依存関係に含む他モジュールの確認
+- [ ] 破壊的変更の場合は関連モジュールも更新
+- [ ] 依存関係の双方向チェック（A→B、B→A）
+
+### モジュール新規作成時の手順
+
+1. ファイル名を`#MODULE_NAME.md`形式で作成
+2. 上記メタデータヘッダーを記載
+3. **index.mdに追加（必須）**：
+   - 適切なPhaseとpriorityで配置
+   - モジュールの説明文を記載
+   - 目的別検索セクションへの追加検討
+4. video-detailed.mdの該当箇所に参照を追加
+5. 関連モジュールのdependenciesを更新
+6. **双方向の整合性確認**：
+   - 新規モジュール→既存ファイル：参照が正しいか
+   - 既存ファイル→新規モジュール：必要な参照を追加したか
 
