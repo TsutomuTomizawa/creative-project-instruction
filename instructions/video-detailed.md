@@ -13,10 +13,10 @@
 Phase 0（リサーチ）:
   core: なし（リサーチは独立）
   standard: 
-    - #AUDIENCE_INSIGHT    # ターゲット分析（作成予定）
-    - #COMPETITOR_ANALYSIS # 競合分析（作成予定）
+    - #AUDIENCE_INSIGHT    # ターゲット分析
+    - #COMPETITOR_ANALYSIS # 競合分析
   optional: 
-    - #MARKET_RESEARCH     # 市場調査（作成予定）
+    - #MARKET_RESEARCH     # 市場調査
   legacy:
     - /knowledge-base/video/archive/video-research.md # 移行前の参照先
 
@@ -26,19 +26,19 @@ Phase 1（ストーリーフロー構築）:
     - #STORY_PATTERN       # 14種類のストーリーパターン
     - #NARRATION_TONE      # 5トーン×8体験要素
   standard: 
-    - #EXPERIENCE_ELEMENTS # 体験要素詳細（作成予定）
-    - #CTA_STRATEGY        # CTA戦略（作成予定）
+    - #EXPERIENCE_ELEMENTS # 体験要素詳細
+    - #CTA_STRATEGY        # CTA戦略
   optional: 
-    - #VISUAL_RHYTHM       # ビジュアルリズム（作成予定）
+    - #VISUAL_RHYTHM       # ビジュアルリズム
   legacy:
     - /knowledge-base/video/archive/video-planning.md # 移行前の参照先
 
 Phase 2（シーン制作）:
   standard:
-    - #MATERIAL_LIST       # 素材リスト作成（作成予定）
-    - #AI_PROFILE          # AI生成プロファイル（作成予定）
+    - #MATERIAL_LIST       # 素材リスト作成
+    - #AI_PROFILE          # AI生成プロファイル
   optional:
-    - #PLATFORM_OPTIMIZATION # プラットフォーム最適化（作成予定）
+    - #PLATFORM_OPTIMIZATION # プラットフォーム最適化
   legacy:
     - /knowledge-base/video/archive/video-output.md # 移行前の参照先
 
