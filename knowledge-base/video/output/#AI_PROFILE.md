@@ -28,314 +28,338 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 ```json
 {
   "shot": {
-    "composition": "ショット構成（例：クローズアップ、ワイドショット）",
-    "camera_motion": "カメラの動き（例：静止、パン、ズーム）",
-    "frame_rate": "フレームレート（例：24fps、30fps、60fps）",
-    "lens": "レンズ情報（例：35mm、50mm、85mm）",
-    "depth_of_field": "被写界深度（例：浅い、深い、f値）",
-    "film_grain": "フィルムグレイン値（0-1の範囲）"
+    "composition": "shot composition (e.g., close-up, wide shot)",
+    "camera_motion": "camera movement (e.g., static, pan, zoom)",
+    "frame_rate": "frame rate (e.g., 24fps, 30fps, 60fps)",
+    "lens": "lens information (e.g., 35mm, 50mm, 85mm)",
+    "depth_of_field": "depth of field (e.g., shallow, deep, f-value)",
+    "film_grain": "film grain value (0-1 range)"
   },
   "subject": {
     "entities": [
       {
-        "role": "被写体の役割",
-        "appearance": "外見の詳細な記述",
-        "position": "画面内の位置",
-        "movement": "動きやアクション",
-        "expression": "表情や感情（人物の場合）",
-        "clothing": "服装（人物の場合）"
+        "role": "subject role",
+        "appearance": "detailed appearance description",
+        "position": "position in frame",
+        "movement": "movement or action",
+        "expression": "facial expression or emotion (for people)",
+        "clothing": "clothing (for people)"
       }
     ]
   },
   "scene": {
-    "location": "撮影場所",
-    "time_of_day": "時間帯",
-    "weather": "天候（屋外の場合）",
-    "lighting": "照明設定",
-    "environment_details": "環境の詳細"
+    "location": "shooting location",
+    "time_of_day": "time of day",
+    "weather": "weather (for outdoor scenes)",
+    "lighting": "lighting setup",
+    "environment_details": "environmental details"
   },
   "visual_details": {
-    "primary_action": "主要なアクション",
-    "secondary_action": "副次的なアクション",
-    "duration": "シーンの長さ",
-    "resolution": "解像度（例：4K、1080p）",
-    "aspect_ratio": "アスペクト比（例：16:9、9:16、1:1）"
+    "primary_action": "main action",
+    "secondary_action": "secondary action",
+    "duration": "scene duration",
+    "resolution": "resolution (e.g., 4K, 1080p)",
+    "aspect_ratio": "aspect ratio (e.g., 16:9, 9:16, 1:1)"
   },
   "cinematography": {
-    "lighting": "照明の詳細設定",
-    "color_grading": "カラーグレーディング",
-    "style": "撮影スタイル",
-    "tone": "トーンやムード",
-    "visual_effects": "視覚効果（必要な場合）"
+    "lighting": "detailed lighting setup",
+    "color_grading": "color grading",
+    "style": "shooting style",
+    "tone": "tone or mood",
+    "visual_effects": "visual effects (if needed)"
   },
   "audio": {
-    "narration": "ナレーション内容",
-    "voice_tone": "声のトーン",
-    "voice_style": "ナレーションテイスト",
-    "ambience": "環境音",
-    "sound_design": ["効果音のリスト"],
-    "music": "BGMの説明"
+    "narration": "narration content",
+    "voice_tone": "voice tone",
+    "voice_style": "narration style",
+    "ambience": "ambient sound",
+    "sound_design": ["sound effect list"],
+    "music": "BGM description"
   },
   "experience_elements": [
-    "使用した体験要素のリスト"
+    "list of experience elements used"
   ],
   "color_palette": {
-    "primary_colors": ["主要な色"],
-    "secondary_colors": ["補助的な色"],
-    "mood": "色彩が生み出す雰囲気"
+    "primary_colors": ["primary colors"],
+    "secondary_colors": ["secondary colors"],
+    "mood": "mood created by colors"
   },
   "visual_rules": {
-    "prohibited_elements": ["禁止要素のリスト"],
-    "required_elements": ["必須要素のリスト"],
-    "brand_guidelines": "ブランドガイドライン準拠事項"
+    "prohibited_elements": ["list of prohibited elements"],
+    "required_elements": ["list of required elements"],
+    "brand_guidelines": "brand guideline compliance items"
   }
 }
 ```
 
 ## シーン別プロファイル例
 
-### 1. 問題提起シーン（0-5秒）
+### 1. Problem Scene (0-5 seconds)
 ```json
 {
   "shot": {
-    "composition": "ミディアムショット - 人物の胸から上",
-    "camera_motion": "ゆっくりとしたズームイン（5秒で10%）",
+    "composition": "medium shot - person from chest up",
+    "camera_motion": "slow zoom in (10% over 5 seconds)",
     "frame_rate": "24fps",
     "lens": "50mm",
-    "depth_of_field": "f/2.8 - 背景を美しくぼかす",
+    "depth_of_field": "f/2.8 - beautiful background blur",
     "film_grain": 0.03
   },
   "subject": {
     "entities": [
       {
-        "role": "メイン人物 - 困っているビジネスパーソン",
-        "appearance": "30代後半の日本人男性、疲れた表情、やや乱れた髪",
-        "position": "画面中央、やや右寄り",
-        "movement": "深いため息 → 頭を抱える → 画面を見つめる",
-        "expression": "困惑から諦めへの変化",
-        "clothing": "ネイビーのスーツ、ネクタイを緩めた状態、袖まくり"
+        "role": "main character - troubled business person",
+        "appearance": "late 30s male, tired expression, slightly disheveled hair",
+        "position": "center frame, slightly right",
+        "movement": "deep sigh → hold head → stare at screen",
+        "expression": "confusion transitioning to resignation",
+        "clothing": "navy suit, loosened tie, rolled up sleeves"
       },
       {
-        "role": "小道具 - 散らかったデスク",
-        "appearance": "書類の山、付箋だらけのモニター、空のコーヒーカップ3個",
-        "position": "前景から中景にかけて配置"
+        "role": "prop - messy desk",
+        "appearance": "pile of documents, monitor covered in sticky notes, 3 empty coffee cups",
+        "position": "foreground to midground placement"
       }
     ]
   },
   "scene": {
-    "location": "中規模企業のオフィス、個人デスク",
-    "time_of_day": "夜遅く - 21:00頃",
-    "lighting": "デスクライトとPCモニターの光、天井照明は消灯",
-    "environment_details": "他のデスクは無人、窓の外は夜景"
+    "location": "medium-sized company office, personal desk",
+    "time_of_day": "late night - around 9:00 PM",
+    "lighting": "desk lamp and PC monitor glow, ceiling lights off",
+    "environment_details": "other desks empty, city lights visible through window"
   },
   "visual_details": {
-    "primary_action": "エクセルのエラーを見て頭を抱える",
-    "secondary_action": "マウスを焦って動かす、書類をめくる",
-    "duration": "5秒",
+    "primary_action": "holding head while looking at Excel error",
+    "secondary_action": "frantically moving mouse, flipping through papers",
+    "duration": "5 seconds",
     "resolution": "4K (3840x2160)",
     "aspect_ratio": "16:9"
   },
   "cinematography": {
-    "lighting": "低コントラスト、青みがかった照明で疲労感を演出",
-    "color_grading": "寒色系、彩度を20%落とす",
-    "style": "ドキュメンタリー風のリアリズム",
-    "tone": "重苦しい、ストレスフル",
-    "visual_effects": "画面端に軽いビネット効果"
+    "lighting": "low contrast, blue-tinted lighting for fatigue",
+    "color_grading": "cool tones, 20% desaturation",
+    "style": "documentary realism",
+    "tone": "heavy, stressful",
+    "visual_effects": "subtle vignette at edges"
   },
   "audio": {
-    "narration": "まだエクセルで顧客管理していませんか？",
-    "voice_tone": "共感的、やや低めの声",
-    "voice_style": "フレンドリー",
-    "ambience": "静かなオフィス、時計の秒針、PCファンの音",
-    "sound_design": ["深いため息", "キーボードの連打音", "マウスクリック"],
-    "music": "不安を感じさせる低音のドローン"
+    "narration": "Still managing customers with Excel?",
+    "voice_tone": "empathetic, slightly lower voice",
+    "voice_style": "friendly",
+    "ambience": "quiet office, clock ticking, PC fan hum",
+    "sound_design": ["deep sigh", "keyboard typing sounds", "mouse clicks"],
+    "music": "anxiety-inducing low drone"
   },
   "experience_elements": [
-    "個人的な悩み",
-    "共感できる日常的な苦労"
+    "personal struggle",
+    "relatable daily hardship"
   ],
   "color_palette": {
     "primary_colors": ["#1a237e", "#37474f"],
     "secondary_colors": ["#cfd8dc", "#ffeb3b"],
-    "mood": "疲労と閉塞感"
+    "mood": "fatigue and stagnation"
   },
   "visual_rules": {
-    "prohibited_elements": ["笑顔", "明るい色", "整理整頓された環境"],
-    "required_elements": ["エクセルのエラー表示", "時計", "疲労の視覚的表現"],
-    "brand_guidelines": "ロゴは表示しない（問題提起フェーズのため）"
+    "prohibited_elements": ["smiles", "bright colors", "organized environment"],
+    "required_elements": ["Excel error display", "clock", "visual fatigue indicators"],
+    "brand_guidelines": "no logo display (problem phase)"
   }
 }
 ```
 
-### 2. 解決策提示シーン（15-23秒）
+**AI Generation Prompt (Stable Diffusion/Midjourney):**
+"Professional photograph of exhausted businessman in late 30s at messy office desk at night, tired expression, navy suit with loosened tie, pile of documents, sticky notes on monitor, multiple empty coffee cups, desk lamp lighting, blue-tinted atmosphere, documentary style photography, medium shot from chest up, shallow depth of field f/2.8, 50mm lens, cinematic lighting, muted colors, vignette effect, high quality commercial photography, 4K resolution"
+
+**Motion Generation Prompt (RunwayML/Pika Labs):**
+"Static medium shot slowly zooming in 10% over 5 seconds. Subject: tired businessman sighs deeply, holds his head in hands, then looks up at computer screen with resignation. Subtle movements: mouse hand moving frantically, papers being flipped. Background: empty office at night. Camera: smooth, slow zoom on 50mm lens. Lighting: desk lamp and monitor glow creating blue-tinted atmosphere"
+
+### 2. Solution Presentation Scene (15-23 seconds)
 ```json
 {
   "shot": {
-    "composition": "製品デモ画面のクローズアップ → 使用者を含むミディアムショット",
-    "camera_motion": "スムーズな横パン、UI要素を順番に見せる",
-    "frame_rate": "30fps - スムーズな動きを強調",
-    "lens": "35mm相当",
-    "depth_of_field": "f/5.6 - 画面全体をシャープに",
+    "composition": "product demo screen close-up → medium shot including user",
+    "camera_motion": "smooth horizontal pan, revealing UI elements sequentially",
+    "frame_rate": "30fps - emphasizing smooth motion",
+    "lens": "35mm equivalent",
+    "depth_of_field": "f/5.6 - entire frame sharp",
     "film_grain": 0.01
   },
   "subject": {
     "entities": [
       {
-        "role": "製品インターフェース",
-        "appearance": "モダンでクリーンなダッシュボード、青と白を基調",
-        "visual_state": "データが自動更新されるアニメーション",
-        "key_features": "AIアシスタント、自動化ボタン、リアルタイムグラフ",
-        "interactions": "マウスホバーで詳細表示、クリックで即座に反応"
+        "role": "product interface",
+        "appearance": "modern clean dashboard, blue and white theme",
+        "visual_state": "data auto-updating animation",
+        "key_features": "AI assistant, automation buttons, real-time graphs",
+        "interactions": "hover for details, instant click response"
       },
       {
-        "role": "操作する手",
-        "appearance": "清潔でプロフェッショナルな手、腕時計着用",
-        "movement": "自信を持った正確な動き、効率的なジェスチャー",
-        "position": "画面右下から操作"
+        "role": "operating hand",
+        "appearance": "clean professional hand, wearing watch",
+        "movement": "confident precise movements, efficient gestures",
+        "position": "operating from bottom right"
       }
     ]
   },
   "scene": {
-    "location": "明るいモダンオフィス、整理されたデスク",
-    "time_of_day": "昼間 - 自然光が入る",
-    "lighting": "明るく均一な照明、影を最小限に",
-    "environment_details": "観葉植物、整理された書類、コーヒー1杯"
+    "location": "bright modern office, organized desk",
+    "time_of_day": "daytime - natural light",
+    "lighting": "bright even lighting, minimal shadows",
+    "environment_details": "potted plants, organized documents, one coffee cup"
   },
   "visual_details": {
-    "primary_action": "3つの主要機能をデモンストレーション",
-    "secondary_action": "バックグラウンドでのデータ自動処理",
-    "duration": "8秒",
+    "primary_action": "demonstrating 3 key features",
+    "secondary_action": "background data auto-processing",
+    "duration": "8 seconds",
     "resolution": "4K (3840x2160)",
     "aspect_ratio": "16:9"
   },
   "cinematography": {
-    "lighting": "明るく希望に満ちた照明",
-    "color_grading": "暖色系、彩度を15%上げる",
-    "style": "クリーンでプロフェッショナル",
-    "tone": "効率的、革新的",
-    "visual_effects": "UI要素のグロー効果、スムーズなトランジション"
+    "lighting": "bright hopeful illumination",
+    "color_grading": "warm tones, 15% saturation boost",
+    "style": "clean and professional",
+    "tone": "efficient, innovative",
+    "visual_effects": "UI element glow, smooth transitions"
   },
   "audio": {
-    "narration": "AIが自動で分析し、最適な提案を瞬時に作成",
-    "voice_tone": "明るく自信に満ちた声",
-    "voice_style": "プロフェッショナル",
-    "ambience": "活気のあるオフィス環境",
-    "sound_design": ["クリック音", "通知音（成功）", "データ処理音"],
-    "music": "アップビートで前向きなコーポレートBGM"
+    "narration": "AI automatically analyzes and creates optimal suggestions instantly",
+    "voice_tone": "bright confident voice",
+    "voice_style": "professional",
+    "ambience": "lively office environment",
+    "sound_design": ["click sounds", "success notification", "data processing sounds"],
+    "music": "upbeat positive corporate BGM"
   },
   "experience_elements": [
-    "使用中の実感",
-    "驚きと発見"
+    "real usage sensation",
+    "surprise and discovery"
   ],
   "color_palette": {
     "primary_colors": ["#2196f3", "#ffffff"],
     "secondary_colors": ["#4caf50", "#ffc107"],
-    "mood": "清潔感と信頼性"
+    "mood": "cleanliness and reliability"
   }
 }
 ```
 
-### 3. 実績証明シーン（23-27秒）
+**AI Generation Prompt (UI Design/Figma to Image):**
+"Modern SaaS dashboard interface, clean minimalist design, blue and white color scheme, AI assistant widget, automation buttons with glow effect, real-time data graphs updating, professional hand with watch interacting with interface, bright modern office background with natural lighting, potted plants visible, organized workspace, 4K resolution, commercial software photography style"
+
+**Motion Generation Prompt (After Effects/RunwayML):**
+"Camera: smooth horizontal pan from left to right across dashboard interface. Primary action: hand clicks through 3 key features - AI analysis button, automation toggle, real-time graph interaction. UI animations: data updates in real-time, buttons glow on hover, smooth transitions between screens. Duration: 8 seconds at 30fps. Background: subtle depth with modern office environment"
+
+### 3. Proof of Results Scene (23-27 seconds)
 ```json
 {
   "shot": {
-    "composition": "アニメーショングラフィックス中心",
-    "camera_motion": "静止カメラ、グラフィック内で動き",
+    "composition": "animated graphics centered",
+    "camera_motion": "static camera, movement within graphics",
     "frame_rate": "30fps",
-    "lens": "該当なし（モーショングラフィックス）",
-    "depth_of_field": "該当なし",
+    "lens": "not applicable (motion graphics)",
+    "depth_of_field": "not applicable",
     "film_grain": 0
   },
   "subject": {
     "entities": [
       {
-        "role": "統計データビジュアライゼーション",
-        "appearance": "3Dグラフ、円グラフ、数値カウンター",
-        "animation": "0から目標値までカウントアップ（2秒）",
-        "key_metrics": "導入企業500社、満足度98%、ROI 300%"
+        "role": "statistical data visualization",
+        "appearance": "3D graphs, pie charts, number counters",
+        "animation": "count up from 0 to target values (2 seconds)",
+        "key_metrics": "500 companies adopted, 98% satisfaction, 300% ROI"
       },
       {
-        "role": "企業ロゴ群",
-        "appearance": "Fortune 500企業のロゴ20社分",
-        "arrangement": "六角形のハニカムパターンで配置",
-        "animation": "順番にフェードイン、最後に全体が輝く"
+        "role": "company logo collection",
+        "appearance": "20 Fortune 500 company logos",
+        "arrangement": "hexagonal honeycomb pattern",
+        "animation": "sequential fade in, final unified glow"
       }
     ]
   },
   "visual_details": {
-    "primary_action": "数値の段階的な表示とグラフの成長",
-    "secondary_action": "背景でのパーティクル効果",
-    "duration": "4秒",
+    "primary_action": "progressive number display and graph growth",
+    "secondary_action": "background particle effects",
+    "duration": "4 seconds",
     "resolution": "4K (3840x2160)",
     "aspect_ratio": "16:9"
   },
   "cinematography": {
-    "style": "ハイエンドモーショングラフィックス",
-    "color_scheme": "ブランドカラーを基調、ゴールドのアクセント",
-    "animation_style": "イージングを効かせたスムーズな動き"
+    "style": "high-end motion graphics",
+    "color_scheme": "brand colors base, gold accents",
+    "animation_style": "smooth easing movements"
   },
   "audio": {
-    "narration": "大手500社が導入、驚異の満足度98%を達成",
-    "voice_tone": "権威的で信頼感のある声",
-    "voice_style": "プロフェッショナル",
-    "sound_design": ["カウンター音", "達成音", "きらめき音"],
-    "music": "オーケストラ調の壮大なBGM"
+    "narration": "500 leading companies adopted, achieving remarkable 98% satisfaction",
+    "voice_tone": "authoritative and trustworthy voice",
+    "voice_style": "professional",
+    "sound_design": ["counter sounds", "achievement chime", "sparkle effects"],
+    "music": "orchestral epic BGM"
   }
 }
 ```
+
+**AI Generation Prompt (After Effects/Motion Graphics):**
+"High-end corporate motion graphics animation, 3D statistical visualizations, animated bar graphs growing from 0 to 500, pie chart showing 98%, ROI counter animating to 300%, Fortune 500 company logos arranged in hexagonal honeycomb pattern, gold accent colors on brand blue background, particle effects, professional clean design, smooth easing animations, 4K resolution, premium quality"
+
+**Audio Generation Prompt (Voice AI):**
+"Professional male narrator, authoritative tone, clear enunciation, moderate pace, emphasis on numbers '500 companies' and '98% satisfaction', confident delivery, corporate presentation style, subtle enthusiasm without overselling"
 
 ## バリエーション管理
 
 ### フックバリエーション別プロファイル差分
 
-#### パターンA（質問型）追加要素
+#### Pattern A (Question Type) Additional Elements
 ```json
 {
   "variation_specific": {
-    "hook_type": "質問型",
+    "hook_type": "question_type",
     "adjustments": {
       "subject": {
-        "expression": "疑問を持つ表情、眉をひそめる",
-        "additional_graphics": "大きな？マークが頭上に出現"
+        "expression": "questioning expression, furrowed brows",
+        "additional_graphics": "large question mark appearing above head"
       },
       "audio": {
-        "narration_style": "問いかけるような上昇調",
-        "voice_pace": "ややゆっくり、考えさせる間を作る"
+        "narration_style": "rising intonation like asking",
+        "voice_pace": "slightly slower, creating thinking pauses"
       },
       "visual_effects": {
-        "question_mark_animation": "回転しながらフェードイン"
+        "question_mark_animation": "rotate and fade in"
       }
     }
   }
 }
 ```
 
-#### パターンB（恐怖訴求型）追加要素
+**AI Generation Prompt:**
+"Person with confused questioning expression, furrowed eyebrows, looking up with curiosity, large animated question mark floating above head, professional setting, thoughtful pose"
+
+#### Pattern B (Fear Appeal Type) Additional Elements
 ```json
 {
   "variation_specific": {
-    "hook_type": "恐怖訴求型",
+    "hook_type": "fear_appeal_type",
     "adjustments": {
       "scene": {
-        "lighting": "より暗く、赤みを帯びた警告色",
-        "additional_props": "壁に貼られた督促状、赤い警告表示"
+        "lighting": "darker, red-tinted warning colors",
+        "additional_props": "overdue notices on wall, red warning displays"
       },
       "audio": {
-        "narration_style": "切迫感のある早口",
-        "additional_sounds": ["警告アラーム", "心拍音"]
+        "narration_style": "urgent fast-paced delivery",
+        "additional_sounds": ["warning alarm", "heartbeat sound"]
       },
       "visual_effects": {
-        "screen_glitch": "一瞬画面が乱れる演出",
-        "red_flash": "危険を示す赤いフラッシュ"
+        "screen_glitch": "momentary screen distortion effect",
+        "red_flash": "danger indicating red flash"
       }
     }
   }
 }
 ```
+
+**AI Generation Prompt:**
+"Dark office scene with red warning lights, stressed person surrounded by overdue notices, alarm indicators flashing, dramatic red lighting, screen glitch effects, urgent atmosphere, cinematic tension"
 
 ## AIツール別の最適化
 
-### Stable Diffusion / Midjourney用
+### Stable Diffusion / Midjourney
 ```json
 {
   "prompt_optimization": {
@@ -350,7 +374,10 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 }
 ```
 
-### RunwayML / Pika Labs用
+**Example Prompt Template:**
+"[subject description], [action/pose], [environment], [lighting style], [camera angle], commercial photography, professional lighting, 4K quality, [specific style modifiers]"
+
+### RunwayML / Pika Labs
 ```json
 {
   "motion_parameters": {
@@ -367,11 +394,14 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 }
 ```
 
-### ElevenLabs / Murf AI用（音声生成）
+**Motion Prompt Template:**
+"[starting frame description]. Camera: [movement type] [speed]. Subject: [primary action description]. Duration: [X seconds]. Style: [smooth/dynamic/subtle]"
+
+### ElevenLabs / Murf AI (Voice Generation)
 ```json
 {
   "voice_generation": {
-    "voice_id": "professional_japanese_male_01",
+    "voice_id": "professional_male_01",
     "prosody": {
       "pitch": 0,
       "speed": 1.1,
@@ -385,15 +415,18 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 }
 ```
 
+**Voice Direction Prompt:**
+"Professional male voice, slightly concerned but knowledgeable tone, moderate pace with emphasis on key points, clear enunciation, conversational yet authoritative"
+
 ## 品質管理パラメータ
 
-### 一貫性確保
+### Consistency Assurance
 ```json
 {
   "consistency_rules": {
     "character_consistency": {
       "reference_image": "base_character_001.png",
-      "key_features": ["年齢:35", "髪型:ショート", "服装:ビジネス"],
+      "key_features": ["age: 35", "hair: short", "attire: business"],
       "variation_tolerance": 0.1
     },
     "style_consistency": {
@@ -405,7 +438,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 }
 ```
 
-### エラーチェック
+### Error Checking
 ```json
 {
   "quality_checks": {
