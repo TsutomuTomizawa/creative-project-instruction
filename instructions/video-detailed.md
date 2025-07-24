@@ -2,23 +2,49 @@
 
 ## B. 動画広告制作
 
-### 📚 使用ナレッジベース
+### 📚 使用ナレッジベース（モジュール型）
 
 #### 動画広告制作の参照ファイル
 ```yaml
-# ナレーション中心動画広告制作フロー
+# モジュール型ナレッジベース構造
+# インデックス: /knowledge-base/video/index.md
+
+# 優先度ベースの参照戦略
 Phase 0（リサーチ）:
-  - /knowledge-base/video/video-research.md    # 基本情報収集テンプレート、リサーチ分析フレームワーク
+  core: なし（リサーチは独立）
+  standard: 
+    - #AUDIENCE_INSIGHT    # ターゲット分析（作成予定）
+    - #COMPETITOR_ANALYSIS # 競合分析（作成予定）
+  optional: 
+    - #MARKET_RESEARCH     # 市場調査（作成予定）
+  legacy:
+    - /knowledge-base/video/video-research.md # 移行前の参照先
 
 Phase 1（ストーリーフロー構築）:
-  - /knowledge-base/video/video-planning.md    # フック3段階プロセス、ナレーション原稿作成、シーン構成
+  core: 
+    - #HOOK_METHODOLOGY    # フック3段階プロセス
+    - #STORY_PATTERN       # 14種類のストーリーパターン
+    - #NARRATION_TONE      # 5トーン×8体験要素
+  standard: 
+    - #EXPERIENCE_ELEMENTS # 体験要素詳細（作成予定）
+    - #CTA_STRATEGY        # CTA戦略（作成予定）
+  optional: 
+    - #VISUAL_RHYTHM       # ビジュアルリズム（作成予定）
+  legacy:
+    - /knowledge-base/video/video-planning.md # 移行前の参照先
 
 Phase 2（シーン制作）:
-  - /knowledge-base/video/video-planning.md    # ナレーション→シーン変換
-  - /knowledge-base/video/video-output.md      # 制作指示書、AI素材生成プロファイル
+  standard:
+    - #MATERIAL_LIST       # 素材リスト作成（作成予定）
+    - #AI_PROFILE          # AI生成プロファイル（作成予定）
+  optional:
+    - #PLATFORM_OPTIMIZATION # プラットフォーム最適化（作成予定）
+  legacy:
+    - /knowledge-base/video/video-output.md # 移行前の参照先
 
 # ワークフロー:
 # Phase 0 (リサーチ) → Phase 1 (ナレーション原稿作成) → Phase 2 (シーン制作)
+# 各Phaseで必要なモジュールのみを参照（トークン40%削減）
 ```
 
 ## 🔍 準備フェーズ: 初期評価
@@ -72,6 +98,7 @@ Phase 2（シーン制作）:
 
 ※ 詳細な基本情報収集テンプレートは以下を参照：
 → /knowledge-base/video/video-research.md#基本情報収集テンプレート
+（モジュール化完了後: #AUDIENCE_INSIGHT）
 
 提供いただいた情報をもとにリサーチを行い、
 最適な動画構成を提案します。
@@ -140,6 +167,7 @@ Phase 2（シーン制作）:
 
 ※ 詳細なターゲット分析項目は以下を参照：
 → /knowledge-base/video/video-research.md#ターゲット分析テンプレート
+（モジュール化完了後: #AUDIENCE_INSIGHT）
 
 この分析で正しいでしょうか？
 追加・修正があればお聞かせください。
@@ -176,6 +204,7 @@ Phase 2（シーン制作）:
 
 ※ 詳細な配信環境チェックリストは以下を参照：
 → /knowledge-base/video/video-research.md#配信環境チェックリスト
+（モジュール化完了後: #PLATFORM_ANALYSIS）
 
 この情報により、最初の数秒の設計と
 字幕・テロップの重要度が決まります。
@@ -209,6 +238,7 @@ Phase 2（シーン制作）:
 
 ※ 詳細なリサーチ結果統合分析テンプレートは以下を参照：
 → /knowledge-base/video/video-research.md#リサーチ結果統合分析テンプレート
+（モジュール化完了後: #COMPETITOR_ANALYSIS）
 
 この分析をベースに動画構成を設計します。
 修正・追加があればお聞かせください。
@@ -254,8 +284,8 @@ Phase 2（シーン制作）:
 - インパクト度・共感度・行動喚起度で評価
 - この中から最も効果的な1つの訴求型を選定
 
-※ ナレーション作成の詳細な原則・テクニックは以下を参照：
-→ /knowledge-base/video/video-planning.md
+※ フック作成の詳細な原則・テクニックは以下を参照：
+→ #HOOK_METHODOLOGY
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
@@ -303,7 +333,7 @@ Phase 2（シーン制作）:
 - 推奨ターゲット層
 
 ※ 訴求型別バリエーション展開ガイドは以下を参照：
-→ /knowledge-base/video/video-planning.md#フック訴求型別バリエーション展開ガイド
+→ #HOOK_METHODOLOGY（モジュール化完了）
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏸️ バリエーション確認
@@ -356,7 +386,7 @@ Phase 2（シーン制作）:
 - CTAの緊急度
 
 ※ 詳細なナレーション原稿例と作成ガイドは以下を参照：
-→ /knowledge-base/video/video-planning.md#30秒広告ナレーション原稿例
+→ #STORY_PATTERN（モジュール化完了）
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏸️ 完全原稿の確認
@@ -441,8 +471,7 @@ Phase 2（シーン制作）:
   例：「同僚はまだ知らないみたいで」
 
 ※ 詳細なテイスト別ガイドと体験要素の組み込み方は以下を参照：
-→ /knowledge-base/video/video-planning.md#ナレーションテイスト別制作ガイド
-→ /knowledge-base/video/video-planning.md#体験要素の組み込みガイド
+→ #NARRATION_TONE（モジュール化完了）
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏸️ 選択確認
@@ -484,6 +513,7 @@ Phase 2（シーン制作）:
 
 ※ 詳細なシーン変換例と基本原則は以下を参照：
 → /knowledge-base/video/video-planning.md#ナレーション原稿からシーンへの変換
+（モジュール化完了後: #STORY_PATTERN）
 
 ナレーションの意味単位でシーンを区切り、
 キャプションは必ずナレーションと完全一致させます。
@@ -516,6 +546,7 @@ Phase 2（シーン制作）:
 
 ※ 素材リストのフォーマットと作成方法は以下を参照：
 → /knowledge-base/video/video-output.md#シーンごとの素材整理方法
+（モジュール化完了後: #MATERIAL_LIST）
 
 各シーンで必要な素材を：
 - 素材タイプ別に分類
@@ -526,6 +557,7 @@ Phase 2（シーン制作）:
 各素材に対応するJSON Context Profileを
 同時に作成します。
 → /knowledge-base/video/video-output.md#ai素材生成用json-context-profile
+（モジュール化完了後: #AI_PROFILE）
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
@@ -630,6 +662,7 @@ Phase 2（シーン制作）:
   
   ※ 各シーンについて同様の形式で記載
   ※ JSON Context Profileは/knowledge-base/video/video-output.mdのテンプレートを参照
+  （モジュール化完了後: #AI_PROFILE）
 
 - 編集・演出指示
   - バリエーション共通部分

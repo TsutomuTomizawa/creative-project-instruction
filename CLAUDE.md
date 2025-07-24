@@ -41,10 +41,20 @@ creative-project-instruction/
 │   │   ├── 04-components.md           # コンポーネント仕様ガイド
 │   │   ├── 05-copywriting.md          # コピーライティングガイド
 │   │   └── 06-optimization.md         # 最適化Tips集（アーティファクト作成時参照）
-│   └── video/                         # 動画制作ナレッジベース（シンプル化構造）
-│       ├── video-research.md          # リサーチフェーズ総合ガイド
-│       ├── video-planning.md          # 動画制作総合ガイド（ナレーション中心、フック3段階プロセス対応）
-│       └── video-output.md            # 動画広告素材リスト＆AI生成プロファイルガイド
+│   └── video/                         # 動画制作ナレッジベース（モジュール化進行中）
+│       ├── index.md                   # モジュール管理インデックス
+│       ├── modularization-plan.md     # モジュール化計画書
+│       ├── core/                      # コアモジュール（priority: core）
+│       │   ├── #HOOK_METHODOLOGY.md   # フック3段階プロセス
+│       │   ├── #STORY_PATTERN.md      # 14ストーリーパターン
+│       │   └── #NARRATION_TONE.md     # 5トーン×8体験要素
+│       ├── research/                  # リサーチモジュール（作成予定）
+│       ├── planning/                  # プランニングモジュール（作成予定）
+│       ├── output/                    # アウトプットモジュール（作成予定）
+│       ├── archive/                   # 旧ファイル保管場所
+│       ├── video-research.md          # リサーチフェーズ総合ガイド（レガシー）
+│       ├── video-planning.md          # 動画制作総合ガイド（レガシー）
+│       └── video-output.md            # 動画広告素材リスト＆AI生成プロファイルガイド（レガシー）
 ├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
 └── README.md                          # プロジェクト全体説明
 ```
@@ -127,10 +137,13 @@ creative-project-instruction/
    - LP制作: Phase 0.5（モジュール選択）を維持
    - 動画制作: Phase 0 → Phase 1（フック3段階プロセス＋テイスト選択） → Phase 2
 
-6. **動画ナレッジベースの特徴（新フロー）**
-   - 3つのファイルで完結する構造
-   - video-planning.mdにフック3段階プロセスを集約
-   - video-output.mdで素材リストとAI生成プロファイルを支援
+6. **動画ナレッジベースの特徴（モジュール化進行中）**
+   - **モジュール型構造へ移行中**：
+     - コアモジュール3つ完成（#HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE）
+     - index.mdで優先度別アクセス管理
+     - トークン40%削減、応答速度20%向上目標
+   - **レガシー構造**（現在も参照可能）：
+     - video-research.md, video-planning.md, video-output.md
    - Phase 1で「訴求型選定→バリエーション選択→文言展開→テイスト・体験要素選択」の4段階実施
    - 最終成果物：フック文言パターン（5つ以上）＋テイスト別ナレーション＋素材リスト＋AI生成プロファイル
 
@@ -148,4 +161,11 @@ creative-project-instruction/
    - 5つのテイスト（プロフェッショナル、フレンドリー、エネルギッシュ、エモーショナル、ニュートラル）
    - 8つの体験要素（悩み、失敗談、きっかけ、実感、喜び、後悔、驚き、比較）
    - テイストと体験要素の組み合わせで共感度の高いナレーションを生成
+
+10. **モジュール化の進捗管理**
+   - **完了**: coreモジュール3つ、index.md、video-detailed.md更新
+   - **今後の予定**:
+     - Week 2: research/フォルダのモジュール作成
+     - Week 3: planning/フォルダのモジュール作成  
+     - Week 4: output/フォルダのモジュール作成、旧ファイルアーカイブ
 
