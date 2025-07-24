@@ -15,23 +15,20 @@ Phase 0（リサーチ）:
   standard: 
     - #AUDIENCE_INSIGHT    # ターゲット分析
     - #COMPETITOR_ANALYSIS # 競合分析
+    - #PLATFORM_ANALYSIS   # 配信環境分析
   optional: 
     - #MARKET_RESEARCH     # 市場調査
-  legacy:
-    - /knowledge-base/video/archive/video-research.md # 移行前の参照先
 
 Phase 1（ストーリーフロー構築）:
   core: 
     - #HOOK_METHODOLOGY    # フック3段階プロセス
-    - #STORY_PATTERN       # 14種類のストーリーパターン
-    - #NARRATION_TONE      # 5トーン×8体験要素
+    - #STORY_PATTERN       # 14種類のストーリーパターン（1.2-1.5倍速対応）
+    - #NARRATION_TONE      # 5トーン×8体験要素（1.2-1.5倍速対応）
   standard: 
     - #EXPERIENCE_ELEMENTS # 体験要素詳細
     - #CTA_STRATEGY        # CTA戦略
   optional: 
     - #VISUAL_RHYTHM       # ビジュアルリズム
-  legacy:
-    - /knowledge-base/video/archive/video-planning.md # 移行前の参照先
 
 Phase 2（シーン制作）:
   standard:
@@ -39,8 +36,6 @@ Phase 2（シーン制作）:
     - #AI_PROFILE          # AI生成プロファイル
   optional:
     - #PLATFORM_OPTIMIZATION # プラットフォーム最適化
-  legacy:
-    - /knowledge-base/video/archive/video-output.md # 移行前の参照先
 
 # ワークフロー:
 # Phase 0 (リサーチ) → Phase 1 (ナレーション原稿作成) → Phase 2 (シーン制作)
@@ -97,8 +92,7 @@ Phase 2（シーン制作）:
 - 参考情報（あれば）
 
 ※ 詳細な基本情報収集テンプレートは以下を参照：
-→ /knowledge-base/video/archive/video-research.md#基本情報収集テンプレート
-（モジュール化完了後: #AUDIENCE_INSIGHT）
+→ #AUDIENCE_INSIGHT
 
 提供いただいた情報をもとにリサーチを行い、
 最適な動画構成を提案します。
@@ -166,8 +160,7 @@ Phase 2（シーン制作）:
 リサーチ結果に基づいてターゲット層を分析しました。
 
 ※ 詳細なターゲット分析項目は以下を参照：
-→ /knowledge-base/video/archive/video-research.md#ターゲット分析テンプレート
-（モジュール化完了後: #AUDIENCE_INSIGHT）
+→ #AUDIENCE_INSIGHT
 
 この分析で正しいでしょうか？
 追加・修正があればお聞かせください。
@@ -203,8 +196,7 @@ Phase 2（シーン制作）:
 - CTA形式
 
 ※ 詳細な配信環境チェックリストは以下を参照：
-→ /knowledge-base/video/archive/video-research.md#配信環境チェックリスト
-（モジュール化完了後: #PLATFORM_ANALYSIS）
+→ #PLATFORM_ANALYSIS
 
 この情報により、最初の数秒の設計と
 字幕・テロップの重要度が決まります。
@@ -237,8 +229,7 @@ Phase 2（シーン制作）:
 [リサーチから導き出した主要ポイントを表示]
 
 ※ 詳細なリサーチ結果統合分析テンプレートは以下を参照：
-→ /knowledge-base/video/archive/video-research.md#リサーチ結果統合分析テンプレート
-（モジュール化完了後: #COMPETITOR_ANALYSIS）
+→ #COMPETITOR_ANALYSIS
 
 この分析をベースに動画構成を設計します。
 修正・追加があればお聞かせください。
@@ -333,7 +324,7 @@ Phase 2（シーン制作）:
 - 推奨ターゲット層
 
 ※ 訴求型別バリエーション展開ガイドは以下を参照：
-→ #HOOK_METHODOLOGY（モジュール化完了）
+→ #HOOK_METHODOLOGY
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏸️ バリエーション確認
@@ -386,7 +377,7 @@ Phase 2（シーン制作）:
 - CTAの緊急度
 
 ※ 詳細なナレーション原稿例と作成ガイドは以下を参照：
-→ #STORY_PATTERN（モジュール化完了）
+→ #STORY_PATTERN
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏸️ 完全原稿の確認
@@ -471,7 +462,7 @@ Phase 2（シーン制作）:
   例：「同僚はまだ知らないみたいで」
 
 ※ 詳細なテイスト別ガイドと体験要素の組み込み方は以下を参照：
-→ #NARRATION_TONE（モジュール化完了）
+→ #NARRATION_TONE
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ⏸️ 選択確認
@@ -512,8 +503,7 @@ Phase 2（シーン制作）:
 ビジュアル、キャプション、音響を設計します。
 
 ※ 詳細なシーン変換例と基本原則は以下を参照：
-→ /knowledge-base/video/archive/video-planning.md#ナレーション原稿からシーンへの変換
-（モジュール化完了後: #STORY_PATTERN）
+→ #STORY_PATTERN
 
 ナレーションの意味単位でシーンを区切り、
 キャプションは必ずナレーションと完全一致させます。
@@ -545,8 +535,7 @@ Phase 2（シーン制作）:
 必要な素材リストを作成します。
 
 ※ 素材リストのフォーマットと作成方法は以下を参照：
-→ /knowledge-base/video/archive/video-output.md#シーンごとの素材整理方法
-（モジュール化完了後: #MATERIAL_LIST）
+→ #MATERIAL_LIST
 
 各シーンで必要な素材を：
 - 素材タイプ別に分類
@@ -556,8 +545,7 @@ Phase 2（シーン制作）:
 🤖 **AI素材生成プロファイルの作成**
 各素材に対応するJSON Context Profileを
 同時に作成します。
-→ /knowledge-base/video/archive/video-output.md#ai素材生成用json-context-profile
-（モジュール化完了後: #AI_PROFILE）
+→ #AI_PROFILE
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
@@ -661,8 +649,7 @@ Phase 2（シーン制作）:
   ```
   
   ※ 各シーンについて同様の形式で記載
-  ※ JSON Context Profileは/knowledge-base/video/video-output.mdのテンプレートを参照
-  （モジュール化完了後: #AI_PROFILE）
+  ※ JSON Context Profileは#AI_PROFILEのテンプレートを参照
 
 - 編集・演出指示
   - バリエーション共通部分
@@ -702,6 +689,9 @@ Phase 2（シーン制作）:
 ### 概要
 エクセルで疲弊しているビジネスパーソンを描写し、時間の無駄を視覚的に表現
 
+### ナレーション原稿（1.2-1.5倍速対応）
+「エクセル管理で年間20時間もムダにしていませんか？毎日の集計作業、データの照合、エラーの修正…もううんざりですよね」
+
 ### 必要な素材
 1. 疲れたビジネスパーソン（デスクで頭を抱える）
 2. 散らかったデスク環境（書類の山、複数のモニター）
@@ -732,8 +722,9 @@ Phase 2（シーン制作）:
     "lighting": "デスクライトのみ、全体的に薄暗い"
   },
   "audio": {
-    "narration": "エクセル管理で年間20時間もムダにしていませんか？",
-    "voice_tone": "共感的、やや低めの声"
+    "narration": "エクセル管理で年間20時間もムダにしていませんか？毎日の集計作業、データの照合、エラーの修正…もううんざりですよね",
+    "voice_tone": "共感的、やや低めの声",
+    "speech_rate": "1.3倍速（75文字/5秒）"
   }
 }
 ```

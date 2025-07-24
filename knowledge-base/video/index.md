@@ -21,7 +21,8 @@
 **推奨参照順序:**
 1. `standard`: [#AUDIENCE_INSIGHT](research/#AUDIENCE_INSIGHT.md) ✅
 2. `standard`: [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md) ✅
-3. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md) ✅
+3. `standard`: [#PLATFORM_ANALYSIS](research/#PLATFORM_ANALYSIS.md) ✅
+4. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md) ✅
 
 ### Phase 1: プランニング
 **推奨参照順序:**
@@ -73,6 +74,9 @@
 ### プラットフォーム別に最適化したい
 → [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md)
 
+### 配信環境を分析したい
+→ [#PLATFORM_ANALYSIS](research/#PLATFORM_ANALYSIS.md)
+
 ## 📈 パフォーマンス最適化のヒント
 
 ### コンテキスト節約のコツ
@@ -116,6 +120,7 @@
 | output | #MATERIAL_LIST | ✅ 完了 | standard |
 | output | #AI_PROFILE | ✅ 完了 | standard |
 | output | #PLATFORM_OPTIMIZATION | ✅ 完了 | optional |
+| output | #PLATFORM_ANALYSIS | ✅ 完了 | standard |
 
 ---
 

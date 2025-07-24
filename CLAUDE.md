@@ -76,7 +76,8 @@ creative-project-instruction/
 │       ├── output/                    # アウトプットモジュール
 │       │   ├── #AI_PROFILE.md         # AI生成プロファイル
 │       │   ├── #MATERIAL_LIST.md      # 素材リスト作成
-│       │   └── #PLATFORM_OPTIMIZATION.md # プラットフォーム最適化
+│       │   ├── #PLATFORM_OPTIMIZATION.md # プラットフォーム最適化
+│       │   └── #PLATFORM_ANALYSIS.md  # 配信環境分析
 │       └── archive/                   # 旧ファイル保管場所
 │           ├── modularization-plan.md # モジュール化計画書（完了）
 │           ├── video-research.md      # リサーチフェーズ総合ガイド（レガシー）
@@ -92,7 +93,7 @@ creative-project-instruction/
 - **Phase 0（リサーチ）**: #MARKET_ANALYSIS, #PERSONA_CREATION, #COMPETITOR_MAPPING（LP） / #AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH（動画）
 - **Phase 0.5（選択）**: #MODULE_SELECTION（LP） / なし（動画）
 - **Phase 1（構成）**: #STORY_MODULES, #FLOW_DESIGN（LP） / #HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE（動画）
-- **Phase 2（制作）**: #COMPONENT_LIBRARY, #COPYWRITING_FORMULAS（LP） / #AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION（動画）
+- **Phase 2（制作）**: #COMPONENT_LIBRARY, #COPYWRITING_FORMULAS（LP） / #AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION, #PLATFORM_ANALYSIS（動画）
 - **アーティファクト作成時**: #OPTIMIZATION_GUIDE（LP） / #AI_PROFILE, #MATERIAL_LIST（動画・素材リスト＆AI生成Profile出力）
 
 ## 🚨 変更チェックリスト
@@ -166,11 +167,11 @@ creative-project-instruction/
 
 6. **動画ナレッジベースの特徴（モジュール化完了）**
    - **モジュール型構造**：
-     - 12個のモジュールすべて完成
+     - 13個のモジュールすべて完成
      - コアモジュール3つ：#HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE
      - リサーチモジュール3つ：#AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH
      - プランニングモジュール3つ：#CTA_STRATEGY, #EXPERIENCE_ELEMENTS, #VISUAL_RHYTHM
-     - アウトプットモジュール3つ：#AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION
+     - アウトプットモジュール4つ：#AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION, #PLATFORM_ANALYSIS
      - index.mdで優先度別アクセス管理
      - トークン40%削減、応答速度20%向上達成
    - **レガシーファイル**（archiveフォルダに保管）：
@@ -195,7 +196,7 @@ creative-project-instruction/
 
 10. **モジュール化の完了**
    - **完了済み**: 
-     - 全12モジュールの作成完了
+     - 全13モジュールの作成完了
      - index.mdでの管理体制確立
      - video-detailed.mdの更新完了
      - レガシーファイルのアーカイブ完了
