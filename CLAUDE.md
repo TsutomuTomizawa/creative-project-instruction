@@ -47,7 +47,7 @@
 - [ ] `custom-instructions/essential.md` の参照部分
 - [ ] knowledge-base内の関連ファイル
 - [ ] Phase構成の整合性
-- [ ] 自動リサーチ実行の記述（video-detailed.mdの場合）
+- [ ] 自動リサーチ実行の記述（両detailed.mdファイル）
 
 ## 📂 現在のディレクトリ構造
 
@@ -76,20 +76,13 @@ creative-project-instruction/
 │   │   │   ├── #MODULE_SELECTION.md   # ストーリーパターン選択ガイド
 │   │   │   ├── #STORY_MODULES.md      # ストーリーモジュール集
 │   │   │   └── #FLOW_DESIGN.md        # セクション間フロー設計
-│   │   ├── output/                    # アウトプットモジュール
-│   │   │   ├── #LP_VISUAL_PATTERNS.md # セクション別ビジュアルパターン
-│   │   │   ├── #LP_COPY_PATTERNS.md   # セクション別コピーパターン
-│   │   │   ├── #LP_MATERIAL_SYSTEM.md # LP素材管理システム
-│   │   │   ├── #COMPONENT_LIBRARY.md  # コンポーネントライブラリ
-│   │   │   ├── #COPYWRITING_FORMULAS.md # コピーライティング公式
-│   │   │   └── #OPTIMIZATION_GUIDE.md # 最適化ガイド
-│   │   └── archive/                   # 旧ファイル保管場所
-│   │       ├── 01-research.md         # リサーチフェーズ総合ガイド（レガシー）
-│   │       ├── 02-module-selection.md # モジュール選択ガイド（レガシー）
-│   │       ├── 03-story-modules.md    # ストーリーモジュール集（レガシー）
-│   │       ├── 04-components.md       # コンポーネント仕様ガイド（レガシー）
-│   │       ├── 05-copywriting.md      # コピーライティングガイド（レガシー）
-│   │       └── 06-optimization.md     # 最適化Tips集（レガシー）
+│   │   └── output/                    # アウトプットモジュール
+│   │       ├── #LP_VISUAL_PATTERNS.md # セクション別ビジュアルパターン
+│   │       ├── #LP_COPY_PATTERNS.md   # セクション別コピーパターン
+│   │       ├── #LP_MATERIAL_SYSTEM.md # LP素材管理システム
+│   │       ├── #COMPONENT_LIBRARY.md  # コンポーネントライブラリ
+│   │       ├── #COPYWRITING_FORMULAS.md # コピーライティング公式
+│   │       └── #OPTIMIZATION_GUIDE.md # 最適化ガイド
 │   └── video/                         # 動画制作ナレッジベース（モジュール化完了）
 │       ├── index.md                   # モジュール管理インデックス
 │       ├── core/                      # コアモジュール（priority: core）
@@ -209,10 +202,11 @@ creative-project-instruction/
    - Phase 1で「訴求型選定→バリエーション選択→文言展開→テイスト・体験要素選択」の4段階実施
    - 最終成果物：フック文言パターン（5つ以上）＋テイスト別ナレーション＋素材リスト＋AI生成プロファイル
 
-7. **自動リサーチ機能（動画制作）**
-   - video-detailed.mdのステップ0-1完了後に自動実行
+7. **自動リサーチ機能**
+   - **動画制作**: video-detailed.mdのステップ0-1完了後に自動実行
+   - **LP制作**: lp-detailed.mdのステップ1（基本情報収集）完了後に自動実行
    - WebSearchとWebFetchツールを活用
-   - 商品理解、競合分析、プラットフォーム調査を自動化
+   - 競合分析、業界トレンド、チャネル別成功パターンを自動収集
 
 8. **動画素材管理の新アプローチ**
    - video-output.mdで素材リストとAI生成プロファイルに特化
