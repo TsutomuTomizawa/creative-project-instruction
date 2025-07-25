@@ -34,11 +34,12 @@
 **推奨参照順序:**
 1. `core`: [#LP_STORY_PATTERNS](planning/#LP_STORY_PATTERNS.md)
 2. `core`: [#SECTION_STRUCTURE](planning/#SECTION_STRUCTURE.md)
-3. `standard`: [#MODULE_SELECTION](planning/#MODULE_SELECTION.md)
-4. `standard`: [#FLOW_DESIGN](planning/#FLOW_DESIGN.md)
-5. `core`: [#VALUE_PROPOSITION](core/#VALUE_PROPOSITION.md)
-6. `core`: [#TRUST_BUILDING](core/#TRUST_BUILDING.md)
-7. `core`: [#ACTION_DRIVER](core/#ACTION_DRIVER.md)
+3. `core`: [#SECTION_DESIGN_WORKSHOP](tools/#SECTION_DESIGN_WORKSHOP.md)
+4. `standard`: [#MODULE_SELECTION](planning/#MODULE_SELECTION.md)
+5. `standard`: [#FLOW_DESIGN](planning/#FLOW_DESIGN.md)
+6. `core`: [#VALUE_PROPOSITION](core/#VALUE_PROPOSITION.md)
+7. `core`: [#TRUST_BUILDING](core/#TRUST_BUILDING.md)
+8. `core`: [#ACTION_DRIVER](core/#ACTION_DRIVER.md)
 
 ### Phase 2: セクション制作
 **推奨参照順序:**
@@ -59,6 +60,9 @@
 
 ### セクション構成を設計したい
 → [#SECTION_STRUCTURE](planning/#SECTION_STRUCTURE.md)
+
+### 統合的にセクション設計したい
+→ [#SECTION_DESIGN_WORKSHOP](tools/#SECTION_DESIGN_WORKSHOP.md)
 
 ### ビジュアルパターンを選びたい
 → [#LP_VISUAL_PATTERNS](output/#LP_VISUAL_PATTERNS.md)
@@ -122,6 +126,7 @@
 - 新規モジュール6つ追加
 - 既存モジュールの更新
 - Phase構成の再定義
+- セクション統合設計ワークショップツール追加
 
 ### 2025-01-24
 - モジュール化初版リリース
@@ -150,6 +155,7 @@
 | output | #COMPONENT_LIBRARY | ✅ 完了 | standard |
 | output | #COPYWRITING_FORMULAS | ✅ 完了 | standard |
 | output | #OPTIMIZATION_GUIDE | ✅ 完了 | optional |
+| tools | #SECTION_DESIGN_WORKSHOP | ✅ 完了 | core |
 
 ## 📌 商材タイプ別推奨モジュール
 
