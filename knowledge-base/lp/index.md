@@ -27,8 +27,9 @@
 **推奨参照順序:**
 1. `standard`: [#CHANNEL_ANALYSIS](research/#CHANNEL_ANALYSIS.md)
 2. `standard`: [#MARKET_ANALYSIS](research/#MARKET_ANALYSIS.md)
-3. `standard`: [#PERSONA_CREATION](research/#PERSONA_CREATION.md)
-4. `optional`: [#COMPETITOR_MAPPING](research/#COMPETITOR_MAPPING.md)
+3. `core`: [#AUTO_RESEARCH_LP](research/#AUTO_RESEARCH_LP.md) - 自動実行
+4. `standard`: [#PERSONA_CREATION](research/#PERSONA_CREATION.md)
+5. `optional`: [#COMPETITOR_MAPPING](research/#COMPETITOR_MAPPING.md)
 
 ### Phase 1: ストーリー設計
 **推奨参照順序:**
@@ -86,6 +87,9 @@
 
 ### 競合を調査したい
 → [#COMPETITOR_MAPPING](research/#COMPETITOR_MAPPING.md)
+
+### 自動リサーチを活用したい
+→ [#AUTO_RESEARCH_LP](research/#AUTO_RESEARCH_LP.md)
 
 ### フローを設計したい
 → [#FLOW_DESIGN](planning/#FLOW_DESIGN.md)
