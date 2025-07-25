@@ -1,7 +1,7 @@
 ---
 marker: #AI_PROFILE
-prefix: "OUTPUT_CONTEXT: AI生成プロファイル - 素材生成用の詳細なJSON Context Profile"
-title: AI生成プロファイル作成ガイド
+prefix: "OUTPUT_CONTEXT: AI生成プロファイル参照ガイド - 素材生成用の詳細なJSON Context Profile仕様"
+title: AI生成プロファイル参照ガイド
 priority: standard
 cache_hint: dynamic
 category: output
@@ -17,10 +17,12 @@ version: 1.0
 last_updated: 2025-01-24
 ---
 
-# OUTPUT_CONTEXT: AI生成プロファイル - 素材生成用の詳細なJSON Context Profile
+# OUTPUT_CONTEXT: AI生成プロファイル参照ガイド - 素材生成用の詳細なJSON Context Profile仕様
 
 ## 概要
-AI素材生成ツールが理解し、高品質な素材を生成できるよう、詳細なコンテキスト情報を構造化したJSON形式で提供するガイドです。
+AI素材生成ツールが理解し、高品質な素材を生成できるよう、詳細なコンテキスト情報を構造化したJSON形式で提供するための参照ガイドです。
+
+**注意**: 実際の素材リスト作成時は、#MATERIAL_LISTモジュールを使用し、各素材の下にJSONプロファイルとAIプロンプトを配置してください。本モジュールは、JSONプロファイルの仕様と作成方法の参照用です。
 
 ## JSON Context Profileの基本構造
 

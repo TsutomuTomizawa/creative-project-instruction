@@ -35,8 +35,8 @@
 
 ### Phase 2: アウトプット
 **推奨参照順序:**
-1. `standard`: [#MATERIAL_LIST](output/#MATERIAL_LIST.md) ✅
-2. `standard`: [#AI_PROFILE](output/#AI_PROFILE.md) ✅
+1. `standard`: [#MATERIAL_LIST](output/#MATERIAL_LIST.md) ✅（AI生成プロファイル統合版）
+2. `standard`: [#AI_PROFILE](output/#AI_PROFILE.md) ✅（参照用）
 3. `optional`: [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md) ✅
 
 ## 🎯 目的別モジュール検索
@@ -65,11 +65,11 @@
 ### CTAを最適化したい
 → [#CTA_STRATEGY](planning/#CTA_STRATEGY.md)
 
-### 素材リストを作りたい
-→ [#MATERIAL_LIST](output/#MATERIAL_LIST.md)
+### 素材リスト・AI生成プロファイルを作りたい
+→ [#MATERIAL_LIST](output/#MATERIAL_LIST.md)（統合版：各素材にJSON・プロンプト配置）
 
-### AI生成用プロファイルを作りたい
-→ [#AI_PROFILE](output/#AI_PROFILE.md)
+### AI生成プロファイルの仕様を確認したい
+→ [#AI_PROFILE](output/#AI_PROFILE.md)（参照用）
 
 ### プラットフォーム別に最適化したい
 → [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md)
@@ -93,6 +93,11 @@
 ```
 
 ## 🔄 更新履歴
+
+### 2025-07-25
+- #MATERIAL_LISTをAI生成プロファイル統合版に更新
+- #AI_PROFILEを参照用として位置づけ変更
+- 配信設定（プラットフォーム・尺）を初期段階に追加
 
 ### 2025-01-24
 - モジュール化初版リリース
