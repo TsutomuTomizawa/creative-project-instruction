@@ -61,13 +61,6 @@ creative-project-instruction/
 │   │   │   ├── #COMPONENT_LIBRARY.md  # コンポーネントライブラリ
 │   │   │   ├── #COPYWRITING_FORMULAS.md # コピーライティング公式
 │   │   │   └── #OPTIMIZATION_GUIDE.md # 最適化ガイド
-│   │   └── archive/                   # 旧ファイル保管場所
-│   │       ├── 01-research.md         # リサーチフェーズガイド（レガシー）
-│   │       ├── 02-module-selection.md # モジュール選択ガイド（レガシー）
-│   │       ├── 03-story-modules.md    # ストーリーモジュール集（レガシー）
-│   │       ├── 04-components.md       # コンポーネント仕様（レガシー）
-│   │       ├── 05-copywriting.md      # コピーライティングガイド（レガシー）
-│   │       └── 06-optimization.md     # 最適化Tips集（レガシー）
 │   └── video/                         # 動画制作ナレッジベース（モジュール化完了）
 │       ├── index.md                   # モジュール管理インデックス
 │       ├── core/                      # コアモジュール（priority: core）
@@ -86,10 +79,6 @@ creative-project-instruction/
 │       │   ├── #AI_PROFILE.md         # AI生成プロファイル
 │       │   ├── #MATERIAL_LIST.md      # 素材リスト作成
 │       │   └── #PLATFORM_OPTIMIZATION.md # プラットフォーム最適化
-│       └── archive/                   # 旧ファイル保管場所
-│           ├── video-research.md      # リサーチフェーズ総合ガイド（レガシー）
-│           ├── video-planning.md      # 動画制作総合ガイド（レガシー）
-│           └── video-output.md        # 動画広告素材リスト＆AI生成プロファイルガイド（レガシー）
 ├── CLAUDE.md                          # 依存関係管理ガイド
 └── README.md                          # プロジェクト説明（このファイル）
 ```

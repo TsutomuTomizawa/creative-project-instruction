@@ -102,11 +102,6 @@ creative-project-instruction/
 │       │   ├── #MATERIAL_LIST.md      # 素材リスト作成
 │       │   ├── #PLATFORM_OPTIMIZATION.md # プラットフォーム最適化
 │       │   └── #PLATFORM_ANALYSIS.md  # 配信環境分析
-│       └── archive/                   # 旧ファイル保管場所
-│           ├── modularization-plan.md # モジュール化計画書（完了）
-│           ├── video-research.md      # リサーチフェーズ総合ガイド（レガシー）
-│           ├── video-planning.md      # 動画制作総合ガイド（レガシー）
-│           └── video-output.md        # 動画広告素材リスト＆AI生成プロファイルガイド（レガシー）
 ├── CLAUDE.md                          # 依存関係管理ガイド（このファイル）
 └── README.md                          # プロジェクト全体説明
 ```
@@ -192,13 +187,11 @@ creative-project-instruction/
    - **モジュール型構造**：
      - 13個のモジュールすべて完成
      - コアモジュール3つ：#HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE
-     - リサーチモジュール3つ：#AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH
+     - リサーチモジュール4つ：#AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH, #PLATFORM_ANALYSIS
      - プランニングモジュール3つ：#CTA_STRATEGY, #EXPERIENCE_ELEMENTS, #VISUAL_RHYTHM
-     - アウトプットモジュール4つ：#AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION, #PLATFORM_ANALYSIS
+     - アウトプットモジュール3つ：#AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION
      - index.mdで優先度別アクセス管理
      - トークン40%削減、応答速度20%向上達成
-   - **レガシーファイル**（archiveフォルダに保管）：
-     - video-research.md, video-planning.md, video-output.md
    - Phase 1で「訴求型選定→バリエーション選択→文言展開→テイスト・体験要素選択」の4段階実施
    - 最終成果物：フック文言パターン（5つ以上）＋テイスト別ナレーション＋素材リスト＋AI生成プロファイル
 
@@ -225,7 +218,6 @@ creative-project-instruction/
      - 両方のindex.mdでの管理体制確立
      - video-detailed.mdの更新完了
      - lp-detailed.mdの完全再構築完了
-     - レガシーファイルのアーカイブ完了
    - **運用フェーズ**:
      - 必要に応じてモジュール内容の改善
      - 新規モジュールの追加検討
