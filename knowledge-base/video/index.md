@@ -20,10 +20,9 @@
 ### Phase 0: リサーチ
 **推奨参照順序:**
 1. `standard`: [#AUDIENCE_INSIGHT](research/#AUDIENCE_INSIGHT.md) ✅
-2. `core`: [#AUTO_RESEARCH_VIDEO](research/#AUTO_RESEARCH_VIDEO.md) - 自動実行
-3. `standard`: [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md) ✅
-4. `standard`: [#PLATFORM_ANALYSIS](research/#PLATFORM_ANALYSIS.md) ✅
-5. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md) ✅
+2. `standard`: [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md) ✅
+3. `standard`: [#PLATFORM_ANALYSIS](research/#PLATFORM_ANALYSIS.md) ✅
+4. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md) ✅
 
 ### Phase 1: プランニング
 **推奨参照順序:**
@@ -77,9 +76,6 @@
 
 ### 配信環境を分析したい
 → [#PLATFORM_ANALYSIS](research/#PLATFORM_ANALYSIS.md)
-
-### 自動リサーチを活用したい
-→ [#AUTO_RESEARCH_VIDEO](research/#AUTO_RESEARCH_VIDEO.md)
 
 ## 📈 パフォーマンス最適化のヒント
 
