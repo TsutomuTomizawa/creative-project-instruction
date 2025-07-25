@@ -66,14 +66,20 @@ creative-project-instruction/
 │   │   │   ├── #ACTION_DRIVER.md      # 行動促進モジュール
 │   │   │   └── #TRUST_BUILDING.md     # 信頼構築モジュール
 │   │   ├── research/                  # リサーチモジュール
+│   │   │   ├── #CHANNEL_ANALYSIS.md   # 広告チャネル分析
 │   │   │   ├── #MARKET_ANALYSIS.md    # 市場分析
 │   │   │   ├── #PERSONA_CREATION.md   # ペルソナ作成
 │   │   │   └── #COMPETITOR_MAPPING.md # 競合分析
 │   │   ├── planning/                  # プランニングモジュール
-│   │   │   ├── #MODULE_SELECTION.md   # モジュール選択ガイド
+│   │   │   ├── #LP_STORY_PATTERNS.md  # 5つの基本ストーリーパターン
+│   │   │   ├── #SECTION_STRUCTURE.md  # 標準6セクション構成
+│   │   │   ├── #MODULE_SELECTION.md   # ストーリーパターン選択ガイド
 │   │   │   ├── #STORY_MODULES.md      # ストーリーモジュール集
-│   │   │   └── #FLOW_DESIGN.md        # フロー設計
+│   │   │   └── #FLOW_DESIGN.md        # セクション間フロー設計
 │   │   ├── output/                    # アウトプットモジュール
+│   │   │   ├── #LP_VISUAL_PATTERNS.md # セクション別ビジュアルパターン
+│   │   │   ├── #LP_COPY_PATTERNS.md   # セクション別コピーパターン
+│   │   │   ├── #LP_MATERIAL_SYSTEM.md # LP素材管理システム
 │   │   │   ├── #COMPONENT_LIBRARY.md  # コンポーネントライブラリ
 │   │   │   ├── #COPYWRITING_FORMULAS.md # コピーライティング公式
 │   │   │   └── #OPTIMIZATION_GUIDE.md # 最適化ガイド
@@ -115,11 +121,10 @@ creative-project-instruction/
 ## 📊 ファイルの役割と使用タイミング
 
 ### Phase別の参照ファイル
-- **Phase 0（リサーチ）**: #MARKET_ANALYSIS, #PERSONA_CREATION, #COMPETITOR_MAPPING（LP） / #AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH（動画）
-- **Phase 0.5（選択）**: #MODULE_SELECTION（LP） / なし（動画）
-- **Phase 1（構成）**: #STORY_MODULES, #FLOW_DESIGN（LP） / #HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE（動画）
-- **Phase 2（制作）**: #COMPONENT_LIBRARY, #COPYWRITING_FORMULAS（LP） / #AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION, #PLATFORM_ANALYSIS（動画）
-- **アーティファクト作成時**: #OPTIMIZATION_GUIDE（LP） / #AI_PROFILE, #MATERIAL_LIST（動画・素材リスト＆AI生成Profile出力）
+- **Phase 0（リサーチ）**: #CHANNEL_ANALYSIS, #MARKET_ANALYSIS, #PERSONA_CREATION, #COMPETITOR_MAPPING（LP） / #AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH（動画）
+- **Phase 1（ストーリー設計）**: #LP_STORY_PATTERNS, #SECTION_STRUCTURE, #MODULE_SELECTION, #FLOW_DESIGN（LP） / #HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE（動画）
+- **Phase 2（セクション制作）**: #LP_VISUAL_PATTERNS, #LP_COPY_PATTERNS, #LP_MATERIAL_SYSTEM, #COMPONENT_LIBRARY, #COPYWRITING_FORMULAS（LP） / #AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION, #PLATFORM_ANALYSIS（動画）
+- **アーティファクト作成時**: #OPTIMIZATION_GUIDE, #LP_MATERIAL_SYSTEM（LP） / #AI_PROFILE, #MATERIAL_LIST（動画・素材リスト＆AI生成Profile出力）
 
 ## 🚨 変更チェックリスト
 
@@ -140,7 +145,7 @@ creative-project-instruction/
    - [ ] コマンド名も更新されているか確認
 
 4. **Phase構成を変更した場合**
-   - [ ] LP制作: Phase 0 → Phase 0.5 → Phase 1 → Phase 2
+   - [ ] LP制作: Phase 0 → Phase 1 → Phase 2（Phase 0.5は廃止、2025-01-25）
    - [ ] 動画制作: Phase 0 → Phase 1 → Phase 2
    - [ ] ナレッジベースの参照が適切か確認
 
@@ -187,7 +192,7 @@ creative-project-instruction/
    - 大きな変更後は全体レビューを実施
 
 5. **Phase構成の違い**
-   - LP制作: Phase 0.5（モジュール選択）を維持
+   - LP制作: Phase 0（チャネル分析重視） → Phase 1（ストーリー設計） → Phase 2（セクション制作）
    - 動画制作: Phase 0 → Phase 1（フック3段階プロセス＋テイスト選択） → Phase 2
 
 6. **動画ナレッジベースの特徴（モジュール化完了）**
@@ -221,15 +226,34 @@ creative-project-instruction/
 
 10. **モジュール化の完了**
    - **完了済み**: 
-     - 全13モジュールの作成完了
-     - index.mdでの管理体制確立
+     - 動画：全13モジュールの作成完了
+     - LP：全18モジュールの作成完了（2025-01-25大改革）
+     - 両方のindex.mdでの管理体制確立
      - video-detailed.mdの更新完了
+     - lp-detailed.mdの完全再構築完了
      - レガシーファイルのアーカイブ完了
    - **運用フェーズ**:
      - 必要に応じてモジュール内容の改善
      - 新規モジュールの追加検討
      - ユーザーフィードバックに基づく最適化
      - **重要**: モジュール更新時は必ずindex.mdも同時に検証・更新
+
+11. **LP制作システムの大改革（2025-01-25完了）**
+   - **新アプローチ**: チャネルファースト・ストーリー型設計への転換
+   - **Phase構成の刷新**:
+     - Phase 0: リサーチ（#CHANNEL_ANALYSIS主導）
+     - Phase 1: ストーリー設計（#LP_STORY_PATTERNS + #SECTION_STRUCTURE）
+     - Phase 2: セクション制作（視覚×コピー×素材の統合管理）
+   - **新規モジュール6つ追加**:
+     - #CHANNEL_ANALYSIS: 広告チャネル特性分析
+     - #LP_STORY_PATTERNS: 5つの基本ストーリーパターン
+     - #SECTION_STRUCTURE: 標準6セクション構成
+     - #LP_VISUAL_PATTERNS: セクション別ビジュアルパターン
+     - #LP_COPY_PATTERNS: セクション別コピーパターン
+     - #LP_MATERIAL_SYSTEM: 素材管理システム
+   - **既存モジュール更新**:
+     - #MODULE_SELECTION: ストーリーパターン選択へ進化
+     - #FLOW_DESIGN: セクション間接続最適化へ特化
 
 ## 📋 モジュールのメタデータ管理
 
