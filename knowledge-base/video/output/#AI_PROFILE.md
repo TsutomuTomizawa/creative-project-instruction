@@ -13,8 +13,8 @@ conversation_tracking:
   - 作成したプロファイル
   - 使用したAIツール
   - 生成パラメータ
-version: 1.0
-last_updated: 2025-01-24
+version: 1.1
+last_updated: 2025-01-25
 ---
 
 # OUTPUT_CONTEXT: AI生成プロファイル参照ガイド - 素材生成用の詳細なJSON Context Profile仕様
@@ -111,11 +111,11 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
     "entities": [
       {
         "role": "main character - troubled business person",
-        "appearance": "late 30s male, tired expression, slightly disheveled hair",
+        "appearance": "30代後半の日本人男性、疲れた表情、やや乱れた髪",
         "position": "center frame, slightly right",
         "movement": "deep sigh → hold head → stare at screen",
         "expression": "confusion transitioning to resignation",
-        "clothing": "navy suit, loosened tie, rolled up sleeves"
+        "clothing": "紺色のスーツ、緩めたネクタイ、まくり上げた袖"
       },
       {
         "role": "prop - messy desk",
@@ -170,10 +170,10 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 ```
 
 **AI Generation Prompt (Stable Diffusion/Midjourney):**
-"Professional photograph of exhausted businessman in late 30s at messy office desk at night, tired expression, navy suit with loosened tie, pile of documents, sticky notes on monitor, multiple empty coffee cups, desk lamp lighting, blue-tinted atmosphere, documentary style photography, medium shot from chest up, shallow depth of field f/2.8, 50mm lens, cinematic lighting, muted colors, vignette effect, high quality commercial photography, 4K resolution"
+"Professional photograph of exhausted Japanese businessman in his late 30s at messy office desk at night, tired expression, navy suit with loosened tie, pile of documents, sticky notes on monitor, multiple empty coffee cups, desk lamp lighting, blue-tinted atmosphere, documentary style photography, medium shot from chest up, shallow depth of field f/2.8, 50mm lens, cinematic lighting, muted colors, vignette effect, high quality commercial photography, 4K resolution"
 
 **Motion Generation Prompt (RunwayML/Pika Labs):**
-"Static medium shot slowly zooming in 10% over 5 seconds. Subject: tired businessman sighs deeply, holds his head in hands, then looks up at computer screen with resignation. Subtle movements: mouse hand moving frantically, papers being flipped. Background: empty office at night. Camera: smooth, slow zoom on 50mm lens. Lighting: desk lamp and monitor glow creating blue-tinted atmosphere"
+"Static medium shot slowly zooming in 10% over 5 seconds. Subject: tired Japanese businessman sighs deeply, holds his head in hands, then looks up at computer screen with resignation. Subtle movements: mouse hand moving frantically, papers being flipped. Background: empty office at night. Camera: smooth, slow zoom on 50mm lens. Lighting: desk lamp and monitor glow creating blue-tinted atmosphere"
 
 ### 2. Solution Presentation Scene (15-23 seconds)
 ```json
@@ -197,7 +197,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
       },
       {
         "role": "operating hand",
-        "appearance": "clean professional hand, wearing watch",
+        "appearance": "日本人のきれいなプロフェッショナルな手、腕時計着用",
         "movement": "confident precise movements, efficient gestures",
         "position": "operating from bottom right"
       }
@@ -244,7 +244,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 ```
 
 **AI Generation Prompt (UI Design/Figma to Image):**
-"Modern SaaS dashboard interface, clean minimalist design, blue and white color scheme, AI assistant widget, automation buttons with glow effect, real-time data graphs updating, professional hand with watch interacting with interface, bright modern office background with natural lighting, potted plants visible, organized workspace, 4K resolution, commercial software photography style"
+"Modern SaaS dashboard interface, clean minimalist design, blue and white color scheme, AI assistant widget, automation buttons with glow effect, real-time data graphs updating, Japanese professional hand with watch interacting with interface, bright modern office background with natural lighting, potted plants visible, organized workspace, 4K resolution, commercial software photography style"
 
 **Motion Generation Prompt (After Effects/RunwayML):**
 "Camera: smooth horizontal pan from left to right across dashboard interface. Primary action: hand clicks through 3 key features - AI analysis button, automation toggle, real-time graph interaction. UI animations: data updates in real-time, buttons glow on hover, smooth transitions between screens. Duration: 8 seconds at 30fps. Background: subtle depth with modern office environment"
@@ -331,7 +331,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 ```
 
 **AI Generation Prompt:**
-"Person with confused questioning expression, furrowed eyebrows, looking up with curiosity, large animated question mark floating above head, professional setting, thoughtful pose"
+"Japanese person with confused questioning expression, furrowed eyebrows, looking up with curiosity, large animated question mark floating above head, professional setting, thoughtful pose"
 
 #### Pattern B (Fear Appeal Type) Additional Elements
 ```json
@@ -357,7 +357,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 ```
 
 **AI Generation Prompt:**
-"Dark office scene with red warning lights, stressed person surrounded by overdue notices, alarm indicators flashing, dramatic red lighting, screen glitch effects, urgent atmosphere, cinematic tension"
+"Dark office scene with red warning lights, stressed Japanese person surrounded by overdue notices, alarm indicators flashing, dramatic red lighting, screen glitch effects, urgent atmosphere, cinematic tension"
 
 ## AIツール別の最適化
 
@@ -377,7 +377,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 ```
 
 **Example Prompt Template:**
-"[subject description], [action/pose], [environment], [lighting style], [camera angle], commercial photography, professional lighting, 4K quality, [specific style modifiers]"
+"[subject description - Japanese person if human], [action/pose], [environment], [lighting style], [camera angle], commercial photography, professional lighting, 4K quality, [specific style modifiers]"
 
 ### RunwayML / Pika Labs
 ```json
@@ -418,7 +418,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 ```
 
 **Voice Direction Prompt:**
-"Professional male voice, slightly concerned but knowledgeable tone, moderate pace with emphasis on key points, clear enunciation, conversational yet authoritative"
+"Professional Japanese male voice, slightly concerned but knowledgeable tone, moderate pace with emphasis on key points, clear enunciation, conversational yet authoritative"
 
 ## 品質管理パラメータ
 
@@ -427,6 +427,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 {
   "consistency_rules": {
     "character_consistency": {
+      "ethnicity": "Japanese",
       "reference_image": "base_character_001.png",
       "key_features": ["age: 35", "hair: short", "attire: business"],
       "variation_tolerance": 0.1
@@ -457,6 +458,29 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
   }
 }
 ```
+
+## 人物生成の基本ガイドライン
+
+### デフォルト設定
+1. **人物の国籍**
+   - 特に指定がない限り、人物は日本人として生成
+   - 日本のビジネスシーンに適した外見と服装
+   - 国際的な設定が必要な場合は明示的に指定
+
+2. **外見の特徴**
+   - 年齢：ターゲット層に合わせて設定（20代後半〜40代が一般的）
+   - 服装：日本のビジネスカジュアルまたはフォーマル
+   - 表情：シーンに応じた自然な日本人の表情
+
+3. **プロンプトでの指定方法**
+   - 必ず "Japanese" を人物描写に含める
+   - 例："Japanese businessman", "Japanese office worker", "Japanese professional"
+   - 具体的な年齢層も日本語表記可（例："30代後半の日本人男性"）
+
+4. **音声生成での配慮**
+   - ナレーション音声も日本人話者を基本とする
+   - 自然な日本語のイントネーションとペース
+   - 必要に応じて方言や話し方の特徴を指定
 
 ## 実装のベストプラクティス
 

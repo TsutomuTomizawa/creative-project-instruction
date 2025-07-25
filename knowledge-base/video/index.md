@@ -36,7 +36,7 @@
 ### Phase 2: アウトプット
 **推奨参照順序:**
 1. `standard`: [#MATERIAL_LIST](output/#MATERIAL_LIST.md) ✅（AI生成プロファイル統合版）
-2. `standard`: [#AI_PROFILE](output/#AI_PROFILE.md) ✅（参照用）
+2. `standard`: [#AI_PROFILE](output/#AI_PROFILE.md) ✅（参照用・日本人デフォルト対応）
 3. `optional`: [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md) ✅
 
 ## 🎯 目的別モジュール検索
@@ -69,7 +69,7 @@
 → [#MATERIAL_LIST](output/#MATERIAL_LIST.md)（統合版：各素材にJSON・プロンプト配置）
 
 ### AI生成プロファイルの仕様を確認したい
-→ [#AI_PROFILE](output/#AI_PROFILE.md)（参照用）
+→ [#AI_PROFILE](output/#AI_PROFILE.md)（参照用・日本人デフォルト対応）
 
 ### プラットフォーム別に最適化したい
 → [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md)
