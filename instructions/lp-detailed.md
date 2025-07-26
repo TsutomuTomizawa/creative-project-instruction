@@ -2,42 +2,6 @@
 
 ## A. ランディングページ制作
 
-### 📚 使用ナレッジベース
-
-#### LP制作の参照モジュール
-```yaml
-# モジュール型LP制作フロー
-コアモジュール:
-  - #LP_STORY_PATTERNS   # LPストーリーパターン（必須）
-  - #SECTION_STRUCTURE   # セクション構成（必須）
-  - #VALUE_PROPOSITION   # 価値提示モジュール（必須）
-  - #TRUST_BUILDING      # 信頼構築モジュール（必須）
-  - #ACTION_DRIVER       # 行動促進モジュール（必須）
-
-リサーチフェーズ:
-  - #CHANNEL_ANALYSIS    # チャネル分析（新規）
-  - #MARKET_ANALYSIS     # 市場分析
-  - #PERSONA_CREATION    # ペルソナ作成
-  - #COMPETITOR_MAPPING  # 競合分析
-
-プランニングフェーズ:
-  - #LP_STORY_PATTERNS   # ストーリーパターン選択
-  - #SECTION_STRUCTURE   # セクション構成設計
-  - #FLOW_DESIGN         # フロー設計
-  - #SECTION_DESIGN_WORKSHOP # 統合設計ワークショップ（新規）
-
-アウトプットフェーズ:
-  - #LP_VISUAL_PATTERNS  # ビジュアルパターン（新規）
-  - #LP_COPY_PATTERNS    # コピーパターン（新規）
-  - #LP_MATERIAL_SYSTEM  # 素材管理システム（新規）
-  - #COMPONENT_LIBRARY   # コンポーネントライブラリ
-  - #COPYWRITING_FORMULAS # コピーライティング公式
-  - #OPTIMIZATION_GUIDE  # 最適化ガイド
-
-# ワークフロー:
-# Phase 0 (リサーチ) → Phase 1 (ストーリー設計) → Phase 2 (セクション制作)
-```
-
 ## 📋 Phase 0: リサーチ（要件定義）
 
 ### 配信チャネル設定（最初に実施）
