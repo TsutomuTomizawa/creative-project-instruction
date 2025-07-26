@@ -67,7 +67,7 @@ Phase 2（シーン制作）:
 ```yaml
 ステップ0-1A: 基本情報収集
   内容: 商品/サービス情報の整理
-  参照: → #AUDIENCE_INSIGHT
+  参照: → /knowledge-base/video/research/AUDIENCE_INSIGHT.md
   実施内容:
     - 商品/サービス名の確認
     - 商品カテゴリの特定
@@ -116,22 +116,22 @@ Phase 2（シーン制作）:
 
 ステップ0-2: ターゲット分析
   内容: 詳細なペルソナ設定
-  参照: → #AUDIENCE_INSIGHT
+  参照: → /knowledge-base/video/research/AUDIENCE_INSIGHT.md
   前提: ステップ0-1Bの自動リサーチ結果を活用
 
 ステップ0-3: 配信環境確認
   内容: プラットフォーム仕様の確認
-  参照: → #PLATFORM_ANALYSIS
+  参照: → /knowledge-base/video/output/PLATFORM_ANALYSIS.md
   前提: ステップ0-1Bで収集したプラットフォーム情報を活用
 
 ステップ0-4: 競合分析
   内容: 競合動画広告の分析
-  参照: → #COMPETITOR_ANALYSIS
+  参照: → /knowledge-base/video/research/COMPETITOR_ANALYSIS.md
   前提: ステップ0-1Bで収集した競合情報を活用
 
 ステップ0-5: 市場調査（必要に応じて）
   内容: 業界トレンドの把握
-  参照: → #MARKET_RESEARCH
+  参照: → /knowledge-base/video/research/MARKET_RESEARCH.md
 ```
 
 ※ 各項目の詳細はナレッジベースモジュールを参照
@@ -143,11 +143,11 @@ Phase 2（シーン制作）:
 ナレーション原稿とストーリー構成を作成します。
 
 ### 実施項目
-1. **フック作成** → #HOOK_METHODOLOGY
-2. **ストーリーパターン選択** → #STORY_PATTERN
-3. **ナレーション原稿作成** → #NARRATION_TONE
-4. **体験要素の組み込み** → #EXPERIENCE_ELEMENTS
-5. **CTA設計** → #CTA_STRATEGY
+1. **フック作成** → /knowledge-base/video/core/HOOK_METHODOLOGY.md
+2. **ストーリーパターン選択** → /knowledge-base/video/core/STORY_PATTERN.md
+3. **ナレーション原稿作成** → /knowledge-base/video/core/NARRATION_TONE.md
+4. **体験要素の組み込み** → /knowledge-base/video/planning/EXPERIENCE_ELEMENTS.md
+5. **CTA設計** → /knowledge-base/video/planning/CTA_STRATEGY.md
 
 ※ 各項目の詳細はナレッジベースモジュールを参照
 
@@ -157,10 +157,10 @@ Phase 2（シーン制作）:
 ナレーション原稿に基づいて、シーン構成と素材を作成します。
 
 ### 実施項目
-1. **シーン構成作成** → #STORY_PATTERN
-2. **素材リスト作成** → #MATERIAL_LIST
-3. **AI生成プロファイル作成** → #AI_PROFILE
-4. **プラットフォーム最適化**（必要に応じて） → #PLATFORM_OPTIMIZATION
+1. **シーン構成作成** → /knowledge-base/video/core/STORY_PATTERN.md
+2. **素材リスト作成** → /knowledge-base/video/output/MATERIAL_LIST.md
+3. **AI生成プロファイル作成** → /knowledge-base/video/output/AI_PROFILE.md
+4. **プラットフォーム最適化**（必要に応じて） → /knowledge-base/video/output/PLATFORM_OPTIMIZATION.md
 
 ※ 各項目の詳細はナレッジベースモジュールを参照
 
@@ -169,6 +169,6 @@ Phase 2（シーン制作）:
 動画制作の最終段階で、以下のアーティファクトを作成します：
 
 1. **動画構成表** - ナレーション原稿とシーン構成
-2. **素材リスト（AI生成プロファイル統合版）** - #MATERIAL_LISTのフォーマットに従って、各素材の下にJSONプロファイルとAIプロンプトを配置
+2. **素材リスト（AI生成プロファイル統合版）** - /knowledge-base/video/output/MATERIAL_LIST.mdのフォーマットに従って、各素材の下にJSONプロファイルとAIプロンプトを配置
 
-※ 具体的なフォーマットは#MATERIAL_LISTモジュールを参照
+※ 具体的なフォーマットは/knowledge-base/video/output/MATERIAL_LIST.mdモジュールを参照

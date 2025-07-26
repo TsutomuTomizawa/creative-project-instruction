@@ -44,7 +44,7 @@
 ```yaml
 チャネル設定:
   内容: 広告流入チャネルの特定と分析
-  参照: → #CHANNEL_ANALYSIS
+  参照: → /knowledge-base/lp/research/CHANNEL_ANALYSIS.md
   
   設定項目:
     - 広告プラットフォーム（Google/Facebook/Yahoo等）
@@ -57,7 +57,7 @@
 実施ステップ:
   ステップ1-A: 
     内容: 基本情報・参考情報の収集
-    参照: → #MARKET_ANALYSIS
+    参照: → /knowledge-base/lp/research/MARKET_ANALYSIS.md
     実施内容:
       - 商品/サービス名の確認
       - 商品カテゴリの特定
@@ -106,16 +106,16 @@
     
   ステップ2:
     内容: ターゲット分析
-    参照: → #PERSONA_CREATION
+    参照: → /knowledge-base/lp/research/PERSONA_CREATION.md
     前提: ステップ1-Bの自動リサーチ結果を活用
     
   ステップ3:
     内容: チャネル別流入分析
-    参照: → #CHANNEL_ANALYSIS
+    参照: → /knowledge-base/lp/research/CHANNEL_ANALYSIS.md
     
   ステップ4:
     内容: 競合LP分析
-    参照: → #COMPETITOR_MAPPING
+    参照: → /knowledge-base/lp/research/COMPETITOR_MAPPING.md
     前提: ステップ1-Bで収集した競合情報を活用
 ```
 
@@ -127,7 +127,7 @@
 実施ステップ:
   ステップ5:
     内容: LPストーリーパターン選択
-    参照: → #LP_STORY_PATTERNS
+    参照: → /knowledge-base/lp/planning/LP_STORY_PATTERNS.md
     実施項目:
       - 5つの基本パターンから選択
       - チャネル×商品特性での判定
@@ -135,7 +135,7 @@
     
   ステップ6:
     内容: セクション構成設計
-    参照: → #SECTION_STRUCTURE
+    参照: → /knowledge-base/lp/planning/SECTION_STRUCTURE.md
     実施項目:
       - 標準6セクション構成の採用
       - 各セクションの役割定義
@@ -143,7 +143,7 @@
 
   ステップ7:
     内容: セクション統合設計ワークショップ
-    参照: → #SECTION_DESIGN_WORKSHOP
+    参照: → /knowledge-base/lp/planning/SECTION_DESIGN_WORKSHOP.md
     実施項目:
       - ストーリーパターンに基づくセクション構成
       - ユーザー心理状態の定義
@@ -169,16 +169,16 @@
     
     各セクションで実施:
       1. 役割と効果の確認
-         参照: → #SECTION_STRUCTURE
+         参照: → /knowledge-base/lp/planning/SECTION_STRUCTURE.md
          
       2. ビジュアルパターン選択
-         参照: → #LP_VISUAL_PATTERNS
+         参照: → /knowledge-base/lp/output/LP_VISUAL_PATTERNS.md
          
       3. コピーパターン選択
-         参照: → #LP_COPY_PATTERNS
+         参照: → /knowledge-base/lp/output/LP_COPY_PATTERNS.md
          
       4. 素材定義
-         参照: → #LP_MATERIAL_SYSTEM
+         参照: → /knowledge-base/lp/output/LP_MATERIAL_SYSTEM.md
 
 セクション制作の流れ:
   - セクションの心理的役割確認
@@ -195,7 +195,7 @@
 LP制作の最終段階で、以下のアーティファクトを作成します：
 
 1. **LP構成表** - 全セクションの構成とコンテンツ
-2. **素材リスト** - #LP_MATERIAL_SYSTEMのフォーマットに従って、各素材の役割・効果・AI生成プロファイルを統合
+2. **素材リスト** - /knowledge-base/lp/output/LP_MATERIAL_SYSTEM.mdのフォーマットに従って、各素材の役割・効果・AI生成プロファイルを統合
 
 ※ 具体的なフォーマットは各ナレッジベースモジュールを参照
 
