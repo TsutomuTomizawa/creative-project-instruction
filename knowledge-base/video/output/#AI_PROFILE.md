@@ -61,7 +61,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
     "secondary_action": "secondary action",
     "duration": "scene duration",
     "resolution": "resolution (e.g., 4K, 1080p)",
-    "aspect_ratio": "aspect ratio (e.g., 16:9, 9:16, 1:1)"
+    "aspect_ratio": "aspect ratio (default: 9:16, alternatives: 16:9, 1:1)"
   },
   "cinematography": {
     "lighting": "detailed lighting setup",
@@ -111,11 +111,11 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
     "entities": [
       {
         "role": "main character - troubled business person",
-        "appearance": "30代後半の日本人男性、疲れた表情、やや乱れた髪",
+        "appearance": "Japanese male in late 30s, tired expression, slightly disheveled hair",
         "position": "center frame, slightly right",
         "movement": "deep sigh → hold head → stare at screen",
         "expression": "confusion transitioning to resignation",
-        "clothing": "紺色のスーツ、緩めたネクタイ、まくり上げた袖"
+        "clothing": "navy blue suit, loosened tie, rolled up sleeves"
       },
       {
         "role": "prop - messy desk",
@@ -135,7 +135,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
     "secondary_action": "frantically moving mouse, flipping through papers",
     "duration": "5 seconds",
     "resolution": "4K (3840x2160)",
-    "aspect_ratio": "16:9"
+    "aspect_ratio": "9:16"
   },
   "cinematography": {
     "lighting": "low contrast, blue-tinted lighting for fatigue",
@@ -197,7 +197,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
       },
       {
         "role": "operating hand",
-        "appearance": "日本人のきれいなプロフェッショナルな手、腕時計着用",
+        "appearance": "clean professional Japanese hands with wristwatch",
         "movement": "confident precise movements, efficient gestures",
         "position": "operating from bottom right"
       }
@@ -214,7 +214,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
     "secondary_action": "background data auto-processing",
     "duration": "8 seconds",
     "resolution": "4K (3840x2160)",
-    "aspect_ratio": "16:9"
+    "aspect_ratio": "9:16"
   },
   "cinematography": {
     "lighting": "bright hopeful illumination",
@@ -281,7 +281,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
     "secondary_action": "background particle effects",
     "duration": "4 seconds",
     "resolution": "4K (3840x2160)",
-    "aspect_ratio": "16:9"
+    "aspect_ratio": "9:16"
   },
   "cinematography": {
     "style": "high-end motion graphics",
@@ -475,7 +475,7 @@ AI素材生成ツールが理解し、高品質な素材を生成できるよう
 3. **プロンプトでの指定方法**
    - 必ず "Japanese" を人物描写に含める
    - 例："Japanese businessman", "Japanese office worker", "Japanese professional"
-   - 具体的な年齢層も日本語表記可（例："30代後半の日本人男性"）
+   - 具体的な年齢層も英語表記（例："Japanese male in late 30s"）
 
 4. **音声生成での配慮**
    - ナレーション音声も日本人話者を基本とする

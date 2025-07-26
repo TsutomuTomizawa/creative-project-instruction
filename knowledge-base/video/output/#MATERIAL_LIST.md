@@ -90,7 +90,7 @@ last_updated: 2025-01-24
 ##### 素材詳細
 - タイプ：[映像/画像/UI/グラフィック等]
 - 用途：[具体的な使用シーン]
-- 仕様：[解像度、尺、フォーマット等]
+- 仕様：[9:16（1080x1920）、尺、MP4フォーマット]
 - 優先度：[必須/推奨/オプション]
 - 準備状況：[未着手/準備中/完了]
 
@@ -106,6 +106,48 @@ last_updated: 2025-01-24
 - [素材同士の配置関係]
 - [タイミングの関係]
 - [視覚的な繋がり]
+```
+
+### 実装例（英語プロンプト）
+
+```markdown
+## シーン1（0-5秒）：問題提起シーン
+
+### シーン概要
+視聴者の共感を得るため、日常的な業務の悩みを視覚化
+
+### ナレーション原稿
+"Still managing customers with Excel? It's time for a change."
+
+### 必要素材リスト
+
+#### 素材1：疲れたビジネスパーソン
+##### 素材詳細
+- タイプ：映像
+- 用途：メインビジュアル
+- 仕様：4K、5秒、MP4
+- 優先度：必須
+- 準備状況：未着手
+
+##### AI生成情報
+- JSONプロファイル形式：→ #AI_PROFILEの「JSON Context Profileの基本構造」参照
+- 必要な要素：shot, subject, scene, visual_details
+- AI生成プロンプト：
+  **Stable Diffusion/Midjourney**: "Professional photograph of exhausted Japanese businessman in late 30s at messy office desk at night, tired expression, navy suit with loosened tie, pile of documents, sticky notes on monitor, multiple empty coffee cups, desk lamp lighting, blue-tinted atmosphere, documentary style photography, medium shot from chest up, shallow depth of field f/2.8, 50mm lens, cinematic lighting, muted colors, vignette effect, high quality commercial photography, 4K resolution"
+  
+  **Motion Generation (RunwayML/Pika Labs)**: "Static medium shot slowly zooming in 10% over 5 seconds. Subject: tired Japanese businessman sighs deeply, holds his head in hands, then looks up at computer screen with resignation. Subtle movements: mouse hand moving frantically, papers being flipped. Background: empty office at night. Camera: smooth, slow zoom on 50mm lens. Lighting: desk lamp and monitor glow creating blue-tinted atmosphere"
+
+#### 素材2：エラー画面のモニター
+##### 素材詳細
+- タイプ：UI画像
+- 用途：問題の視覚化
+- 仕様：1920x1080、PNG
+- 優先度：必須
+- 準備状況：未着手
+
+##### AI生成情報
+- AI生成プロンプト：
+  **UI Design**: "Excel spreadsheet with error messages, red warning dialogs, messy data cells, frozen screen interface, multiple error popups, corporate data management interface gone wrong, realistic Excel UI, Windows environment, frustrating user experience visualization"
 ```
 
 ### 活用例の参照先
@@ -248,7 +290,7 @@ project_name/
 
 ## プラットフォーム別考慮事項
 
-### YouTube（16:9）
+### TikTok/Instagram Reels/YouTube Shorts（9:16縦型主体）
 ```
 必須対応：
 - 高解像度素材（4K推奨）
@@ -261,17 +303,32 @@ project_name/
 - 字幕ファイル準備
 ```
 
-### Instagram/TikTok（9:16）
 ```
 必須対応：
-- 縦型用素材準備
-- モバイル画面サイズ考慮
-- テキストの視認性確保
+- 9:16縦型（1080x1920）デフォルト
+- 60秒ストーリー構成を基準
+- モバイルファーストな画面設計
+- テキストサイズは大きめ（視認性重視）
+- 縦位置での撮影/フレーミング
+
+推奨事項：
+- 上下20%は操作エリアとしてセーフゾーン
+- TikTok: ループ可能な終わり方
+- Instagram: 保存促進要素
+- Shorts: サムネイルのインパクト
+```
+
+### YouTube（従来型16:9）
+```
+必須対応：
+- 高解像度素材（4K推奨）
+- 横長レイアウト最適化
+- エンドスクリーン用スペース確保
 
 推奨対応：
-- 正方形版も準備
-- ストーリーズ用調整
-- インタラクティブ要素配置
+- チャプター区切り考慮
+- サムネイル用静止画
+- 字幕ファイル準備
 ```
 
 ### ナレーション原稿管理
@@ -279,9 +336,9 @@ project_name/
 #### 倍速ナレーション対応
 ```
 文字数ガイドライン（1.2-1.5倍速基準）:
-- 15秒動画: 60-90文字
+- 60秒動画（推奨）: 240-360文字
 - 30秒動画: 120-180文字
-- 60秒動画: 240-360文字
+- 15秒動画: 60-90文字
 
 原稿作成時のポイント:
 - 明瞭な発音を意識した文章構成
@@ -298,9 +355,9 @@ project_name/
 - テキストは中央60%内
 
 アスペクト比変換：
-- 16:9 → 1:1：上下カット
-- 16:9 → 9:16：ズーム＆クロップ
-- 素材は最大サイズで準備
+- 9:16（マスター）→ 1:1：上下を適切にトリミング
+- 9:16（マスター）→ 16:9：左右に背景追加またはブラー
+- 素材は9:16縦型を基準に最大サイズで準備
 ```
 
 ## トラブルシューティング

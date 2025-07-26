@@ -7,19 +7,20 @@
 基本情報を収集し、必要に応じて自動リサーチを実行します。
 
 ### 配信設定（必須）
-1. **広告配信先プラットフォーム**
-   - YouTube（インストリーム、バンパー、Shorts）
-   - Instagram（Stories、Reels、フィード）
-   - TikTok（インフィード）
-   - Facebook（フィード、Stories）
+1. **広告配信先プラットフォーム**（9:16縦型対応優先）
+   - TikTok（インフィード）※9:16必須
+   - Instagram（Stories、Reels）※9:16推奨
+   - YouTube Shorts ※9:16専用
+   - Facebook（Stories）※9:16推奨
+   - YouTube（インストリーム、バンパー）※16:9
    - X（Twitter）
    - LINE VOOM
    
 2. **動画尺の設定**
-   - 6秒（バンパー広告）
-   - 15秒（標準短尺）
+   - **60秒（推奨・基準）** ← ストーリー性と情報量のバランスが最適
    - 30秒（標準）
-   - 60秒（長尺）
+   - 15秒（短尺）
+   - 6秒（バンパー広告）
    - カスタム尺
 
 ### リサーチステップ
@@ -129,5 +130,7 @@
 
 1. **動画構成表** - ナレーション原稿とシーン構成
 2. **素材リスト（AI生成プロファイル統合版）** - /knowledge-base/video/output/MATERIAL_LIST.mdのフォーマットに従って、各素材の下にJSONプロファイルとAIプロンプトを配置
+
+**重要**: AI生成用のJSONプロファイルおよびプロンプトは、AI生成ツールの性能を最大化するため、すべて英語で出力されます。これは、Stable Diffusion、RunwayML、ElevenLabsなどの主要なAIツールが英語プロンプトで最適に動作するためです。
 
 ※ 具体的なフォーマットは/knowledge-base/video/output/MATERIAL_LIST.mdモジュールを参照
