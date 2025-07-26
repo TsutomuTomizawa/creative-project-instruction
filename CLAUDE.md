@@ -87,8 +87,8 @@ creative-project-instruction/
 │       ├── index.md                   # モジュール管理インデックス
 │       ├── core/                      # コアモジュール（priority: core）
 │       │   ├── #HOOK_METHODOLOGY.md   # フック3段階プロセス
-│       │   ├── #STORY_PATTERN.md      # 14ストーリーパターン
-│       │   └── #NARRATION_TONE.md     # 5トーン×8体験要素
+│       │   ├── #STORY_PATTERN.md      # 15ストーリーパターン
+│       │   └── #NARRATION_TONE.md     # 6トーン×8体験要素
 │       ├── research/                  # リサーチモジュール
 │       │   ├── #AUDIENCE_INSIGHT.md   # ターゲット分析
 │       │   ├── #COMPETITOR_ANALYSIS.md # 競合分析
@@ -183,15 +183,14 @@ creative-project-instruction/
    - LP制作: Phase 0（チャネル分析重視） → Phase 1（ストーリー設計） → Phase 2（セクション制作）
    - 動画制作: Phase 0 → Phase 1（フック3段階プロセス＋テイスト選択） → Phase 2
 
-6. **動画ナレッジベースの特徴（モジュール化完了）**
+6. **動画ナレッジベースの特徴**
    - **モジュール型構造**：
-     - 13個のモジュールすべて完成
+     - 13個のモジュール（3つのコア、10個の補助モジュール）
      - コアモジュール3つ：#HOOK_METHODOLOGY, #STORY_PATTERN, #NARRATION_TONE
-     - リサーチモジュール4つ：#AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH, #PLATFORM_ANALYSIS
+     - リサーチモジュール3つ：#AUDIENCE_INSIGHT, #COMPETITOR_ANALYSIS, #MARKET_RESEARCH
      - プランニングモジュール3つ：#CTA_STRATEGY, #EXPERIENCE_ELEMENTS, #VISUAL_RHYTHM
-     - アウトプットモジュール3つ：#AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION
+     - アウトプットモジュール4つ：#AI_PROFILE, #MATERIAL_LIST, #PLATFORM_OPTIMIZATION, #PLATFORM_ANALYSIS
      - index.mdで優先度別アクセス管理
-     - トークン40%削減、応答速度20%向上達成
    - Phase 1で「訴求型選定→バリエーション選択→文言展開→テイスト・体験要素選択」の4段階実施
    - 最終成果物：フック文言パターン（5つ以上）＋テイスト別ナレーション＋素材リスト＋AI生成プロファイル
 
@@ -207,18 +206,15 @@ creative-project-instruction/
    - バリエーション管理とプラットフォーム最適化を強化
 
 9. **ナレーションテイスト機能（動画制作）**
-   - 5つのテイスト（プロフェッショナル、フレンドリー、エネルギッシュ、エモーショナル、ニュートラル）
+   - 6つのテイスト（プロフェッショナル、フレンドリー、エネルギッシュ、エモーショナル、ニュートラル、親密）
    - 8つの体験要素（悩み、失敗談、きっかけ、実感、喜び、後悔、驚き、比較）
    - テイストと体験要素の組み合わせで共感度の高いナレーションを生成
+   - 親密トーンは年代別カスタマイズに対応
 
-10. **モジュール化の完了**
-   - **完了済み**: 
-     - 動画：全13モジュールの作成完了
-     - LP：全18モジュールの作成完了（2025-01-25大改革）
-     - 両方のindex.mdでの管理体制確立
-     - video-detailed.mdの更新完了
-     - lp-detailed.mdの完全再構築完了
-   - **運用フェーズ**:
+10. **モジュール管理体制**
+   - **動画**: 13モジュール（コア3、リサーチ3、プランニング3、アウトプット4）
+   - **LP**: 18モジュール（2025-01-25大改革により整理）
+   - **運用方針**:
      - 必要に応じてモジュール内容の改善
      - 新規モジュールの追加検討
      - ユーザーフィードバックに基づく最適化

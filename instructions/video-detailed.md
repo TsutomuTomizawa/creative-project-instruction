@@ -83,7 +83,7 @@
 
 ステップ0-3: 配信環境確認
   内容: プラットフォーム仕様の確認
-  参照: → /knowledge-base/video/output/PLATFORM_ANALYSIS.md
+  参照: → /knowledge-base/video/output/#PLATFORM_ANALYSIS.md
   前提: ステップ0-1Bで収集したプラットフォーム情報を活用
 
 ステップ0-4: 競合分析
@@ -104,22 +104,22 @@
 
 ナレーション原稿とストーリー構成を作成します。
 
-### トーン選択（新機能）
+### トーン選択
 Phase 1の開始時に、ナレーショントーンを選択します：
 - **プロフェッショナル**: 信頼性重視のB2B向け
 - **フレンドリー**: 親しみやすい一般向け
 - **エネルギッシュ**: 若者向け、活力重視
 - **エモーショナル**: 感動訴求
 - **ニュートラル**: 情報提供型
-- **親密トーン（新追加）**: 友達感覚の語りかけ ※年代別カスタマイズ対応
+- **親密**: 友達感覚の語りかけ ※年代別カスタマイズ対応
 
 ### 実施項目
 1. **フック作成** → /knowledge-base/video/core/HOOK_METHODOLOGY.md
-   - 親密訴求型フックパターンが追加（年代別対応）
+   - 6つの訴求型（親密型含む）で年代別対応
 2. **ストーリーパターン選択** → /knowledge-base/video/core/STORY_PATTERN.md
-   - 親密な会話型パターンが追加（15パターン目）
+   - 15のパターン（親密な会話型含む）
 3. **ナレーション原稿作成** → /knowledge-base/video/core/NARRATION_TONE.md
-   - 親密トーンで年代別に最適化可能
+   - 6つのトーンで年代別最適化対応
 4. **体験要素の組み込み** → /knowledge-base/video/planning/EXPERIENCE_ELEMENTS.md
    - 年代別の効果的な体験要素を選択
 5. **CTA設計** → /knowledge-base/video/planning/CTA_STRATEGY.md

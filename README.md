@@ -27,7 +27,7 @@ LP制作と動画広告制作のための構造化された知識管理システ
 - **自動リサーチ機能**: 基本情報提供後、WebSearchとWebFetchで自動的に市場調査を実行
 - **フック3段階プロセス**: 初期5パターン → バリエーション展開 → 文言展開でA/Bテストに最適化
 - **ナレーション中心設計**: ナレーション原稿から映像を構築する革新的アプローチ
-- **モジュール化完了**: 12個のモジュールで効率的な知識管理（トークン40%削減、応答速度20%向上）
+- **モジュール型構造**: 13個のモジュールで効率的な知識管理
 
 ### 📄 LP制作の特徴
 
@@ -65,12 +65,12 @@ creative-project-instruction/
 │   │   │   ├── #COMPONENT_LIBRARY.md  # コンポーネントライブラリ
 │   │   │   ├── #COPYWRITING_FORMULAS.md # コピーライティング公式
 │   │   │   └── #OPTIMIZATION_GUIDE.md # 最適化ガイド
-│   └── video/                         # 動画制作ナレッジベース（モジュール化完了）
+│   └── video/                         # 動画制作ナレッジベース
 │       ├── index.md                   # モジュール管理インデックス
 │       ├── core/                      # コアモジュール（priority: core）
 │       │   ├── #HOOK_METHODOLOGY.md   # フック3段階プロセス
-│       │   ├── #STORY_PATTERN.md      # 14ストーリーパターン
-│       │   └── #NARRATION_TONE.md     # 5トーン×8体験要素
+│       │   ├── #STORY_PATTERN.md      # 15ストーリーパターン
+│       │   └── #NARRATION_TONE.md     # 6トーン×8体験要素
 │       ├── research/                  # リサーチモジュール
 │       │   ├── #AUDIENCE_INSIGHT.md   # ターゲット分析
 │       │   ├── #COMPETITOR_ANALYSIS.md # 競合分析

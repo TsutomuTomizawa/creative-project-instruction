@@ -21,8 +21,7 @@
 **推奨参照順序:**
 1. `standard`: [#AUDIENCE_INSIGHT](research/#AUDIENCE_INSIGHT.md) ✅
 2. `standard`: [#COMPETITOR_ANALYSIS](research/#COMPETITOR_ANALYSIS.md) ✅
-3. `standard`: [#PLATFORM_ANALYSIS](research/#PLATFORM_ANALYSIS.md) ✅
-4. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md) ✅
+3. `optional`: [#MARKET_RESEARCH](research/#MARKET_RESEARCH.md) ✅
 
 ### Phase 1: プランニング
 **推奨参照順序:**
@@ -37,7 +36,8 @@
 **推奨参照順序:**
 1. `standard`: [#MATERIAL_LIST](output/#MATERIAL_LIST.md) ✅（AI生成プロファイル統合版）
 2. `standard`: [#AI_PROFILE](output/#AI_PROFILE.md) ✅（参照用・日本人デフォルト対応）
-3. `optional`: [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md) ✅
+3. `standard`: [#PLATFORM_ANALYSIS](output/#PLATFORM_ANALYSIS.md) ✅
+4. `optional`: [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md) ✅
 
 ## 🎯 目的別モジュール検索
 
@@ -75,7 +75,7 @@
 → [#PLATFORM_OPTIMIZATION](output/#PLATFORM_OPTIMIZATION.md)
 
 ### 配信環境を分析したい
-→ [#PLATFORM_ANALYSIS](research/#PLATFORM_ANALYSIS.md)
+→ [#PLATFORM_ANALYSIS](output/#PLATFORM_ANALYSIS.md)
 
 ## 📈 パフォーマンス最適化のヒント
 
@@ -125,13 +125,13 @@
 | research | #AUDIENCE_INSIGHT | ✅ 完了 | standard |
 | research | #COMPETITOR_ANALYSIS | ✅ 完了 | standard |
 | research | #MARKET_RESEARCH | ✅ 完了 | optional |
+| output | #PLATFORM_ANALYSIS | ✅ 完了 | standard |
 | planning | #EXPERIENCE_ELEMENTS | ✅ 完了 | standard |
 | planning | #VISUAL_RHYTHM | ✅ 完了 | optional |
 | planning | #CTA_STRATEGY | ✅ 完了 | standard |
 | output | #MATERIAL_LIST | ✅ 完了 | standard |
 | output | #AI_PROFILE | ✅ 完了 | standard |
 | output | #PLATFORM_OPTIMIZATION | ✅ 完了 | optional |
-| output | #PLATFORM_ANALYSIS | ✅ 完了 | standard |
 
 ---
 
